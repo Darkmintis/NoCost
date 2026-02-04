@@ -35,7 +35,7 @@ jobs:
             exit 0
           fi
           
-          git clone https://x-access-token:${DEPLOY_TOKEN}@github.com/Darkmintis/NoCost.git deploy-target
+          git clone https://x-access-token:${DEPLOY_TOKEN}@github.com/Darkmintis/NoCost.dev.git deploy-target
           cp tools.json deploy-target/src/data/tools-raw.json
           
           cd deploy-target
