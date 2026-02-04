@@ -2,7 +2,7 @@
 
 > Open source database of **1750+ free developer tools** - curated by the community, for the community.
 
-This repository powers [NoCost.dev](https://nocost.dev), a website showcasing the best free tools, APIs, and services for developers.
+This repository powers [NoCost.dev](https://nocost-dev.vercel.app), a website showcasing the best free tools, APIs, and services for developers.
 
 [![Tools](https://img.shields.io/badge/Tools-1750+-blue.svg)](https://nocost.dev)
 [![Categories](https://img.shields.io/badge/Categories-26-green.svg)](https://nocost.dev)
