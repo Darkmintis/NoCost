@@ -1,0 +1,66 @@
+name: Deploy Updates
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools.json'
+
+jobs:
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Validate
+        run: node scripts/validate.js
+          
+      - name: Deploy
+        env:
+          DEPLOY_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: |
+          if [ -z "$DEPLOY_TOKEN" ]; then
+            echo "Deployment skipped - no token configured"
+            exit 0
+          fi
+          
+          git clone https://x-access-token:${DEPLOY_TOKEN}@github.com/Darkmintis/NoCost.git deploy-target
+          cp tools.json deploy-target/src/data/tools-raw.json
+          
+          cd deploy-target
+          git config user.name "NoCost Bot"
+          git config user.email "bot@nocost.dev"
+          
+          if git diff --quiet src/data/tools-raw.json; then
+            echo "No changes to deploy"
+            exit 0
+          fi
+          
+          git add src/data/tools-raw.json
+          git commit -m "Update tools database"
+          git push origin main
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## 🚀 Synced to Production!
+              
+              Your changes have been successfully synced to the private repository and will be live on [nocost.dev](https://nocost.dev) shortly.
+              
+              - **Tools**: ${{ steps.stats.outputs.count }}
+              - **Commit**: ${{ steps.commit.outputs.sha }}
+              
+              Thank you for your contribution! 🎉`
+            });

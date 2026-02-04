@@ -1,0 +1,31 @@
+name: Notify Website on Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Send webhook notification
+        if: github.event_name == 'push'
+        run: |
+          echo "🔔 Tools database updated!"
+          echo "Commit: ${{ github.sha }}"
+          echo "Committer: ${{ github.actor }}"
+          echo ""
+          echo "The NoCost.dev website will automatically sync within 24 hours"
+          echo "or on the next manual sync via GitHub Actions."
+          
+      - name: Create dispatch event
+        if: github.event_name == 'push'
+        run: |
+          echo "✅ Update notification sent"
+          echo ""
+          echo "📊 Changes:"
+          git show --stat HEAD

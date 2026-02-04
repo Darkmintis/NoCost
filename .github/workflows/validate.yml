@@ -1,0 +1,121 @@
+name: Validate Tools JSON
+
+on:
+  pull_request:
+    paths:
+      - 'tools.json'
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Run validation script
+        run: |
+          node scripts/validate.js
+      
+      - name: Get statistics
+        id: stats
+        run: |
+          TOOL_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('tools.json', 'utf-8')).length)")
+          echo "count=$TOOL_COUNT" >> $GITHUB_OUTPUT
+          
+          CATEGORY_COUNT=$(node -e "console.log(new Set(JSON.parse(require('fs').readFileSync('tools.json', 'utf-8')).map(t => t.category)).size)")
+          echo "categories=$CATEGORY_COUNT" >> $GITHUB_OUTPUT
+          
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = `## ✅ Validation Passed!
+            
+            **Statistics:**
+            - Total tools: ${{ steps.stats.outputs.count }}
+            - Categories: ${{ steps.stats.outputs.categories }}
+            - All checks: ✅ Passed
+            
+            Your contribution looks great! A maintainer will review it shortly.
+            
+            Thank you for contributing to NoCost.dev! 🎉`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+          for tool in tools:
+              category = tool.get('category', '')
+              if category not in valid_categories:
+                  invalid.append(f\"{tool.get('name', 'UNKNOWN')}: '{category}'\")
+          
+          if invalid:
+              print('❌ Invalid categories found:')
+              for item in invalid[:10]:
+                  print(f'  - {item}')
+              print(f'Valid categories: {valid_categories}')
+              exit(1)
+          else:
+              print('✅ All categories are valid')
+          "
+      
+      - name: Check URL format
+        run: |
+          echo "🔍 Checking URL format..."
+          python -c "
+          import json
+          import re
+          
+          tools = json.load(open('tools.json'))
+          url_pattern = re.compile(r'^https?://')
+          
+          invalid = []
+          for tool in tools:
+              url = tool.get('url', '')
+              if not url_pattern.match(url):
+                  invalid.append(f\"{tool.get('name', 'UNKNOWN')}: '{url}'\")
+          
+          if invalid:
+              print('❌ Invalid URLs found (must start with http:// or https://):')
+              for item in invalid[:10]:
+                  print(f'  - {item}')
+              exit(1)
+          else:
+              print('✅ All URLs are valid')
+          "
+      
+      - name: Success
+        if: success()
+        run: |
+          echo ""
+          echo "✨ All validation checks passed!"
+          echo ""
+          echo "📊 Final Statistics:"
+          python -c "
+          import json
+          from collections import Counter
+          
+          tools = json.load(open('tools.json'))
+          categories = Counter(t['category'] for t in tools)
+          
+          print(f'Total tools: {len(tools)}')
+          print(f'Categories: {len(categories)}')
+          print('')
+          print('Tools per category:')
+          for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
+              print(f'  - {cat}: {count}')
+          "
