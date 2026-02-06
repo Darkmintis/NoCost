@@ -9,13 +9,6 @@ This repository powers [NoCost.dev](https://nocost-dev.vercel.app), a website sh
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## 📊 What's Inside
-
-- **1750+ tools** across 26 categories
-- **Community maintained** - anyone can contribute
-- **Always free** - only tools with genuine free tiers
-- **JSON format** - easy to use in your own projects
-- **Weekly updates** - fresh data from community contributions
 
 ### Categories
 
@@ -48,7 +41,7 @@ This repository powers [NoCost.dev](https://nocost-dev.vercel.app), a website sh
 
 1. Search the [Tools Index](./tools.json) with `Ctrl+F`
 2. Browse [category files]()
-3. Search on [NoCost.dev](https://nocost.dev)
+3. Search on [NoCost.dev](https://nocost-dev.vercel.app/)
 4. Use our search script: `node scripts/search.js "tool-name"`
 
 This saves time and prevents duplicates!
@@ -130,8 +123,7 @@ We **love** contributions! Anyone can submit tools via Pull Requests.
 2. **Search first** - Check [tools.json](./tools.json) or use `node scripts/search.js "tool-name"`
 3. **Edit** `tools.json` - add your tool
 4. **Test** with `node scripts/validate.js`
-5. **Regenerate index** with `node scripts/generate-index.js`
-6. **Submit** a Pull Request
+5. **Submit** a Pull Request
 
 ### Requirements
 
@@ -160,15 +152,11 @@ node scripts/validate.js
 
 # Search for existing tools
 node scripts/search.js "tool-name"
-
-# Regenerate index after adding tools
-node scripts/generate-index.js
 ```
 
 **Three helpful scripts:**
 - `validate.js` - Check JSON syntax and required fields
 - `search.js` - Find tools quickly
-- `generate-index.js` - Create browsable category files
 
 ## 📜 License
 
