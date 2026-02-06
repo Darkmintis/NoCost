@@ -9,26 +9,6 @@ This repository powers [NoCost.dev](https://nocost-dev.vercel.app), a website sh
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-
-### Categories
-
-| Category | Tools | Description |
-|----------|-------|-------------|
-| 🔧 **Developer Tools** | 450+ | IDEs, testing, debugging |
-| 🌐 **Web Development** | 200+ | Frontend frameworks, hosting |
-| 🗄️ **Database** | 100+ | SQL, NoSQL, data storage |
-| 📊 **Analytics** | 150+ | Monitoring, logging, metrics |
-| 💼 **Business** | 100+ | CRM, project management |
-| ⚡ **Productivity** | 150+ | Collaboration, automation |
-| 🔒 **Security** | 100+ | SSL, auth, penetration testing |
-| 🎨 **Content Creation** | 50+ | Media, graphics, video |
-| 🎨 **Design** | 80+ | UI/UX, prototyping |
-| 📚 **Education** | 50+ | Learning platforms |
-| 📱 **Mobile Development** | 50+ | App development tools |
-| 🤖 **AI & Machine Learning** | 80+ | ML platforms, AI tools |
-| 🔌 **API Tools** | 100+ | API development, testing |
-| ⚙️ **Backend** | 80+ | Backend frameworks, services |
-
 ## 🔍 Contributing
 
 - 📋 **[Full Alphabetical Index](./tools.json)** - All 1750+ tools listed
