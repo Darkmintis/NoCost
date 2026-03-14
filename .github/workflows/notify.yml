@@ -1,4 +1,4 @@
-name: Notify Website on Update
+name: Notify Site
 
 on:
   push:
@@ -8,24 +8,27 @@ on:
       - 'tools.json'
 
 jobs:
-  notify:
+  dispatch:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Send webhook notification
-        if: github.event_name == 'push'
+      - name: Trigger NoCost.dev sync workflow
+        env:
+          SITE_REPO_TOKEN: ${{ secrets.NOCOST_SITE_REPO_TOKEN }}
         run: |
-          echo "🔔 Tools database updated!"
-          echo "Commit: ${{ github.sha }}"
-          echo "Committer: ${{ github.actor }}"
-          echo ""
-          echo "The NoCost.dev website will automatically sync within 24 hours"
-          echo "or on the next manual sync via GitHub Actions."
-          
-      - name: Create dispatch event
-        if: github.event_name == 'push'
+          if [ -z "$SITE_REPO_TOKEN" ]; then
+            echo "Missing secret NOCOST_SITE_REPO_TOKEN"
+            exit 1
+          fi
+
+          curl --fail --silent --show-error \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $SITE_REPO_TOKEN" \
+            https://api.github.com/repos/Darkmintis/NoCost.dev/dispatches \
+            -d '{"event_type":"tools-updated","client_payload":{"source_repo":"Darkmintis/NoCost","source_sha":"${{ github.sha }}"}}'
+
+      - name: Log dispatch summary
         run: |
-          echo "✅ Update notification sent"
-          echo ""
-          echo "📊 Changes:"
-          git show --stat HEAD
+          echo "Dispatched tools-updated event to Darkmintis/NoCost.dev"
+          echo "Source commit: ${{ github.sha }}"

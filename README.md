@@ -1,179 +1,72 @@
-# 🛠️ NoCost Tools Database
+# NoCost Tools Database
 
-> Open source database of **1750+ free developer tools** - curated by the community, for the community.
+Open source database of free developer tools used by https://nocost-dev.vercel.app.
 
-This repository powers [NoCost.dev](https://nocost-dev.vercel.app), a website showcasing the best free tools, APIs, and services for developers.
+This is the public community repo. Contributors only need this repository to add, update, or remove tools. The private site repository `Darkmintis/NoCost.dev` pulls `tools.json` from here automatically after changes are merged.
 
-[![Tools](https://img.shields.io/badge/Tools-1750+-blue.svg)](https://nocost.dev)
-[![Categories](https://img.shields.io/badge/Categories-26-green.svg)](https://nocost.dev)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🔍 Contributing
+## What lives here
 
-- 📋 **[Full Alphabetical Index](./tools.json)** - All 1750+ tools listed
-- 📁 **[Browse by Category]()** - Organized category files
-- 🌐 **[Visit Website](https://nocost.dev)** - Search and filter tools
+- `tools.json`: the source of truth for all tool entries
+- `scripts/validate.js`: validates the dataset
+- `scripts/search.js`: helps contributors find duplicates before opening a PR
+- `.github/workflows`: validates changes and triggers the private site sync after merges
 
-### Before Adding a Tool
+## How updates reach the site
 
-**Please check if it already exists:**
+1. You open a pull request against this repo.
+2. GitHub Actions validates `tools.json`.
+3. A maintainer merges the PR.
+4. This repo sends a repository dispatch event to the private `NoCost.dev` repo.
+5. The private repo syncs the newest `tools.json` and deploys the site.
 
-1. Search the [Tools Index](./tools.json) with `Ctrl+F`
-2. Browse [category files]()
-3. Search on [NoCost.dev](https://nocost-dev.vercel.app/)
-4. Use our search script: `node scripts/search.js "tool-name"`
-
-This saves time and prevents duplicates!
-
-## �🚀 Quick Start
-
-### Use the Data in Your Project
+## Quick contribution flow
 
 ```bash
-# Fetch latest tools data
-curl https://raw.githubusercontent.com/Darkmintis/NoCost/main/tools.json > tools.json
+git clone https://github.com/YOUR_USERNAME/NoCost.git
+cd NoCost
+node scripts/search.js "tool-name"
+node scripts/validate.js
 ```
 
-### JavaScript/Node.js Example
+Then edit `tools.json`, commit your change, and open a pull request.
 
-```javascript
-// Fetch from GitHub
-const response = await fetch('https://raw.githubusercontent.com/Darkmintis/NoCost/main/tools.json');
-const tools = await response.json();
+## Data format
 
-// Filter by category
-const databases = tools.filter(t => t.category === 'Database');
-
-// Search by name
-const githubTools = tools.filter(t => 
-  t.name.toLowerCase().includes('github')
-);
-
-// Get all categories
-const categories = [...new Set(tools.map(t => t.category))];
-```
-
-### Python Example
-
-```python
-import requests
-
-# Fetch tools
-response = requests.get('https://raw.githubusercontent.com/Darkmintis/NoCost/main/tools.json')
-tools = response.json()
-
-# Filter by tags
-free_apis = [t for t in tools if 'api' in t.get('tags', [])]
-
-# Count by category
-from collections import Counter
-category_counts = Counter(t['category'] for t in tools)
-```
-
-## 📝 Data Structure
-
-Each tool in `tools.json` follows this schema:
+Each entry in `tools.json` follows this shape:
 
 ```json
 {
   "name": "Tool Name",
-  "description": "Clear description of what the tool does and its main features",
+  "description": "Clear description of what the tool does",
   "url": "https://example.com",
-  "category": "Development"
+  "category": "Developer Tools"
 }
 ```
 
-### Field Descriptions
+Required fields:
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `name` | string | ✅ | Official tool name |
-| `description` | string | ✅ | Clear description (20-500 chars) |
-| `url` | string | ✅ | Official website (no affiliate links) |
-| `category` | string | ✅ | One of the 26 categories |
+- `name`
+- `description`
+- `url`
+- `category`
 
-## 🤝 Contributing
-
-We **love** contributions! Anyone can submit tools via Pull Requests.
-
-### Quick Contribution
-
-1. **Fork** this repository
-2. **Search first** - Check [tools.json](./tools.json) or use `node scripts/search.js "tool-name"`
-3. **Edit** `tools.json` - add your tool
-4. **Test** with `node scripts/validate.js`
-5. **Submit** a Pull Request
-
-### Requirements
-
-✅ **Must have:**
-- Genuine free tier (not just trial)
-- Usable for real projects
-- Actively maintained
-- No affiliate/referral links
-
-❌ **We don't accept:**
-- Tools with fake "free tiers"
-- Abandoned projects
-- Affiliate links
-- Duplicate entries
-- Promotional content
-
-📖 **Full guidelines:** See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## ✅ Validation
-
-Validate your changes before submitting:
+## Useful commands
 
 ```bash
-# Validate JSON format
+node scripts/search.js "supabase"
 node scripts/validate.js
-
-# Search for existing tools
-node scripts/search.js "tool-name"
 ```
 
-**Three helpful scripts:**
-- `validate.js` - Check JSON syntax and required fields
-- `search.js` - Find tools quickly
+## Repo split
 
-## 📜 License
+- Public data repo: `Darkmintis/NoCost`
+- Private site repo: `Darkmintis/NoCost.dev`
 
-**MIT License** - Feel free to use this data in your own projects!
+If you want to contribute tool data, use this repo. If you want to work on the site application itself, that happens in the private repo.
 
-You can:
-- ✅ Use commercially
-- ✅ Modify
-- ✅ Distribute
-- ✅ Use privately
+## More details
 
-Just include the license and copyright notice.
-
-##  Statistics
-
-```
-Total Tools: 1750+
-Categories: 26
-Contributors: Community-driven
-Updates: Weekly via PRs
-Data Format: JSON
-License: MIT
-Size: ~500KB
-```
-
-
-## 📧 Contact
-
-- **Website:** [nocost.dev](https://nocost.dev)
-- **GitHub:** [@Darkmintis](https://github.com/Darkmintis)
-- **Twitter:** [@darkmintis](https://twitter.com/darkmintis)
-- **Issues:** [Report a problem](https://github.com/Darkmintis/nocost-tools-database/issues)
-
-## 🌟 Star this repo!
-
-If you find this database useful, give it a ⭐ to show your support!
-
----
-
-**Made with ❤️ by developers, for developers**
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission rules and review checklist.

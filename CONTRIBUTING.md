@@ -1,293 +1,117 @@
-# Contributing to NoCost Tools Database
+# Contributing to NoCost
 
-Thank you for your interest in contributing to NoCost.dev! This guide will help you add new free developer tools to our database.
+This repository is the public database behind NoCost.dev. If you want to add or fix a tool listing, this is the only repo you need.
 
-## ⚡ Quick Checklist
+## Before you open a PR
 
-Before submitting:
-- [ ] Tool has a **genuine free tier** (not just a trial)
-- [ ] Tool is **actively maintained**
-- [ ] **No duplicate** - Search tools.json or use `node scripts/search.js "tool-name"`
-- [ ] **Valid JSON** - Run `node scripts/validate.js`
-- [ ] **Clear description** (20-500 chars)
-- [ ] **Correct category** from the list below
-- [ ] **No affiliate links** or tracking parameters
+- Check that the tool has a real free tier and is still active.
+- Search for duplicates with `node scripts/search.js "tool-name"`.
+- Keep the description factual and short.
+- Use the official URL with no referral or tracking parameters.
+- Run `node scripts/validate.js` before pushing.
 
-## 📋 How to Contribute
-
-### 1. Fork the Repository
-Click the "Fork" button at the top right of this page to create your own copy.
-
-### 2. Clone Your Fork
+## Quick start
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/NoCost.git
 cd NoCost
-```
-
-### 3. Create a Branch
-
-```bash
 git checkout -b add-tool-name
+node scripts/search.js "tool-name"
+node scripts/validate.js
 ```
 
-### 4. Add Your Tool
+Then edit `tools.json`, run the validator again, commit, and open a pull request.
 
-Edit `tools.json` and add your tool entry. **Minimal example:**
+## Required schema
+
+Every entry in `tools.json` must include:
 
 ```json
 {
-  "name": "Supabase",
-  "description": "Open source Firebase alternative with PostgreSQL database, authentication, and storage",
-  "url": "https://supabase.com",
-  "category": "Backend"
+  "name": "Tool Name",
+  "description": "What the tool does and why the free tier is useful",
+  "url": "https://example.com",
+  "category": "Developer Tools"
 }
 ```
 
-**That's it!** Only 4 fields required: `name`, `description`, `url`, `category`.
+## Field rules
 
-> 💡 Tip: Add your tool at the end of the array, before the closing `]`
+### `name`
 
-### 5. Validate Your Changes
+- Use the official product name.
+- Use normal capitalization.
 
-```bash
-# Run our validation script (recommended)
-node scripts/validate.js
+### `description`
 
-# Or just check JSON syntax
-node -e "JSON.parse(require('fs').readFileSync('tools.json', 'utf8')); console.log('✅ Valid JSON')"
-```
+- Keep it clear and specific.
+- Focus on what the tool does.
+- Avoid marketing copy.
 
-Our validation script checks for:
-- Valid JSON syntax
-- Duplicate URLs
-- Duplicate names within categories
-- Valid category names
-- Description length (max 500 chars)
-- URL format
+Good example:
 
-### 6. Commit and Push
-
-```bash
-git add tools.json
-git commit -m "Add [Tool Name] to [Category]"
-git push origin add-tool-name
-```
-
-### 7. Create Pull Request
-
-1. Go to your fork on GitHub
-2. Click "Pull Request"
-3. Fill in the PR template
-4. Submit!
-
-## 📝 Tool Entry Guidelines
-
-### Required Fields
-
-#### `name` (string, required)
-- The official name of the tool
-- Use proper capitalization (e.g., "GitHub Copilot", not "github copilot")
-- 2-100 characters
-
-#### `description` (string, required)
-- Clear, concise description of what the tool does
-- Mention key features
-- 20-500 characters
-- No marketing fluff
-
-**Good:**
 ```json
-"description": "Open source Firebase alternative with PostgreSQL database, authentication, storage, and realtime subscriptions"
+"description": "Open source Firebase alternative with PostgreSQL, auth, storage, and realtime features"
 ```
 
-**Bad:**
+Bad example:
+
 ```json
-"description": "The best tool ever! Amazing features!"
+"description": "Best tool ever with amazing features"
 ```
 
-#### `url` (string, required)
-- Official website URL
-- Must start with `https://` or `http://`
-- **NO affiliate links or referral codes**
-- **NO tracking parameters**
+### `url`
 
-**Good:**
-```
+- Must start with `https://` or `http://`.
+- Must be the official tool URL.
+- No `ref`, `utm_*`, affiliate, or tracking params.
+
+Good:
+
+```json
 "url": "https://supabase.com"
 ```
 
-**Bad:**
-```
+Bad:
+
+```json
 "url": "https://supabase.com?ref=nocost&utm_source=nocost"
 ```
 
-#### `category` (string, required)
-Choose exactly ONE category:
+### `category`
 
-- `Development` - IDEs, code editors, dev environments
-- `Web Development` - Frontend tools, frameworks, CSS libraries
-- `Database` - Databases, data storage, data services
-- `Analytics` - Analytics, monitoring, logging, APM
-- `Business` - CRM, project management, business tools
-- `Productivity` - Collaboration, communication, workflow
-- `Security` - Security tools, SSL, authentication, pen testing
-- `Content Creation` - Media creation, graphics, video editing
-- `Design` - Design tools, prototyping, UI/UX
-- `Education` - Learning platforms, courses, tutorials
-- `Mobile Development` - Mobile app development tools
+Pick one category already used in the dataset. The validator enforces the allowed list.
 
-#### `tags` (array, required)
-- 1-10 relevant tags
-- Lowercase
-- Helps with searchability
-- Each tag 2-50 characters
+## What we do not accept
 
-**Examples:**
-```json
-"tags": ["database", "postgresql", "backend", "authentication", "storage"]
-"tags": ["free", "api", "developer-tools", "monitoring"]
-"tags": ["design", "prototyping", "collaboration", "ui-ux"]
-```
-rs)
-- [ ] Slug is **unique** (no duplicates)
-- [ ] No **duplicate tools** already in the database
+- Fake free tiers or free trials presented as free plans
+- Duplicate entries
+- Abandoned or dead projects
+- Affiliate or tracking links
+- Promotional descriptions
+- Broken JSON or missing required fields
 
-## ❌ What We Don't Accept
+## Opening the pull request
 
-### Fake Free Tiers
-Tools that claim to be "free" but:
-- Only offer time-limited trials
-- Require credit card immediately
-- Have unusably small limits
-- "Free" tier is essentially a demo
+After validation passes:
 
-### Abandoned Projects
-- No updates in 2+ years
-- Website is down or broken
-- Company out of business
-- Tool no longer maintained
-
-### Affiliate/Referral Links
-- Links with `?ref=`, `?utm_source=`, etc.
-- Tracking parameters
-- Referral codes in URL
-
-### Duplicate Entries
-- Tool already exists in database
-- Check before adding
-
-### Low Quality Submissions
-- Vague descriptions ("The best tool!")
-- Missing required fields
-- Wrong category
-- Spam or promotional content
-
-## 📋 PR Template
-
-When creating a Pull Request, please provide:
-
-```markdown
-## Tool Information
-
-**Tool Name:** [Name]
-**Category:** [Category]
-**Website:** [URL]
-
-## Why This Tool is Useful
-
-[Brief explanation of why developers would find this tool useful]
-
-## Free Tier Details
-
-[What's included in the free tier]
-
-## Checklist
-
-- [ ] Tool has a genuine free tier (not just trial)
-- [ ] Tool is actively maintained
-- [ ] No affiliate/referral links
-- [ ] JSON is valid
-- [ ] Description is clear and accurate
-- [ ] Correct category selected
-- [ ] Relevant tags added
+```bash
+git add tools.json
+git commit -m "Add Tool Name"
+git push origin add-tool-name
 ```
 
-## 🔍 Examples
+Open a PR and fill in the template.
 
-### ✅ Good Example
+## How the site updates
 
-```json
-{
-  "name": "Supabase",
-  "description": "Open source Firebase alternative with PostgreSQL database, authentication, storage, and realtime subscriptions",
-  "url": "https://supabase.com",
-  "category": "Database"
-}
-```
+After your PR is merged into `Darkmintis/NoCost`, GitHub Actions notifies the private `Darkmintis/NoCost.dev` site repo, which syncs the latest `tools.json` and deploys the update.
 
-**Why it's good:**
-- ✅ Clear, specific description
-- ✅ Official URL (no tracking)
-- ✅ Proper category
+## Help
 
-### ❌ Bad Example
+- Questions: https://github.com/Darkmintis/NoCost/issues
+- Bugs in data: open an issue in this repo
 
-```json
-{
-  "name": "AwesomeTool",
-  "description": "Best tool ever! Amazing features!",
-  "url": "https://example.com?ref=nocost",
-  "category": "Development"
-}
-```
-
-**Why it's bad:**
-- ❌ Vague, marketing-style description
-- ❌ Affiliate link in URL
-
-## 🔧 Updating Existing Tools
-
-If tool information has changed:
-
-1. Find the tool in `tools.json`
-2. Update the relevant fields
-3. Submit PR with clear description of changes
-
-**Example commit message:**
-```
-Update GitHub Copilot pricing information
-
-- Updated pricing_paid to reflect new pricing tiers
-- Added information about new features in free tier
-```
-
-## 🗑️ Removing/Archiving Tools
-
-If a tool is no longer free or has been discontinued:
-
-1. Change `status` to `"archived"`
-2. Add note in PR explaining why
-
-**Don't delete entries** - we keep them for historical reference.
-
-## 🤝 Code of Conduct
-
-- Be respectful and constructive
-- No spam or self-promotion
-- Provide accurate information
-- Help maintain data quality
-
-## 🆘 Need Help?
-
-- **Questions?** [Open an issue](https://github.com/Darkmintis/nocost-tools-database/issues)
-- **Discussion?** [Start a discussion](https://github.com/Darkmintis/nocost-tools-database/discussions)
-- **Found a bug?** [Report it](https://github.com/Darkmintis/nocost-tools-database/issues/new)
-
-## 📜 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
-
----
-
-**Thank you for helping make NoCost.dev better! 🚀**

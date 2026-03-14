@@ -28,8 +28,8 @@ Please ensure your PR meets these requirements:
 - [ ] Website URL is **clean** (no affiliate/referral codes)
 - [ ] Description is **clear and accurate** (20-500 characters)
 - [ ] **Correct category** selected
-- [ ] **JSON is valid** (tested locally)
-- [ ] **No duplicate** entries
+- [ ] `node scripts/validate.js` passes locally
+- [ ] `node scripts/search.js "tool-name"` shows no duplicate entry
 - [ ] Followed [CONTRIBUTING.md](../CONTRIBUTING.md) guidelines
 
 ## Additional Notes
