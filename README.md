@@ -14,14 +14,6 @@ This is the public community repo. Contributors only need this repository to add
 - `scripts/search.js`: helps contributors find duplicates before opening a PR
 - `.github/workflows`: validates changes and triggers the private site sync after merges
 
-## How updates reach the site
-
-1. You open a pull request against this repo.
-2. GitHub Actions validates `tools.json`.
-3. A maintainer merges the PR.
-4. This repo sends a repository dispatch event to the private `NoCost.dev` repo.
-5. The private repo syncs the newest `tools.json` and deploys the site.
-
 ## Quick contribution flow
 
 ```bash
@@ -59,13 +51,6 @@ Required fields:
 node scripts/search.js "supabase"
 node scripts/validate.js
 ```
-
-## Repo split
-
-- Public data repo: `Darkmintis/NoCost`
-- Private site repo: `Darkmintis/NoCost.dev`
-
-If you want to contribute tool data, use this repo. If you want to work on the site application itself, that happens in the private repo.
 
 ## More details
 
