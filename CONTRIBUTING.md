@@ -103,10 +103,6 @@ git push origin add-tool-name
 
 Open a PR and fill in the template.
 
-## How the site updates
-
-After your PR is merged into `Darkmintis/NoCost`, GitHub Actions notifies the private `Darkmintis/NoCost.dev` site repo, which syncs the latest `tools.json` and deploys the update.
-
 ## Help
 
 - Questions: https://github.com/Darkmintis/NoCost/issues
