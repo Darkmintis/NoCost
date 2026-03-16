@@ -5208,12 +5208,6 @@
     "category": "Monitoring"
   },
   {
-    "name": "lite.xata.io",
-    "description": "Serverless database platform with built-in caching, search, and analytics. Free tier offers 15GB storage, 50M records/month, 10M read requests/month.",
-    "url": "https://lite.xata.io/",
-    "category": "Database"
-  },
-  {
     "name": "Livecycle",
     "description": "Livecycle is an inclusive collaboration platform that makes workflows frictionless for cross-functional product teams and open-source projects.",
     "url": "https://www.livecycle.io/",
