@@ -6,6 +6,7 @@ This repository is the public database behind NoCost.dev. If you want to add or 
 
 - Check that the tool has a real free tier and is still active.
 - Search for duplicates with `node scripts/search.js "tool-name"`.
+- If a tool is no longer free, remove it from `tools.json` or use `node scripts/remove.js "tool-name"`.
 - Keep the description factual and short.
 - Use the official URL with no referral or tracking parameters.
 - Run `node scripts/validate.js` before pushing.
@@ -21,6 +22,14 @@ node scripts/validate.js
 ```
 
 Then edit `tools.json`, run the validator again, commit, and open a pull request.
+
+To remove a tool that became paid or was discontinued:
+
+```bash
+node scripts/remove.js --dry-run "tool-name"
+node scripts/remove.js "tool-name"
+node scripts/validate.js
+```
 
 ## Required schema
 
@@ -102,6 +111,16 @@ git push origin add-tool-name
 ```
 
 Open a PR and fill in the template.
+
+If you are removing a tool, mention why in the PR description, for example:
+
+- no longer offers a real free tier
+- project discontinued
+- pricing page changed and free plan removed
+
+## How the site updates
+
+After your PR is merged into `Darkmintis/NoCost`, GitHub Actions notifies the private `Darkmintis/NoCost.dev` site repo, which syncs the latest `tools.json` and deploys the update.
 
 ## Help
 

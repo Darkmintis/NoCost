@@ -12,15 +12,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger NoCost.dev sync workflow
+      - name: Check dispatch secret
+        id: secret_check
         env:
           SITE_REPO_TOKEN: ${{ secrets.NOCOST_SITE_REPO_TOKEN }}
         run: |
           if [ -z "$SITE_REPO_TOKEN" ]; then
-            echo "Missing secret NOCOST_SITE_REPO_TOKEN"
-            exit 1
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Missing secret NOCOST_SITE_REPO_TOKEN. The private NoCost.dev repo will not be notified until this secret is configured."
+          else
+            echo "available=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Trigger NoCost.dev sync workflow
+        if: steps.secret_check.outputs.available == 'true'
+        env:
+          SITE_REPO_TOKEN: ${{ secrets.NOCOST_SITE_REPO_TOKEN }}
+        run: |
           curl --fail --silent --show-error \
             -X POST \
             -H "Accept: application/vnd.github+json" \
@@ -30,5 +38,9 @@ jobs:
 
       - name: Log dispatch summary
         run: |
-          echo "Dispatched tools-updated event to Darkmintis/NoCost.dev"
+          if [ "${{ steps.secret_check.outputs.available }}" = "true" ]; then
+            echo "Dispatched tools-updated event to Darkmintis/NoCost.dev"
+          else
+            echo "Skipped dispatch because NOCOST_SITE_REPO_TOKEN is not configured"
+          fi
           echo "Source commit: ${{ github.sha }}"

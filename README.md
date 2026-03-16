@@ -12,6 +12,7 @@ This is the public community repo. Contributors only need this repository to add
 - `tools.json`: the source of truth for all tool entries
 - `scripts/validate.js`: validates the dataset
 - `scripts/search.js`: helps contributors find duplicates before opening a PR
+- `scripts/remove.js`: removes tools that are no longer free or should be delisted
 - `.github/workflows`: validates changes and triggers the private site sync after merges
 
 ## Quick contribution flow
@@ -21,6 +22,7 @@ git clone https://github.com/YOUR_USERNAME/NoCost.git
 cd NoCost
 node scripts/search.js "tool-name"
 node scripts/validate.js
+node scripts/remove.js --dry-run "tool-name"
 ```
 
 Then edit `tools.json`, commit your change, and open a pull request.
@@ -50,6 +52,7 @@ Required fields:
 ```bash
 node scripts/search.js "supabase"
 node scripts/validate.js
+node scripts/remove.js --exact "https://example.com"
 ```
 
 ## More details

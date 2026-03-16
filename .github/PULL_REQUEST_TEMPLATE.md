@@ -18,6 +18,8 @@
 
 <!-- Brief description of the tool and why it's useful for developers -->
 
+<!-- If removing a tool, explain why it should be removed, e.g. free tier removed, project discontinued, or pricing changed -->
+
 ## Checklist
 
 Please ensure your PR meets these requirements:
@@ -31,6 +33,8 @@ Please ensure your PR meets these requirements:
 - [ ] `node scripts/validate.js` passes locally
 - [ ] `node scripts/search.js "tool-name"` shows no duplicate entry
 - [ ] Followed [CONTRIBUTING.md](../CONTRIBUTING.md) guidelines
+
+<!-- For removal PRs, use the checklist items that still apply and clearly describe the reason for removal. -->
 
 ## Additional Notes
 
