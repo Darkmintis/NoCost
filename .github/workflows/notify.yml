@@ -15,11 +15,11 @@ jobs:
       - name: Check dispatch secret
         id: secret_check
         env:
-          SITE_REPO_TOKEN: ${{ secrets.NOCOST_SITE_REPO_TOKEN }}
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          if [ -z "$SITE_REPO_TOKEN" ]; then
+          if [ -z "$DISPATCH_TOKEN" ]; then
             echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "::warning::Missing secret NOCOST_SITE_REPO_TOKEN. The private NoCost.dev repo will not be notified until this secret is configured."
+            echo "::warning::Missing secret DISPATCH_TOKEN. The site repo will not be notified until this secret is configured."
           else
             echo "available=true" >> "$GITHUB_OUTPUT"
           fi
@@ -27,12 +27,12 @@ jobs:
       - name: Trigger NoCost.dev sync workflow
         if: steps.secret_check.outputs.available == 'true'
         env:
-          SITE_REPO_TOKEN: ${{ secrets.NOCOST_SITE_REPO_TOKEN }}
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
           curl --fail --silent --show-error \
             -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $SITE_REPO_TOKEN" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
             https://api.github.com/repos/Darkmintis/NoCost.dev/dispatches \
             -d '{"event_type":"tools-updated","client_payload":{"source_repo":"Darkmintis/NoCost","source_sha":"${{ github.sha }}"}}'
 
@@ -41,6 +41,6 @@ jobs:
           if [ "${{ steps.secret_check.outputs.available }}" = "true" ]; then
             echo "Dispatched tools-updated event to Darkmintis/NoCost.dev"
           else
-            echo "Skipped dispatch because NOCOST_SITE_REPO_TOKEN is not configured"
+            echo "Skipped dispatch because DISPATCH_TOKEN is not configured"
           fi
           echo "Source commit: ${{ github.sha }}"
