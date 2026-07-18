@@ -1,4 +1,4 @@
-# Agent Rules — NoCost Tools Database
+# Agent Rules - NoCost Tools Database
 
 This file configures behavior for AI coding agents working on this repository.
 
@@ -9,7 +9,7 @@ Site: https://nocost-dev.vercel.app
 
 ## Workflow
 
-1. Branch from `main` — never use other branches
+1. Branch from `main` - never use other branches
 2. Run `node scripts/search.js "keyword"` before adding a tool to check for duplicates
 3. Edit `tools.json` following the schema rules below
 4. Run `node scripts/validate.js` before committing
@@ -17,9 +17,9 @@ Site: https://nocost-dev.vercel.app
 
 ## Before Adding a Tool
 
-- **Verify the free tier is real** — not just a 7/14/30-day trial, not a "limited time" promo. The tool must have a genuine, ongoing free plan.
-- **Tool must be actively maintained** — check commit history, blog, or recent updates.
-- **Check for duplicates** — search by name AND URL:
+- **Verify the free tier is real** - not just a 7/14/30-day trial, not a "limited time" promo. The tool must have a genuine, ongoing free plan.
+- **Tool must be actively maintained** - check commit history, blog, or recent updates.
+- **Check for duplicates** - search by name AND URL:
   ```
   node scripts/search.js "tool-name"
   node scripts/search.js "https://example.com"
@@ -138,11 +138,11 @@ Validation **must pass** (exit code 0) before opening a PR.
 - Keep commits focused: one tool add = one commit.
 - Commit message format:
   - Add: `Add ToolName`
-  - Update: `Update ToolName — what changed`
-  - Remove: `Remove ToolName — reason`
+  - Update: `Update ToolName - what changed`
+  - Remove: `Remove ToolName - reason`
   - Fix: `Fix typo in ToolName description`
 - Example: `Add Supabase`
-- Do NOT commit `AGENTS.md` — this file is instructions only.
+- Do NOT commit `AGENTS.md` - this file is instructions only.
 
 ## PR Rules
 
@@ -163,6 +163,6 @@ Validation **must pass** (exit code 0) before opening a PR.
 
 ## Tools Available
 
-- `node scripts/search.js "keyword"` — search tools.json
-- `node scripts/validate.js` — validate the dataset
-- `node scripts/remove.js [--dry-run] [--exact] "name"` — remove a tool
+- `node scripts/search.js "keyword"` - search tools.json
+- `node scripts/validate.js` - validate the dataset
+- `node scripts/remove.js [--dry-run] [--exact] "name"` - remove a tool
