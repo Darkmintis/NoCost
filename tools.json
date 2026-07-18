@@ -30,6 +30,12 @@
     "category": "Other"
   },
   {
+    "name": "360username",
+    "description": "A free tool to search a username across 90+ social platforms to find matching profiles.",
+    "url": "https://360username.com/",
+    "category": "Other"
+  },
+  {
     "name": "3Cols",
     "description": "A free cloud-based code snippet manager for personal and collaborative code.",
     "url": "https://3cols.com/",
@@ -84,6 +90,12 @@
     "category": "Other"
   },
   {
+    "name": "Accesserty Pulse",
+    "description": "Monitors interaction signals and detectable accessibility risks on live websites. Free plans for everyone and 14-day Pro trial.",
+    "url": "https://accesserty.com/en/pulse",
+    "category": "Monitoring"
+  },
+  {
     "name": "AccessLint",
     "description": "AccessLint brings automated web accessibility testing into your development workflow. It's free for open source and education purposes.",
     "url": "https://github.com/marketplace/accesslint/",
@@ -124,6 +136,12 @@
     "description": "Free project management and SCRUM software for up to 5 team members",
     "url": "http://acunote.com/",
     "category": "Productivity"
+  },
+  {
+    "name": "Adapty.io",
+    "description": "One-stop solution with open-source SDK for mobile in-app subscription integration to iOS, Android, React Native, Flutter, Unity, or web app. Free up to $10k monthly revenue.",
+    "url": "https://adapty.io/",
+    "category": "Payments"
   },
   {
     "name": "AdminMart",
@@ -186,10 +204,22 @@
     "category": "Security"
   },
   {
+    "name": "AllRatesToday",
+    "description": "Real-time mid-market exchange rates for 150+ currencies with official JavaScript, Python, and PHP SDKs. Free tier includes 300 requests/month over HTTPS.",
+    "url": "https://allratestoday.com",
+    "category": "Payments"
+  },
+  {
     "name": "AllTheFreeStock",
     "description": "a curated list of free stock images, audio and videos.",
     "url": "https://allthefreestock.com/",
     "category": "Design"
+  },
+  {
+    "name": "AlphaAI",
+    "description": "Financial news API and MCP server. Every article gets per-ticker impact analysis, a category, and a 1-10 relevance score, and SEC Form 4 insider filings are turned into scored events. The free tier includes 20 requests per minute and 100 requests per day on both REST and MCP, no card required.",
+    "url": "https://alphai.io/developers",
+    "category": "Other"
   },
   {
     "name": "Altcha.org",
@@ -238,6 +268,18 @@
     "description": "An Open Source IDE to develop real, Gradle-based Android applications on Android devices.",
     "url": "https://m.androidide.com/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "anon.li Alias",
+    "description": "Open source, anonymous email alias/forwarding solution with PGP encryption, reply capability, 10 random & 1 custom alias on the free plan with developer API & CLI.",
+    "url": "https://anon.li/alias",
+    "category": "Email Services"
+  },
+  {
+    "name": "anon.li Drop",
+    "description": "Zero-knowledge E2EE file sharing with client-side AES-256-GCM encryption and zero server-side data access. Free uploads for files up to 5GB with max expiry up to 3 days through the website, CLI or API.",
+    "url": "https://anon.li/drop",
+    "category": "Other"
   },
   {
     "name": "AnonAddy",
@@ -402,6 +444,12 @@
     "category": "AI & Machine Learning"
   },
   {
+    "name": "Appish",
+    "description": "Host Docker containers for demos with just a docker push. Free tier includes 1 slot with 2-hour sessions.",
+    "url": "https://appi.sh/",
+    "category": "Infrastructure"
+  },
+  {
     "name": "Application Services",
     "description": "Free DNS for an unlimited number of domains, DDoS Protection, CDN along with free SSL, Firewall rules and page rules,  WAF, Bot Mitigation, Free Unmetered Rate Limiting - 1 rule per domain, Analytics, Email forwarding",
     "url": "https://www.cloudflare.com/plans/",
@@ -412,6 +460,12 @@
     "description": "smart visual validation for web, native mobile and desktop apps. Integrates with almost all automation solutions (like Selenium and Karma) and remote runners (Sauce Labs, Browser Stack). free for open source. A free tier for a single user with limited checkpoints per week.",
     "url": "https://applitools.com/",
     "category": "Development"
+  },
+  {
+    "name": "Apply.build",
+    "description": "Build and deploy your GitHub app for free with 0.5 vCPUs / 512 MiB RAM, European servers, automatic firewall, real-time performance metrics. Run Node.js, Python, Go, Java, static sites, microservices, and more.",
+    "url": "https://apply.build/",
+    "category": "Cloud Computing"
   },
   {
     "name": "appmail.io",
@@ -966,6 +1020,12 @@
     "category": "Productivity"
   },
   {
+    "name": "boomurl",
+    "description": "Publish static sites (HTML/Markdown/images/PDF or a whole folder) to an instant HTTPS URL with no account; free tier shows a small banner. Custom domains supported.",
+    "url": "https://boomurl.com",
+    "category": "Hosting"
+  },
+  {
     "name": "Bootify.io",
     "description": "Spring Boot app generator with custom database and REST API.",
     "url": "https://bootify.io/",
@@ -1036,6 +1096,12 @@
     "description": "Hand-curated color pallets best fitted for brands.",
     "url": "https://branition.com/colors/",
     "category": "Design"
+  },
+  {
+    "name": "Brave Search API",
+    "description": "Independent web, news, image, video search and AI/LLM context API, suitable for RAG pipelines and AI agents. Free tier includes $5 in monthly credits (credit card required for verification).",
+    "url": "https://brave.com/search/api/",
+    "category": "Other"
   },
   {
     "name": "Brevo",
@@ -1140,10 +1206,28 @@
     "category": "Development"
   },
   {
+    "name": "Buildkite",
+    "description": "CI Pipelines free for 3 users and 5k job minutes/month. Test Analytics free",
+    "url": "https://buildkite.com",
+    "category": "CI/CD"
+  },
+  {
     "name": "Bump",
     "description": "Free 10 Bump email addresses, one custom domain",
     "url": "https://bump.email/",
     "category": "Communication"
+  },
+  {
+    "name": "Bunny",
+    "description": "Privacy oriented Google Fonts",
+    "url": "https://fonts.bunny.net",
+    "category": "Design"
+  },
+  {
+    "name": "Burnermail",
+    "description": "Free 5 Burner Email Addresses, 1 Mailbox, 7-day Mailbox History",
+    "url": "https://burnermail.io/",
+    "category": "Email Services"
   },
   {
     "name": "Buttondown",
@@ -1266,6 +1350,12 @@
     "category": "Analytics"
   },
   {
+    "name": "CatchDoms",
+    "description": "Aggregator of expired and dropping domain listings from 16 marketplaces, with SEO enrichment (backlinks, Trust Flow, Wayback history) and a quality score. Free plan: 10 unlocked listings, 5 favorites, 3 saved searches. 7-day Pro trial on signup includes full REST API and MCP server access.",
+    "url": "https://catchdoms.com",
+    "category": "Other"
+  },
+  {
     "name": "CatchJS.com",
     "description": "JavaScript error tracking with screenshots and click trails. Free for open-source projects.",
     "url": "https://catchjs.com/",
@@ -1276,6 +1366,12 @@
     "description": "CDN for JavaScript libraries, CSS libraries, SWF, images, etc",
     "url": "https://cdnjs.com/",
     "category": "Web Development"
+  },
+  {
+    "name": "cDox",
+    "description": "Private document editor hosted in Canada. Write, format, collaborate, and publish documents with clean public links. Data is never used for AI training. Free plan includes 50 MB storage, up to 3 public links, and export to PDF, Word, and Markdown.",
+    "url": "https://cdox.ca",
+    "category": "Collaboration"
   },
   {
     "name": "Census",
@@ -1294,6 +1390,18 @@
     "description": "A complete authorization management system for authoring, testing, and deploying access policies. Fine-grained authorization and access control, free up to 100 monthly active principals.",
     "url": "https://www.cerbos.dev/product-cerbos-hub/",
     "category": "Security"
+  },
+  {
+    "name": "CertKit",
+    "description": "Manage SSL Certificate issuance, renewal, and monitoring. Search the Certificate Transparency Logs. Free for 3 certificates and 1 user after the beta.",
+    "url": "https://www.certkit.io/certificate-management",
+    "category": "Other"
+  },
+  {
+    "name": "CertObserver CT Search",
+    "description": "Find public SSL/TLS certificates recorded in Certificate Transparency logs. CT search is free but CT monitoring is not.",
+    "url": "https://certobserver.com/ct-search",
+    "category": "Other"
   },
   {
     "name": "Chanty.com",
@@ -1336,6 +1444,12 @@
     "description": "Teams-based Planning Poker that saves time on sprint estimation. Free up to 5 users, free Jira integrations, unlimited video calls, unlimited teams, unlimited sessions.",
     "url": "https://chpokify.com/",
     "category": "Productivity"
+  },
+  {
+    "name": "Churnkey",
+    "description": "Cancel flows (open-sourced), churn metrics, and revenue analytics for subscription businesses. Free forever.",
+    "url": "https://churnkey.co",
+    "category": "Payments"
   },
   {
     "name": "circleci.com",
@@ -1408,6 +1522,12 @@
     "description": "Free Graphics Design / Photo Collage App. Also, they offer paid integration of it as a component.",
     "url": "https://www.cleverbrush.com/",
     "category": "Design"
+  },
+  {
+    "name": "Clever Cloud",
+    "description": "European PaaS with automated deployments, autoscaling, managed databases, and Git-based workflows. Includes €20 free credits at signup, a limited DEV plan with free MySQL and PostgreSQL databases, and free allowances for services like Heptapod and FS Buckets.",
+    "url": "https://clever.cloud",
+    "category": "Cloud Computing"
   },
   {
     "name": "clickup.com",
@@ -1486,6 +1606,12 @@
     "description": "Hosted database from IBM, free if usage is below USD 50/month",
     "url": "https://cloudant.com/",
     "category": "Database"
+  },
+  {
+    "name": "CloudCertPrep",
+    "description": "Free, open-source AWS certification practice exams with 1,050+ questions for CLF-C02. Features timed mock exams, domain practice, spaced repetition, and progress tracking.",
+    "url": "https://cloudcertprep.io",
+    "category": "Education"
   },
   {
     "name": "cloudconvert.com",
@@ -1686,6 +1812,12 @@
     "category": "Development"
   },
   {
+    "name": "CodedThemes",
+    "description": "Offers a well-crafted admin dashboard & and UI kits designed to simplify and speed up modern web development.",
+    "url": "https://codedthemes.com/",
+    "category": "Design"
+  },
+  {
     "name": "CodeFactor",
     "description": "Automated Code Review for Git. The free version includes unlimited users, public repositories, and one private repo.",
     "url": "https://www.codefactor.io/",
@@ -1806,6 +1938,12 @@
     "category": "Other"
   },
   {
+    "name": "CodeTrain",
+    "description": "AI coding tutor that teaches you on your own codebase and never writes the code for you. Free tier: 10 in-browser lessons/month, Python/JS run client-side, no card required.",
+    "url": "https://codetrain.ai",
+    "category": "Education"
+  },
+  {
     "name": "codiga.io",
     "description": "Coding Assistant that lets you search, define, and reuse code snippets directly in your IDE. Free for individual and small organizations.",
     "url": "https://codiga.io/",
@@ -1896,6 +2034,12 @@
     "category": "Other"
   },
   {
+    "name": "Compare JSON",
+    "description": "An online tool for comparing differences between two JSON data structures, helping you quickly locate the differences in JSON data.",
+    "url": "https://comparejson.com",
+    "category": "Other"
+  },
+  {
     "name": "Components.studio",
     "description": "Code components in isolation, visualize them in stories, test them, and publish them on npm.",
     "url": "https://webcomponents.dev/",
@@ -1912,6 +2056,12 @@
     "description": "Full data privacy platform, including consent management, privacy request handling (DSARs), and data mapping. Free tier includes core consent management features and they also provide a more advanced plan for free to verified open source projects.",
     "url": "https://www.concord.tech/",
     "category": "Security"
+  },
+  {
+    "name": "Conduit",
+    "description": "Turn incoming emails into webhooks to trigger your API from emails. The service is completely free.",
+    "url": "https://conduit.email/",
+    "category": "Email Services"
   },
   {
     "name": "ConfigCat",
@@ -2020,6 +2170,12 @@
     "description": "Find Core Web Vitals history for a url or a website.",
     "url": "https://punits.dev/core-web-vitals-historical/",
     "category": "Monitoring"
+  },
+  {
+    "name": "Corgea",
+    "description": "Free autonomous security platform that finds, validates and fixes insecure code and packages across +20 languages and frameworks. Free plan includes 1 user and 2 repos.",
+    "url": "https://corgea.com/",
+    "category": "Other"
   },
   {
     "name": "CORS-Tester",
@@ -2226,6 +2382,12 @@
     "category": "Cloud"
   },
   {
+    "name": "Daestro",
+    "description": "Run compute jobs across Cloud Providers & On-Prem. The free tier includes up to 10 concurrent job runs, 2 compute spawns, self-hosted compute, 1 cloud provider, 1 container registry and 1 cron job.",
+    "url": "https://daestro.com",
+    "category": "Cloud Computing"
+  },
+  {
     "name": "dafont",
     "description": "The fonts presented on this website are their authors' property and are either freeware, shareware, demo versions, or public domain.",
     "url": "https://www.dafont.com/",
@@ -2394,10 +2556,22 @@
     "category": "Developer Tools"
   },
   {
+    "name": "degoo.com",
+    "description": "AI based cloud storage with free up to 20 GB, three devices, 5 GB referral bonus (90 days account inactivity).",
+    "url": "https://degoo.com/",
+    "category": "Other"
+  },
+  {
     "name": "Deno Deploy",
     "description": "Distributed system that runs JavaScript, TypeScript, and WebAssembly at the edge worldwide. The free tier includes 100,000 requests per day and 100 GiB data transfers per month.",
     "url": "https://deno.com/deploy/",
     "category": "Cloud"
+  },
+  {
+    "name": "Dependabot",
+    "description": "Automated dependency updates for Ruby, JavaScript, Python, PHP, Elixir,",
+    "url": "https://dependabot.com/",
+    "category": "Other"
   },
   {
     "name": "dependencyci.com",
@@ -2472,6 +2646,12 @@
     "category": "Web Development"
   },
   {
+    "name": "DevNet Academy",
+    "description": "Free, self-paced training for the Cisco DevNet Expert / CCIE Automation certification. Covers Python Click and Flask-RESTx.",
+    "url": "https://devnet-academy.com/",
+    "category": "Education"
+  },
+  {
     "name": "devport.co",
     "description": "Turn GitHub projects, apps and websites into a personal developer portfolio",
     "url": "http://devport.co/",
@@ -2532,6 +2712,12 @@
     "category": "Hosting"
   },
   {
+    "name": "DigitalPlat",
+    "description": "Free subdomains.",
+    "url": "https://domain.digitalplat.org",
+    "category": "Domains & DNS"
+  },
+  {
     "name": "Directus",
     "description": "Headless CMS. A completely free and open-source platform for managing assets and database content on-prem or in the Cloud. There are no limitations or paywalls.",
     "url": "https://directus.io/",
@@ -2586,6 +2772,12 @@
     "category": "Communication"
   },
   {
+    "name": "DNSHE",
+    "description": "Free subdomain registration across multiple domain suffixes, with custom nameserver support.",
+    "url": "https://www.dnshe.com/",
+    "category": "Domains & DNS"
+  },
+  {
     "name": "dnspod.com",
     "description": "Free DNS hosting.",
     "url": "https://www.dnspod.com/",
@@ -2598,6 +2790,12 @@
     "category": "Analytics"
   },
   {
+    "name": "DocBeacon",
+    "description": "Secure document sharing with document tracking and engagement Analytics. Free plan supports up to 20 PDF documents (10 MB max), 10 contacts, and 2 shares per document with basic analytics for views downloads, time and engagement.",
+    "url": "https://docbeacon.io",
+    "category": "Other"
+  },
+  {
     "name": "Docker Cloud",
     "description": "Manages the deployments of Docker containers to your (separate) cloud environment with one free repository",
     "url": "https://cloud.docker.com",
@@ -2608,6 +2806,12 @@
     "description": "One free private repository and unlimited public repositories to build and store Docker images",
     "url": "https://hub.docker.com",
     "category": "Development"
+  },
+  {
+    "name": "DocPenny",
+    "description": "HTML to PDF document generation with templates, webhook delivery, and credit-based pricing. Free plan with 50 monthly credits, no credit card required.",
+    "url": "https://docpenny.com",
+    "category": "Other"
   },
   {
     "name": "docsapp.io",
@@ -2634,6 +2838,12 @@
     "category": "Business"
   },
   {
+    "name": "domcloud.co",
+    "description": "Linux hosting service that provides CI/CD with GitHub, SSH, and MariaDB/Postgres database. The free version has 1 GB storage and 1 GB network/month limit and is limited to a free domain.",
+    "url": "https://domcloud.co",
+    "category": "Cloud Computing"
+  },
+  {
     "name": "dominodatalab.com",
     "description": "Data science with support for Python, R, Spark, Hadoop, Matlab and others",
     "url": "https://www.dominodatalab.com",
@@ -2656,6 +2866,12 @@
     "description": "Universal Secrets Manager for application secrets and config, with support for syncing to various cloud providers. Free for five users with basic access controls.",
     "url": "https://doppler.com/",
     "category": "Security"
+  },
+  {
+    "name": "Doqlo",
+    "description": "Bulk fill and mail merge PDF forms from CSV using the web app or Public API. The free plan includes 100 output PDFs/month.",
+    "url": "https://doqlo.com/",
+    "category": "Other"
   },
   {
     "name": "Doradrop",
@@ -2736,6 +2952,12 @@
     "category": "Storage"
   },
   {
+    "name": "drumbeats.io",
+    "description": "Cron, heartbeat, and uptime monitoring with incident management and status pages. Free for up to 50 monitors with 1-min interval and unlimited team seats.",
+    "url": "https://drumbeats.io/",
+    "category": "Monitoring"
+  },
+  {
     "name": "Dubble",
     "description": "Free Step-by-Step Guide creator. Take screenshots, document processes and colloborate with your team. Also supports async screen recording.",
     "url": "https://dubble.so/",
@@ -2794,6 +3016,12 @@
     "description": "The most developer-friendly live video & audio SDK, featuring collaborative plugins to enhance productivity and engagement. The free tier includes monthly 10,000 minutes of live video/audio usage.",
     "url": "https://dyte.io/",
     "category": "Productivity"
+  },
+  {
+    "name": "Earnings Feed",
+    "description": "Real-time SEC filings, insider trades, and institutional holdings API. Free tier includes 15 requests per minute.",
+    "url": "https://earningsfeed.com/api",
+    "category": "Other"
   },
   {
     "name": "easyretro.io",
@@ -2904,6 +3132,18 @@
     "category": "Monitoring"
   },
   {
+    "name": "EmailGuard",
+    "description": "Block disposable emails, catch typos, and validate MX records via a simple API. 100 free requests/month.",
+    "url": "https://emailguard.lazrek.net/",
+    "category": "Email Services"
+  },
+  {
+    "name": "EmailJS",
+    "description": "This is not an entire email server; this is just an email client that you can use to send emails right from the client without exposing your credentials, the free tier has 200 monthly requests, 2 email templates, Requests up to 50Kb, Limited contacts history.",
+    "url": "https://www.emailjs.com/",
+    "category": "Email Services"
+  },
+  {
     "name": "EmailLabs.io",
     "description": "Send up to 9,000 Emails for free every month, up to 300 emails daily.",
     "url": "https://emaillabs.io/en/",
@@ -2914,6 +3154,12 @@
     "description": "Up to 2,500 subscribers and 10,000 emails per month free",
     "url": "https://emailoctopus.com/",
     "category": "Communication"
+  },
+  {
+    "name": "EmailQo Email Infrastructure Grader",
+    "description": "Free email infrastructure grader that checks SPF, DKIM, DMARC and mail server configuration. Scores any domain out of 100. No signup required.",
+    "url": "https://emailqo.com/email-grader",
+    "category": "Email Services"
   },
   {
     "name": "Emailvalidation.io",
@@ -2932,6 +3178,12 @@
     "description": "Mobile app monitoring. Free for small teams with up to 1 million user sessions per year.",
     "url": "https://embrace.io/",
     "category": "Monitoring"
+  },
+  {
+    "name": "Emitlo",
+    "description": "free 12,000 emails/month, Email API and SMTP, SPF/DKIM/DMARC support, No Credit Cards are required.",
+    "url": "https://emitlo.com",
+    "category": "Email Services"
   },
   {
     "name": "EMQX Serverless",
@@ -2994,6 +3246,12 @@
     "category": "Communication"
   },
   {
+    "name": "ETLR",
+    "description": "Define, version, and deploy automation scripts using YAML. A developer-first alternative to drag-and-drop tools. Can be used for scheduled tasks, AI agents, and infrastructure monitoring. Free tier includes 100 credits/month.",
+    "url": "https://etlr.io",
+    "category": "Backend Services"
+  },
+  {
     "name": "Event Grid",
     "description": "100K ops/month",
     "url": "https://azure.microsoft.com/services/event-grid/",
@@ -3036,10 +3294,22 @@
     "category": "Monitoring"
   },
   {
+    "name": "Exchange Rate API",
+    "description": "Real-time currency rates for 160+ currencies with 60-second updates and official SDKs. Free tier includes 300 requests/month.",
+    "url": "https://exchange-rateapi.com",
+    "category": "Payments"
+  },
+  {
     "name": "exchangerate-api.com",
     "description": "An easy-to-use currency conversion JSON API. The free tier updates once per day with a limit of 1,500 requests/month.",
     "url": "https://www.exchangerate-api.com/",
     "category": "API Tools"
+  },
+  {
+    "name": "Exercism",
+    "description": "Free, open-source programming education in over 75 programming languages, with human mentoring. A nonprofit organisation.",
+    "url": "https://exercism.org",
+    "category": "Education"
   },
   {
     "name": "Exif Editor",
@@ -3052,6 +3322,12 @@
     "description": "Free resources for Open Source",
     "url": "https://www.exoscale.ch/",
     "category": "Web Development"
+  },
+  {
+    "name": "Expensify",
+    "description": "Expense reporting, free personal reporting approval workflow",
+    "url": "https://www.expensify.com/",
+    "category": "Other"
   },
   {
     "name": "expensify.com",
@@ -3174,6 +3450,12 @@
     "category": "Productivity"
   },
   {
+    "name": "FileShot.io",
+    "description": "Zero-knowledge encrypted file sharing. AES-256-GCM browser-side encryption ensures files are encrypted in-browser before upload. No account required for sender or recipient. Self-hostable (MIT open-source). Free tier includes unlimited uploads with no file size restrictions.",
+    "url": "https://fileshot.io",
+    "category": "Other"
+  },
+  {
     "name": "filess.io",
     "description": "filess.io is a platform where you can create two databases with up to 10 MB per database of the following DBMS for free: MySQL, MariaDB, MongoDB, and PostgreSQL.",
     "url": "https://filess.io/",
@@ -3204,16 +3486,34 @@
     "category": "Web Development"
   },
   {
+    "name": "Firecrawl",
+    "description": "API that crawls websites and converts them into clean, LLM-ready markdown or structured data, handling JavaScript rendering, proxies, and rate limits. The free plan includes 1,000 credits per month with no credit card required.",
+    "url": "https://www.firecrawl.dev/",
+    "category": "Other"
+  },
+  {
     "name": "fivenines.io",
     "description": "Linux server monitoring with real‑time dashboards and alerting - free forever for up to 5 monitored servers at 60-seconds interval. No credit card required.",
     "url": "https://fivenines.io/",
     "category": "Monitoring"
   },
   {
+    "name": "Fizzy",
+    "description": "Kanban-based platform for project management and issue tracking. Create public boards, set up webhooks, use card stamping, and track unlimited users - free for up to 1000 items.",
+    "url": "https://www.fizzy.do/",
+    "category": "Collaboration"
+  },
+  {
     "name": "Flagsmith",
     "description": "Release features with confidence; manage feature flags across web, mobile, and server-side applications. Use our hosted API, deploy to your own private cloud, or run on-premise.",
     "url": "https://flagsmith.com/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "FlareWarden",
+    "description": "Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.",
+    "url": "https://flarewarden.com",
+    "category": "Monitoring"
   },
   {
     "name": "flat.social",
@@ -3258,6 +3558,12 @@
     "category": "Design"
   },
   {
+    "name": "FluidForms",
+    "description": "Form builder and backend with AI-driven logic. Free plan includes 100 responses per month, unlimited forms (including AI-created forms), webhooks, and embedding.",
+    "url": "https://fluidforms.ai/",
+    "category": "Forms"
+  },
+  {
     "name": "FlutLab",
     "description": "FlutLab is a modern Flutter online IDE and the best place to create, debug, and build cross-platform projects. Build iOS (Without a Mac) and Android apps with Flutter.",
     "url": "https://flutlab.io/",
@@ -3300,6 +3606,18 @@
     "category": "Design"
   },
   {
+    "name": "fonts.xz.style",
+    "description": "free and open source service for delivering font families to websites using CSS.",
+    "url": "https://fonts.xz.style/",
+    "category": "Design"
+  },
+  {
+    "name": "Fontsensei",
+    "description": "Opensourced Google fonts tagged by users. With CJK (Chinese,Japanese, Korean) font tags.",
+    "url": "https://fontsensei.com/",
+    "category": "Design"
+  },
+  {
     "name": "Fontshare",
     "description": "is a free fonts service. It’s a growing collection of professional-grade fonts, 100% free for personal and commercial use.",
     "url": "https://www.fontshare.com/",
@@ -3316,6 +3634,12 @@
     "description": "AI-enabled pair programmer for Claude, GPT4 Series, Grok, Deepseek, Gemini and all frontier models. Works natively with your CLI and integrates seamlessly with any IDE. Free tier includes basic AI model access with local processing.",
     "url": "https://forgecode.dev/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "Form Plume",
+    "description": "Form Plume is a form backend for HTML and JavaScript forms. One endpoint gets you spam filtering, email notifications, file uploads, webhooks, and a clean inbox. Free for 500 submissions/mo.",
+    "url": "https://formplume.com",
+    "category": "Forms"
   },
   {
     "name": "Form-Data",
@@ -3366,6 +3690,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Forminit",
+    "description": "Headless form backend for developers. The free plan allows 100 form submissions per month including file uploads, server-side field validation, email notifications, spam protection and Zapier.",
+    "url": "https://forminit.com/",
+    "category": "Forms"
+  },
+  {
     "name": "FormKeep.com",
     "description": "Unlimited forms with 50 monthly submissions, spam protection, email notification, and a drag-and-drop designer that can export HTML. Additional features include custom field rules, teams, and integrations to Google Sheets, Slack, ActiveCampaign, and Zapier.",
     "url": "https://www.formkeep.com/",
@@ -3382,6 +3712,12 @@
     "description": "Typeform alternative with lifetime deal. Users can create 1 free form and receive unlimited submissions. In premium, users can create unlimited forms and unlimited submissions.",
     "url": "https://formlick.com/",
     "category": "Productivity"
+  },
+  {
+    "name": "FormNX",
+    "description": "Create unlimited forms get unlimited submissions free of cost. Use professionally created 1000+ form templates or create forms from scratch. Get features like email notifications, form logic, collect payments, file upload, custom thank you page, and many more.",
+    "url": "https://FormNX.com/",
+    "category": "Forms"
   },
   {
     "name": "forms.app",
@@ -3406,6 +3742,12 @@
     "description": "Easy form endpoints for your HTML forms. Free Forever. No registration is required.",
     "url": "https://formsubmit.co/",
     "category": "Productivity"
+  },
+  {
+    "name": "Formware.io",
+    "description": "Create fully-responsive and captivating forms in seconds, without knowing how to code, and collect unlimited responses for free!",
+    "url": "https://formware.io/",
+    "category": "Forms"
   },
   {
     "name": "forwardemail.net",
@@ -3552,6 +3894,12 @@
     "category": "Development"
   },
   {
+    "name": "Full Stack Open",
+    "description": "Free university-level course on modern web development with React, Node.js, GraphQL, TypeScript, and more. Fully online and self-paced.",
+    "url": "https://fullstackopen.com/en/",
+    "category": "Education"
+  },
+  {
     "name": "fullcontact.com",
     "description": "Help your users know more about their contacts by adding social profile into your app. 500 free Person API matches/month",
     "url": "https://fullcontact.com/developer/pricing/",
@@ -3568,6 +3916,12 @@
     "description": "1 million requests per month",
     "url": "https://azure.microsoft.com/services/functions/",
     "category": "Cloud"
+  },
+  {
+    "name": "Future AGI",
+    "description": "Open-source platform to evaluate, observe, and improve LLM and AI agent apps, with tracing, evals, simulations, and guardrails. Free tier includes 50GB storage, 2K eval credits, 100K AI-gateway requests/month, 1M tokens of text agent simulation and 60 min of voice simulation, plus unlimited projects/seats and BYOK LLM-as-judge at $0 platform cost. #opensource",
+    "url": "https://futureagi.com",
+    "category": "AI & Machine Learning"
   },
   {
     "name": "FxRatesAPI",
@@ -3606,10 +3960,22 @@
     "category": "CMS"
   },
   {
+    "name": "Gcore",
+    "description": "Global content delivery network, 1 TB and 1 million requests per month free and",
+    "url": "https://gcorelabs.com/",
+    "category": "CDN"
+  },
+  {
     "name": "gearhost.com",
     "description": "Platform for .NET and PHP apps. 256 MB of RAM for free on a shared server with limited resources",
     "url": "https://www.gearhost.com/pricing",
     "category": "Web Development"
+  },
+  {
+    "name": "Geekflare API",
+    "description": "Geekflare API lets you scrape websites into Markdown, take screenshots, perform TLS scans and DNS lookups, test load times, and more. The free plan offers 500 API credits per month (e.g., 500 DNS lookups, 250 web scrapes, or 100 screenshots). See credit mapping.",
+    "url": "https://geekflare.com/api/",
+    "category": "Other"
   },
   {
     "name": "Gemfury",
@@ -3804,16 +4170,16 @@
     "category": "Education"
   },
   {
-    "name": "github.com - Free for nonprofit",
-    "description": "List of free services for nonprofit organizations",
-    "url": "https://github.com/pborreli/free-for-nonprofit",
-    "category": "Education"
-  },
-  {
     "name": "github.com - FOSS for Dev",
     "description": "A hub of free and Open Source software for developers.",
     "url": "https://github.com/tvvocold/FOSS-for-Dev/",
     "category": "Other"
+  },
+  {
+    "name": "github.com - Free for nonprofit",
+    "description": "List of free services for nonprofit organizations",
+    "url": "https://github.com/pborreli/free-for-nonprofit",
+    "category": "Education"
   },
   {
     "name": "gitlab.com",
@@ -3834,10 +4200,22 @@
     "category": "Productivity"
   },
   {
+    "name": "Gizmo Analytics",
+    "description": "Simple analytics for people managing lots of sites. Install manually or let Claude/Cursor do it for you. Free for up to 10k events/month.",
+    "url": "https://gizmoanalytics.io/",
+    "category": "Other"
+  },
+  {
     "name": "Glacier",
     "description": "10GB long-term object storage",
     "url": "https://aws.amazon.com/glacier/",
     "category": "Cloud"
+  },
+  {
+    "name": "Glauca",
+    "description": "Free DNS hosting for up to 3 domains and DNSSEC support",
+    "url": "https://docs.glauca.digital/hexdns/",
+    "category": "Domains & DNS"
   },
   {
     "name": "gleek.io",
@@ -3924,6 +4302,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Google STUN",
+    "description": "Google public STUN server for WebRTC - Free STUN server at stun.l.google.com:19302",
+    "url": "https://webrtc.org/getting-started/overview",
+    "category": "Web Development"
+  },
+  {
     "name": "goreportcard.com",
     "description": "Code Quality for Go projects, free for Open Source",
     "url": "http://goreportcard.com/",
@@ -3964,6 +4348,12 @@
     "description": "Neo4j as a service, up to 1,000 nodes and 10,000 relations free",
     "url": "http://www.graphenedb.com/",
     "category": "Database"
+  },
+  {
+    "name": "graphhopper.com",
+    "description": "A free developer package is offered for Routing, Route Optimization, Distance Matrix, Geocoding, and Map Matching.",
+    "url": "https://www.graphhopper.com/",
+    "category": "Analytics"
   },
   {
     "name": "GraphQL Inspector",
@@ -4098,6 +4488,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Helploom",
+    "description": "Customer support software that offers a live chat on the free forever plan. Simple, lightweight and beautiful. Setup is a simple copy-paste script. Built by a developer.",
+    "url": "https://helploom.com",
+    "category": "Productivity"
+  },
+  {
     "name": "helpmonks.com",
     "description": "Shared inbox for teams, free for Open Source and nonprofit organizations",
     "url": "https://helpmonks.com/",
@@ -4128,6 +4524,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Hetzner",
+    "description": "Free DNS hosting from Hetzner with API support.",
+    "url": "https://www.hetzner.com/dns-console",
+    "category": "Domains & DNS"
+  },
+  {
     "name": "Hex",
     "description": "a collaborative data platform for notebooks, data apps, and knowledge libraries. Free community tier with up to five projects.",
     "url": "https://hex.tech/",
@@ -4137,6 +4539,12 @@
     "name": "HeyForm.net",
     "description": "Drag and drop online form builder. The free tier lets you create unlimited forms and collect unlimited submissions. Comes with pre-built templates, anti-spam, and 100MB file storage.",
     "url": "https://heyform.net/",
+    "category": "Productivity"
+  },
+  {
+    "name": "HeyRetro",
+    "description": "Real-time sprint retrospective platform with voting, timers, surveys, guest collaboration, and ice-breaker games. The forever-free plan includes one board per month, anonymous surveys, and guest link sharing.",
+    "url": "https://heyretro.io/",
     "category": "Productivity"
   },
   {
@@ -4152,10 +4560,22 @@
     "category": "Analytics"
   },
   {
+    "name": "HimitsuShell",
+    "description": "A shell script DRM compiler that converts shell scripts into obfuscated binaries using an embedded shell interpreter and anti-debugging (alternative to shc). Free unlimited web edition.",
+    "url": "https://himitsushell.com",
+    "category": "Other"
+  },
+  {
     "name": "hipchat.com",
     "description": "Free for unlimited users with some feature limitations",
     "url": "https://hipchat.com/",
     "category": "Productivity"
+  },
+  {
+    "name": "HitKeep",
+    "description": "Privacy-focused, open-source web and product analytics platform with a free cloud plan for 3 websites, 3 team members, 60-day data retention, AI analytics, goals, funnels, events, and hits.",
+    "url": "https://hitkeep.com/",
+    "category": "Other"
   },
   {
     "name": "Hitsteps.com",
@@ -4236,10 +4656,22 @@
     "category": "Analytics"
   },
   {
+    "name": "HS Ping",
+    "description": "A multi-country HS (Harmonized System) and HTS (Harmonized Tariff System) code lookup API, with a free plan offering 100 lookups/day.",
+    "url": "https://hsping.com",
+    "category": "Other"
+  },
+  {
     "name": "httpSMS",
     "description": "Send and receive text messages using your Android phone as an SMS Gateway. Free to send and receive up to 200 messages per month.",
     "url": "https://httpsms.com/",
     "category": "Communication"
+  },
+  {
+    "name": "huaweicloud.com",
+    "description": "Free DNS hosting by Huawei",
+    "url": "https://www.huaweicloud.com/intl/en-us/product/dns.html",
+    "category": "Domains & DNS"
   },
   {
     "name": "hub.jazz.net",
@@ -4368,10 +4800,22 @@
     "category": "Design"
   },
   {
+    "name": "ImageEngine",
+    "description": "ImageEngine is an easy to use global image CDN. Sub 60 sec setup. AVIF and JPEGXL support, WordPress-, Magento-, React-, Vue- plugins and more. Claim your free developer account here.",
+    "url": "https://imageengine.io/",
+    "category": "Other"
+  },
+  {
     "name": "imagefly.io",
     "description": "Responsive images on-demand. CDN fronted image resizing, transcoding and optimizing. 100 MB/month for free",
     "url": "http://imagefly.io/",
     "category": "Content Creation"
+  },
+  {
+    "name": "imagekit.io",
+    "description": "Image CDN with automatic optimization, real-time transformation, and storage that you can integrate with existing setup in minutes. The free plan includes up to 20GB of bandwidth per month.",
+    "url": "https://imagekit.io",
+    "category": "Other"
   },
   {
     "name": "ImgBB",
@@ -4414,6 +4858,12 @@
     "description": "Landing page analysis with suggestions to improve bounce rates. Free 5 landing pages/domain",
     "url": "http://imprace.com/",
     "category": "Analytics"
+  },
+  {
+    "name": "ImprovMX",
+    "description": "Free email forwarding.",
+    "url": "https://improvmx.com",
+    "category": "Email Services"
   },
   {
     "name": "Inboxes App",
@@ -4542,10 +4992,28 @@
     "category": "Communication"
   },
   {
+    "name": "Interactive CV",
+    "description": "AI-powered resume builder with real-time editing and ATS optimization. Free tier includes automatic CV conversion to premium templates (Harvard, Europass), PDF export, job tracker with unlimited job posting insights and CV sharing with chat/voice features.",
+    "url": "https://interactive-cv.com",
+    "category": "Education"
+  },
+  {
     "name": "Internet.nl",
     "description": "Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE",
     "url": "https://internet.nl/",
     "category": "Security"
+  },
+  {
+    "name": "internxt.com",
+    "description": "Internxt Drive is a zero-knowledge file storage service based on absolute privacy and uncompromising security. Sign up and get 10 GB for free, forever!",
+    "url": "https://internxt.com",
+    "category": "Other"
+  },
+  {
+    "name": "IntoDNS.ai",
+    "description": "DNS and email security analyzer that checks SPF, DKIM, DMARC, DNSSEC, BIMI, MTA-STS, and 40+ blacklists with AI-powered explanations and fix suggestions. 100% free, no signup required.",
+    "url": "https://intodns.ai",
+    "category": "Other"
   },
   {
     "name": "inumbo.com",
@@ -4578,6 +5046,12 @@
     "category": "Other"
   },
   {
+    "name": "IP Geolocation API by ipwho.org",
+    "description": "2,000 free requests per day. Fast, enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government and education clients. Servers in 12+ regions.",
+    "url": "https://ipwho.org/",
+    "category": "Other"
+  },
+  {
     "name": "ip-api",
     "description": "IP Geolocation API, Free for non-commercial use, no API key required, limited to 45 req/minute from the same IP address for the free plan.",
     "url": "https://ip-api.com/",
@@ -4587,6 +5061,12 @@
     "name": "IP.City",
     "description": "100 Free IP geolocation requests per day",
     "url": "https://ip.city/",
+    "category": "Other"
+  },
+  {
+    "name": "ip2geo.dev",
+    "description": "IP geolocation API to convert IP addresses into location data including city, country, timezone, ASN, and currency. The free plan includes 1,000 requests per month.",
+    "url": "https://ip2geo.dev",
     "category": "Other"
   },
   {
@@ -4674,6 +5154,18 @@
     "category": "Analytics"
   },
   {
+    "name": "isitdownstatus.com",
+    "description": "Free public JSON API returning real-time status for 500+ popular services (GitHub, Stripe, AWS, etc.). No auth required, CORS enabled.",
+    "url": "https://isitdownstatus.com",
+    "category": "Monitoring"
+  },
+  {
+    "name": "isroot.in",
+    "description": "Free isroot.in subdomains.",
+    "url": "https://isroot.in",
+    "category": "Domains & DNS"
+  },
+  {
     "name": "It tools",
     "description": "Useful tools for developer and people working in IT.",
     "url": "https://it-tools.tech/",
@@ -4746,6 +5238,12 @@
     "category": "Other"
   },
   {
+    "name": "Jotform.com",
+    "description": "Create online forms for free, collect submissions, accept payments, automate workflows, and get documents signed with built-in e-signatures. Free plan includes 5 forms, 100 monthly submissions, 10 e-sign documents, 10 payment submissions, and more.",
+    "url": "https://jotform.com/",
+    "category": "Forms"
+  },
+  {
     "name": "jsbin.com",
     "description": "JS Bin is another playground and code-sharing site of front-end web (HTML, CSS, and JavaScript. It Also supports Markdown, Jade, and Sass).",
     "url": "https://jsbin.com/",
@@ -4806,10 +5304,28 @@
     "category": "Other"
   },
   {
+    "name": "JSONPlaceholder",
+    "description": "Some REST API endpoints that return some fake data in JSON format. The source code is also available if you would like to run the server locally.",
+    "url": "https://jsonplaceholder.typicode.com/",
+    "category": "Developer Tools"
+  },
+  {
     "name": "JSONSwiss",
     "description": "JSONSwiss is a powerful online JSON viewer, editor, and validator. Format, visualize, search, and manipulate JSON data with AI-powered repair, tree view, table view, code generation in 12+ programming languages, convert json to csv, xml, yaml, properties and more.",
     "url": "https://www.jsonswiss.com/",
     "category": "Other"
+  },
+  {
+    "name": "JustBlogged",
+    "description": "Free blogging platform with custom domain support, and fast global performance.",
+    "url": "https://justblogged.com",
+    "category": "Content"
+  },
+  {
+    "name": "KaiMail",
+    "description": "Email forwarding for custom domains with ARC/DKIM signing. Free plan includes 1 domain, 1 mailbox, 300 emails/month, and up to 1MB message size. Email receiving webhook also available. Special plans for open-source projects.",
+    "url": "https://kaimail.net",
+    "category": "Email Services"
   },
   {
     "name": "kan.bn",
@@ -4840,6 +5356,12 @@
     "description": "Jumpstart Application Development: build custom functions, and use cases, and complete applications faster through code snippets and open-source library reuse.",
     "url": "https://kandi.openweaver.com/",
     "category": "Other"
+  },
+  {
+    "name": "Karbon Sites",
+    "description": "An AI-powered site builder and editor that generates production-ready frontend code from text prompts, sketches, or resumes. Features include native Android (APK) export and a free tier with 5 generations per month (unlimited via custom Gemini API key).",
+    "url": "https://www.karbonsites.space",
+    "category": "Developer Tools"
   },
   {
     "name": "katalon.com",
@@ -4914,6 +5436,12 @@
     "category": "Business"
   },
   {
+    "name": "KillBait API",
+    "description": "KillBait API allows users to submit URLs for content evaluation, detecting potential clickbait and categorizing articles. The API is designed for moderate publishing frequency, with limits of 1 submission per hour and 10 per day. Media partners can request higher limits.",
+    "url": "https://killbait.com/api/doc",
+    "category": "Other"
+  },
+  {
     "name": "Killer Coda",
     "description": "Interactive playground in your browser to study Linux, Kubernetes, Containers, Programming, DevOps, Networking",
     "url": "https://killercoda.com/",
@@ -4956,6 +5484,18 @@
     "category": "Developer Tools"
   },
   {
+    "name": "knock.app",
+    "description": "Notifications infrastructure for developers. Send to multiple channels like in-app, email, SMS, Slack, and push with a single API call. The free plan includes 10,000 messages/mo.",
+    "url": "https://knock.app",
+    "category": "Communication"
+  },
+  {
+    "name": "Knocket",
+    "description": "Free-forever contact layer for indie developers and small teams: live chat widget for websites and mobile apps (iOS/Android/Flutter/React Native via WebView), a shareable contact page (Linktree-style with socials, booking links, and blog), and a unified Telegram/email inbox. Reply from Telegram directly (no dashboard needed). Meeting scheduler, multi-language, light/dark themes. Companion open-source AI auto-reply agent. No ads, no seat limits.",
+    "url": "https://trtc.io/solutions/knocket",
+    "category": "Collaboration"
+  },
+  {
     "name": "koding.com",
     "description": "Cloud-based development environment. You have a Ubuntu OS machine",
     "url": "http://www.koding.com/",
@@ -4966,6 +5506,12 @@
     "description": "100+ dev tools including formatter, minifier, and converter.",
     "url": "https://www.kodytools.com/dev-tools/",
     "category": "Other"
+  },
+  {
+    "name": "kogiQA",
+    "description": "A web UI automation tool that functions without the need for selectors. Every developer gets 500 actions per month for free.",
+    "url": "https://kogiqa.com",
+    "category": "Testing"
   },
   {
     "name": "konacloud.io",
@@ -5074,6 +5620,24 @@
     "description": "[Landing page / UI KIts / Web screenshots] Lapa Ninja is a gallery featuring the best 6025 landing page examples, free books for designers and free UI kits from around the web.",
     "url": "https://www.lapa.ninja/",
     "category": "Design"
+  },
+  {
+    "name": "Lastest",
+    "description": "Ship fast. Don't break things. AI-supported visual verification and tests you can actually trust. Free forever plan: 1 project, 500 runner-minutes/mo, 1 concurrent run, no credit card.",
+    "url": "https://lastest.cloud",
+    "category": "Testing"
+  },
+  {
+    "name": "Latitude",
+    "description": "Open-source (MIT) LLM observability and evaluation platform to trace, monitor, and evaluate AI agents in production. Free Starter plan includes 20K credits/month, 30-day data retention, and unlimited seats. #opensource",
+    "url": "https://latitude.so",
+    "category": "AI & Machine Learning"
+  },
+  {
+    "name": "LatLng",
+    "description": "Geocoding, reverse geocoding, places, static maps, and vector map tiles APIs. Free tier includes 3,000 geocoding requests/day, 300 reverse geocoding requests/day, and 100 static map images/day.",
+    "url": "https://www.latlng.work",
+    "category": "Analytics"
   },
   {
     "name": "latlon.io",
@@ -5190,6 +5754,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Lingo.dev",
+    "description": "Open-source AI-powered CLI for web & mobile localization. Bring your own LLM, or use 10,000 free words every month via Lingo.dev-managed localization engine.",
+    "url": "https://lingo.dev",
+    "category": "Productivity"
+  },
+  {
     "name": "lingohub.com",
     "description": "Free up to 3 users, always free for Open Source",
     "url": "https://lingohub.com/",
@@ -5262,10 +5832,22 @@
     "category": "Productivity"
   },
   {
+    "name": "Localhero.ai",
+    "description": "Automatic on-brand translations on every pull request, with glossary and translation memory. Free for 1 project, 250 translation credits/month (~4,000 words).",
+    "url": "https://localhero.ai",
+    "category": "Productivity"
+  },
+  {
     "name": "localhost.run",
     "description": "Expose locally running servers over a tunnel to a public URL.",
     "url": "https://localhost.run/",
     "category": "Infrastructure"
+  },
+  {
+    "name": "Localit",
+    "description": "Fast, developer-friendly localization platform with seamless and free GitHub/GitLab integration, AI-assisted and manual translations, and a generous free plan (includes 2 users, 500 keys, and unlimited projects).",
+    "url": "https://localit.io",
+    "category": "Productivity"
   },
   {
     "name": "localizely.com",
@@ -5278,6 +5860,12 @@
     "description": "Deploy your app on AWS/GCP/Azure in under 30 minutes. Setup standardised app environments on any cloud, which come with in-built continuous deployment automation and advanced observability. The free plan allows 1 user and 1 app environment.",
     "url": "https://localops.co/",
     "category": "CI/CD"
+  },
+  {
+    "name": "localtonet",
+    "description": "Multi-protocol tunneling for HTTP, TLS, TCP, UDP, File Server (Default, SFTP, WebDAV), and Proxy Tunnel (HTTP, SOCKS5, Shadowsocks, VLESS). Free plan: 1 tunnel, 1GB/month bandwidth, 30 min timeout (excl. HTTP Tunnels).",
+    "url": "https://localtonet.com/",
+    "category": "Infrastructure"
   },
   {
     "name": "localtunnel",
@@ -5436,6 +6024,12 @@
     "category": "Design"
   },
   {
+    "name": "Lumenfall.ai",
+    "description": "AI media gateway providing unified access to leading image generation models via an OpenAI-compatible API. The platform itself is free to use with zero markup and no subscription fee. Inference costs for most models are billed at provider price, but FLUX.1 [schnell] FP8 is offered free forever with unlimited usage for registered users. Built-in failover and provider resilience included.",
+    "url": "https://lumenfall.ai/",
+    "category": "AI & Machine Learning"
+  },
+  {
     "name": "Lunacy",
     "description": "- Free graphic design tool with offline support, built-in assets (icons, photos, illustrations), and real-time collaboration. The free tier includes 10 cloud documents, a 30-day history, low-res assets, and basic design tools.",
     "url": "https://icons8.com/lunacy/",
@@ -5574,6 +6168,12 @@
     "category": "Monitoring"
   },
   {
+    "name": "MantleDB",
+    "description": "Anonymous JSON storage for scripts and tiny apps. No signup required; uses Master AID for updates and Read-Only RID for public fetching. Free tier includes 1 bucket (1MB limit) with a 72h inactivity scavenger policy.",
+    "url": "https://mantledb.sh",
+    "category": "Other"
+  },
+  {
     "name": "manubes",
     "description": "Powerful no-code cloud platform with a focus on industrial production management. Free for one user with 1 million workflow activities a month ().",
     "url": "https://www.manubes.com/",
@@ -5596,6 +6196,12 @@
     "description": "Vector maps, map services and SDKs for map visualization. Free vector tiles with weekly updates and four map styles.",
     "url": "https://www.maptiler.com/cloud/",
     "category": "Analytics"
+  },
+  {
+    "name": "MarionetteOps.com",
+    "description": "Server monitoring, public status pages, and service uptime monitoring.",
+    "url": "https://www.marionetteops.com/",
+    "category": "Monitoring"
   },
   {
     "name": "Markdown Tools",
@@ -5646,9 +6252,21 @@
     "category": "Productivity"
   },
   {
+    "name": "Maxim",
+    "description": "An LLM evaluation and observability platform with agent simulation and prompt playground. Free tier offers 10k monthly logs, access to prompt playground, simulations and evaluations via BYOK.",
+    "url": "https://www.getmaxim.ai",
+    "category": "AI & Machine Learning"
+  },
+  {
     "name": "Maxim AI",
     "description": "Simulate, evaluate, and observe your AI agents. Maxim is an end-to-end evaluation and observability platform, helping teams ship their AI agents reliably and >5x faster. Free forever for indie developers and small teams (3 seats).",
     "url": "https://getmaxim.ai/",
+    "category": "Other"
+  },
+  {
+    "name": "MConverter",
+    "description": "Convert files in bulk. Supports many formats, including AVIF and JXL. Extract image frames from videos. Compress PDFs. Free for 15 files per 24h, up to 100 MB each, processed in batches of eight.",
+    "url": "https://mconverter.eu/",
     "category": "Other"
   },
   {
@@ -5680,6 +6298,12 @@
     "description": "One click video conversations, screen sharing, for free",
     "url": "https://meet.jit.si/",
     "category": "Productivity"
+  },
+  {
+    "name": "MeetBackdrops",
+    "description": "Free HD virtual backgrounds for video calls on Zoom, Microsoft Teams, and Google Meet. 1,000+ studio-designed environments with no signup required.",
+    "url": "https://meetbackdrops.com",
+    "category": "Collaboration"
   },
   {
     "name": "meetfinch.com",
@@ -5722,6 +6346,12 @@
     "description": "Only for C#. Metalama generates the boilerplate of the code on the fly during compilation so that your source code remains clean. It is free for open-source projects, and its commercial-friendly free tier includes three aspects.",
     "url": "https://www.postsharp.net/metalama/",
     "category": "AI & Machine Learning"
+  },
+  {
+    "name": "Metashot",
+    "description": "Open Graph (OG) social preview image generation API. Generate dynamic 1200×630 images for Twitter, LinkedIn and Facebook via URL params, edge-cached on Cloudflare Workers. Free tier: 1,000 renders/month. Paid plans from $12/month.",
+    "url": "https://metashot.io",
+    "category": "Other"
   },
   {
     "name": "Meteor Cloud",
@@ -5769,6 +6399,12 @@
     "name": "microenv.com",
     "description": "Create fake REST API for developers with the possibility to generate code and app in a docker container.",
     "url": "https://microenv.com/",
+    "category": "Other"
+  },
+  {
+    "name": "microlink.io",
+    "description": "It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities, or screenshots as a service. 50 requests per day, every day free.",
+    "url": "https://microlink.io/",
     "category": "Other"
   },
   {
@@ -5838,6 +6474,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Mirin",
+    "description": "Website platform for developer-built React, Vue, or Svelte component sites with visual editing, forms, analytics, and global CDN hosting. Free tier includes 1 site with unlimited pages and submissions.",
+    "url": "https://mirin.com",
+    "category": "Hosting"
+  },
+  {
     "name": "Mirna Sockets",
     "description": "Free Socket as a Service Platform that gives you a wss:// URL when deploying your Web Socket Server code and also allows you to monitor its performance.",
     "url": "https://mirna.cloud/",
@@ -5904,6 +6546,12 @@
     "category": "Developer Tools"
   },
   {
+    "name": "Mockerito",
+    "description": "Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.",
+    "url": "https://mockerito.com/",
+    "category": "Other"
+  },
+  {
     "name": "Mockfly",
     "description": "Mockfly is a trusted development tool for API mocking and feature flag management. Quickly generate and control mock APIs with an intuitive interface. The free tier offers 500 requests per day.",
     "url": "https://www.mockfly.dev/",
@@ -5944,6 +6592,12 @@
     "description": "A simple web app to generate custom HTTP responses for mocking HTTP requests. Also available as.",
     "url": "https://designer.mocky.io/",
     "category": "Other"
+  },
+  {
+    "name": "Modal",
+    "description": "AI-driven IaaS with generous compute, storage; offers $30 (might be limited to $5 on certain accounts) of free monthly credits",
+    "url": "https://modal.com",
+    "category": "Cloud Computing"
   },
   {
     "name": "Modeldraw.com",
@@ -6058,6 +6712,12 @@
     "description": "A free and simple tool to check your exit IP address across multiple nodes and understand how your IP appears to different global regions and services. Useful for testing rule-based DNS splitting tools such as Control D.",
     "url": "https://ip.alstra.ca/",
     "category": "Other"
+  },
+  {
+    "name": "Mutant Mail",
+    "description": "Free 10 Email IDs, 1 Domain, 1 Mailbox. Single Mailbox for All Email IDs.",
+    "url": "https://www.mutantmail.com/",
+    "category": "Email Services"
   },
   {
     "name": "MySQL Visual Explain",
@@ -6378,6 +7038,12 @@
     "category": "Other"
   },
   {
+    "name": "OnlineGDB",
+    "description": "A free online ide thats supports 40+ languages and is pre installed with tons of libraries; and also has a debugging option, flags, tutorials, and a QNA page!",
+    "url": "https://onlinegdb.com",
+    "category": "Developer Tools"
+  },
+  {
     "name": "OnlineInterview.io",
     "description": "Free code interview platform with embedded video chat, drawing board, and online code editor where you can compile and run your code on the browser. You can create a remote interview room with just one click.",
     "url": "https://onlineinterview.io/",
@@ -6486,6 +7152,12 @@
     "category": "API Tools"
   },
   {
+    "name": "Orbisearch",
+    "description": "Free bulk email validator, 100 validations per day, no signup required.",
+    "url": "https://orbisearch.com",
+    "category": "Email Services"
+  },
+  {
     "name": "orchestrate.io",
     "description": "1 application free",
     "url": "https://orchestrate.io/",
@@ -6528,6 +7200,12 @@
     "category": "Content Creation"
   },
   {
+    "name": "Otterwatch",
+    "description": "Daily SSL/TLS certificate monitoring: expiry alerts (30/7/1 day), chain and OCSP revocation checks, and certificate transparency issuance history. Free forever for 5 domains, no credit card.",
+    "url": "https://otterwatch.dev/",
+    "category": "Other"
+  },
+  {
     "name": "Outlook.com",
     "description": "Free personal email and calendar.",
     "url": "https://outlook.live.com/owa/",
@@ -6550,6 +7228,12 @@
     "description": "Free DDoS protection and SSL certificate",
     "url": "https://www.ovh.ie/ssl-gateway/",
     "category": "CDN"
+  },
+  {
+    "name": "Ownkube",
+    "description": "Free single-node k3s in your own AWS account, run apps, databases, workers with a git push. Use your AWS credits at peak efficiency.",
+    "url": "https://ownkube.io",
+    "category": "Cloud Computing"
   },
   {
     "name": "packagecloud.io",
@@ -6670,6 +7354,12 @@
     "description": "Backend service API with flexible authentication, full-text search and caching. Free for one app, 1GB of app data.",
     "url": "https://paraio.com/",
     "category": "Backend"
+  },
+  {
+    "name": "ParityVend",
+    "description": "Automatically adjust pricing based on visitor location to expand your business globally and reach new markets (purchasing power parity). The free plan includes 7,500 API requests/month.",
+    "url": "https://www.ambeteco.com/ParityVend/",
+    "category": "Payments"
   },
   {
     "name": "parsehub.com",
@@ -6888,6 +7578,12 @@
     "category": "Monitoring"
   },
   {
+    "name": "Pingram.io",
+    "description": "Communication infrastructure in 5 minutes. Free tier includes: 100 SMS and calls, 3000 Emails, Push, Slack, MS Teams, WhatsApp, and more.",
+    "url": "https://www.pingram.io/",
+    "category": "Communication"
+  },
+  {
     "name": "pipedream.com",
     "description": "An integration platform built for developers. Develop any workflow based on any trigger. Workflows are code you can run. No server or cloud resources to manage.",
     "url": "https://pipedream.com/",
@@ -7074,6 +7770,12 @@
     "category": "Analytics"
   },
   {
+    "name": "Posthook",
+    "description": "Schedule webhooks to fire at a future time with automatic retries, delivery tracking, and failure alerting. Free plan includes 1,000 webhooks per month.",
+    "url": "https://posthook.io",
+    "category": "Other"
+  },
+  {
     "name": "Postman",
     "description": "Simplify workflows and create better APIs – faster – with Postman, a collaboration platform for API development. Use the Postman App for free forever. Postman cloud features are also free forever with certain limits.",
     "url": "https://postman.com/",
@@ -7134,6 +7836,12 @@
     "category": "CMS"
   },
   {
+    "name": "Prismix",
+    "description": "Free REST API (GET /api/v1/statuses) returning real-time operational status for 75+ AI services including OpenAI, Anthropic, Gemini, Mistral, and more. No authentication required. [Free tier available with Pro at $10/month]",
+    "url": "https://prismix.dev",
+    "category": "Monitoring"
+  },
+  {
     "name": "producteev.com",
     "description": "Task management tool. Free, premium version with more options. Mobile applications available",
     "url": "https://producteev.com/",
@@ -7182,6 +7890,12 @@
     "category": "Design"
   },
   {
+    "name": "Proton Drive",
+    "description": "Ultra-secure cloud storage for files and key documents. Free plan offers 5gb of storage space.",
+    "url": "https://proton.me/drive",
+    "category": "Other"
+  },
+  {
     "name": "Proton Mail",
     "description": "Free secure email account service provider with built-in end-to-end encryption. Free 1GB storage.",
     "url": "https://proton.me/mail/",
@@ -7194,10 +7908,22 @@
     "category": "Productivity"
   },
   {
+    "name": "Proxmint GeoIP",
+    "description": "Free IP → country/city/ASN JSON API, no key, CORS-open. MaxMind GeoLite2.",
+    "url": "https://proxmint.com/tools/ip-lookup",
+    "category": "Other"
+  },
+  {
     "name": "ProxySentry",
     "description": "IP API that detects residential proxies and VPNs. ProxySentry.io offers a free tier with 10k requests per month on rapidapi.com.",
     "url": "https://proxysentry.io/",
     "category": "Other"
+  },
+  {
+    "name": "pterocos",
+    "description": "a free opensource browser-based coding environment for front-end developers. write html, css and js with a vs code-grade editor (monaco), live preview, scss/typeScript/babel support, and an ai chat assistant for debugging and suggestions. all projects save to local storage. free forever – no account needed.",
+    "url": "https://pterocos.eu.org",
+    "category": "Developer Tools"
   },
   {
     "name": "Public Cloud Threat Intelligence",
@@ -7296,6 +8022,12 @@
     "category": "Developer Tools"
   },
   {
+    "name": "Qdrant",
+    "description": "Vector Database for embedding data, single node cluster with 0.5 vCPU, 1GB RAM, and 4GB disk.",
+    "url": "https://qdrant.tech/",
+    "category": "Database"
+  },
+  {
     "name": "Qoddi",
     "description": "PaaS service similar to Heroku with a developer-centric approach and all-inclusive features. Free tier for static assets, staging, and developer apps.",
     "url": "https://qoddi.com/",
@@ -7318,6 +8050,12 @@
     "description": "Fast, beautiful bulk QR code generator – no login, no watermark, no ads. Up to 100 URLs per bulk export.",
     "url": "https://qrme.sh/",
     "category": "Storage"
+  },
+  {
+    "name": "QRtracer",
+    "description": "Free QR code generator with built-in scan analytics, bulk generation & brand customisation, focused on reliability without any ads.",
+    "url": "https://qrtracer.io",
+    "category": "Other"
   },
   {
     "name": "Qualli",
@@ -7452,6 +8190,12 @@
     "category": "Analytics"
   },
   {
+    "name": "Reactive Resume",
+    "description": "Free, open-source resume builder with dozens of templates. Exports to PDF, DOCX and also provides a publicly shareable link to the resume (opt-in).",
+    "url": "https://rxresu.me",
+    "category": "Education"
+  },
+  {
     "name": "readme.com",
     "description": "Beautiful documentation made easy, free for Open Source.",
     "url": "https://readme.com/",
@@ -7497,6 +8241,18 @@
     "name": "redirection.io",
     "description": "SaaS tool for managing HTTP redirections for businesses, marketing and SEO.",
     "url": "https://redirection.io/",
+    "category": "Other"
+  },
+  {
+    "name": "RedirHub",
+    "description": "API-first URL redirect infrastructure with custom nameservers, edge network, HTTPS, and proactive link monitoring. Free plan includes 2 hostnames, 100K requests per month, auto-SSL, path forwarding, and REST API access.",
+    "url": "https://www.redirhub.com/",
+    "category": "Other"
+  },
+  {
+    "name": "redirs.com",
+    "description": "Easy domain redirects with auto-SSL, analytics, and URL path forwarding. Free for basic use (up to 5 domains).",
+    "url": "https://www.redirs.com/",
     "category": "Other"
   },
   {
@@ -7566,6 +8322,12 @@
     "category": "Other"
   },
   {
+    "name": "Repeato",
+    "description": "No-code mobile app test automation tool built on top of computer vision and AI.",
+    "url": "https://repeato.app/",
+    "category": "Testing"
+  },
+  {
     "name": "Replit",
     "description": "A cloud coding environment for various program languages.",
     "url": "https://replit.com/",
@@ -7626,6 +8388,12 @@
     "category": "Other"
   },
   {
+    "name": "Requestly",
+    "description": "Open-source Chrome Extension to Intercept, Redirect and Mock HTTP Requests.",
+    "url": "https://requestly.com/",
+    "category": "Testing"
+  },
+  {
     "name": "Resend",
     "description": "Transactional emails API for developers. 3,000 emails/month, 100 emails/day free, one custom domain.",
     "url": "https://resend.com/",
@@ -7674,6 +8442,12 @@
     "category": "Developer Tools"
   },
   {
+    "name": "Revdoku",
+    "description": "Publish files, reports, custom microsites right from ChatGPT, Claude, Codex and other AI agents as public or password-protected websites. Free tier: 2GB storage, 2 live sites/apps, 1 database (25 MB), 3 AI connections, 1k files/bucket (100 MB/file), basic analytics.",
+    "url": "https://revdoku.com/",
+    "category": "Hosting"
+  },
+  {
     "name": "RevenueCat",
     "description": "Hosted backend for in-app purchases and subscriptions (iOS and Android). Free up to $2.5k/mo in tracked revenue.",
     "url": "https://www.revenuecat.com/",
@@ -7690,6 +8464,12 @@
     "description": "An OpenSource alternative for, that respects your privacy. It also have most proprietary features from discord for free. Revolt is a all in one application that is secure and fast, while being 100% free. every features are free. They also have (official & unofficial) plugins support unlike most main-stream chatting applications.",
     "url": "https://revolt.chat/",
     "category": "Productivity"
+  },
+  {
+    "name": "RightFeature",
+    "description": "Easily collect feedback from your customers, turn customer feedback into your product roadmap. Collect, prioritize, and ship features that actually matter to your users.",
+    "url": "https://rightfeature.com/",
+    "category": "Collaboration"
   },
   {
     "name": "ringcaptcha.com",
@@ -7714,6 +8494,12 @@
     "description": "Community assets as well as create your own game assets using its free plan.",
     "url": "https://rive.app/community/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "Rivestack",
+    "description": "Managed PostgreSQL with pgvector optimized for AI workloads. The free tier includes 2GB storage, daily snapshots, 14-day point-in-time recovery, and a built-in SQL editor that converts search queries to vector embeddings.",
+    "url": "https://rivestack.io",
+    "category": "Database"
   },
   {
     "name": "Roadmap.sh",
@@ -7770,6 +8556,12 @@
     "category": "Development"
   },
   {
+    "name": "Rollgate",
+    "description": "EU-hosted feature flag management with scheduled releases, instant rollback, and A/B testing. 12 SDKs included. Free plan up to 500K API requests/month, unlimited flags, 3 team members, no credit card required.",
+    "url": "https://rollgate.io",
+    "category": "Developer Tools"
+  },
+  {
     "name": "Row Zero",
     "description": "Blazingly fast, connected spreadsheet. Connect directly to data databases, S3, and APIs. Import, analyze, graph, and share millions of rows instantly. Three free (forever) workbooks.",
     "url": "https://rowzero.io/",
@@ -7780,6 +8572,24 @@
     "description": "Server management focusing mainly on PHP projects. Free for up to 1 server.",
     "url": "https://runcloud.io/",
     "category": "Productivity"
+  },
+  {
+    "name": "Runframe",
+    "description": "On-call alerting, incident management, and public/private status pages. The free plan includes up to 5 users, 1 team, 1 on-call schedule, basic status pages, incident lifecycle, and Slack-native incident response.",
+    "url": "https://runframe.io/",
+    "category": "Monitoring"
+  },
+  {
+    "name": "RunMat",
+    "description": "GPU-accelerated numerical computing IDE in the browser. Write and run MATLAB-syntax .m files with automatic GPU acceleration via WebAssembly and WebGPU. No install, no account, no license fees. Open source runtime with CLI, NPM package, and Jupyter kernel support.",
+    "url": "https://runmat.com/sandbox",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "RunMyJob",
+    "description": "Run GitHub Actions and GitLab CI pipelines smarter with real-time scaling Spike Instances. Free tier includes 400 vCPU-minutes, 800 GB-minutes, and 10 concurrent jobs with high-performance runners (12 vCPU and 32 GB RAM per job).",
+    "url": "https://runmyjob.io",
+    "category": "CI/CD"
   },
   {
     "name": "runscope.com",
@@ -7866,6 +8676,12 @@
     "category": "Web Development"
   },
   {
+    "name": "Scalekit",
+    "description": "Enterprise SSO (SAML, OIDC), SCIM provisioning, and social logins for B2B SaaS. Free tier includes 1 million MAU, 100 organizations, 1 SSO connection, and 1 SCIM connection.",
+    "url": "https://scalekit.com",
+    "category": "Other"
+  },
+  {
     "name": "scalingo.com",
     "description": "Primarily a PaaS but offers a 512 MB free tier of MySQL, PostgreSQL or MongoDB",
     "url": "https://scalingo.com/",
@@ -7942,6 +8758,12 @@
     "description": "[Mobile screenshots] Get inspired and keep up with the latest web & mobile app UI design trends. Filterable by pattern and app.",
     "url": "https://screenlane.com/",
     "category": "Design"
+  },
+  {
+    "name": "Screenshot Scout",
+    "description": "Screenshot API for developers. Clean, production-ready screenshots from any URL in one request. Free plan includes 200 screenshots per month, forever.",
+    "url": "https://screenshotscout.com/",
+    "category": "API Tools"
   },
   {
     "name": "ScreenshotAPI.net",
@@ -8082,6 +8904,18 @@
     "category": "Analytics"
   },
   {
+    "name": "SendBridge Mail Tester",
+    "description": "Free email deliverability test with no signup. Generates a unique inbox address, then analyzes SPF, DKIM, DMARC, Rspamd spam score, 23+ RBL blacklists, reverse DNS, and content quality. Unlimited tests, results in seconds, shareable report pages.",
+    "url": "https://sendbridge.com/mail-tester",
+    "category": "Email Services"
+  },
+  {
+    "name": "Sender",
+    "description": "Up to 15,000 emails/month, up to 2,500 subscribers",
+    "url": "https://www.sender.net",
+    "category": "Email Services"
+  },
+  {
     "name": "sendgrid.com",
     "description": "12,000 emails/month and 2,000 contacts free",
     "url": "https://sendgrid.com/",
@@ -8104,6 +8938,12 @@
     "description": "50 emails free/hour, first 12,000 emails/month free",
     "url": "https://sendpulse.com",
     "category": "Business"
+  },
+  {
+    "name": "SendStreak",
+    "description": "Email framework as a service, that adds templates, automations, history, etc to your own SMTP server (E.g. AWS, Maileroo, Gmail). Free up to 100 emails/day, no time limit.",
+    "url": "https://www.sendstreak.com/",
+    "category": "Email Services"
   },
   {
     "name": "sendtoinc.com",
@@ -8232,6 +9072,18 @@
     "category": "Content Creation"
   },
   {
+    "name": "SikkerAPI",
+    "description": "Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.",
+    "url": "https://sikkerapi.com",
+    "category": "Other"
+  },
+  {
+    "name": "SikkerKey",
+    "description": "Machine authenticated secrets manager, includes 2 projects, 2 bootstrapped machines, 20 secrets and 7 days audit log retention for free.",
+    "url": "https://sikkerkey.com",
+    "category": "Other"
+  },
+  {
     "name": "Similar Web",
     "description": "Analytics for Web & Mobile Apps. Free Plan offers five results per metric, one month of mobile app data & 3 months of website data.",
     "url": "https://similarweb.com/",
@@ -8260,6 +9112,12 @@
     "description": "Free up to 100 translation keys, unlimited strings, unlimited languages, startup deals",
     "url": "https://simplelocalize.io/",
     "category": "Productivity"
+  },
+  {
+    "name": "SimpleLogin",
+    "description": "Open source, self-hostable email alias/forwarding solution. Free 10 Aliases, unlimited bandwidth, unlimited reply/send. Free for educational staff (student, researcher, etc.).",
+    "url": "https://simplelogin.io/",
+    "category": "Email Services"
   },
   {
     "name": "SimplePDF.eu",
@@ -8340,9 +9198,27 @@
     "category": "Productivity"
   },
   {
+    "name": "SlingSite",
+    "description": "Create all the optimized versions of your images and videos. For Free. In bulk. For each image, you get the following formats: AVIF, WEBP and JPG in the three selected resolutions (desktop, tablet, mobile) For videos, you get: WebM (codec VP9), MP4 (codec HEVC aka H.265) and MP4 (codec AVC aka H.264) plus the cover image with the first frame.",
+    "url": "https://slingsite.github.io",
+    "category": "Other"
+  },
+  {
     "name": "SmallDev.tools",
     "description": "A free tool for developers that allows you to Encode/Decode various formats, Minify HTML/CSS/Javascript, Beautify, Generate Fake/Testing datasets in JSON/CSV & multiple other formats and many more features. With a delightful interface.",
     "url": "https://smalldev.tools/",
+    "category": "Other"
+  },
+  {
+    "name": "Smart Grow Logs",
+    "description": "Centralized log management platform with end-to-end encryption, real-time alerts, and multi-platform SDKs. Free tier includes up to 3.000 logs per day.",
+    "url": "https://logs.smart-grow.app/",
+    "category": "Monitoring"
+  },
+  {
+    "name": "Smart Grow Vault",
+    "description": "Secure Enterprise-grade platform for managing environment variables and secrets. Free tier includes up to 3 applications and 150 secrets per project.",
+    "url": "https://vault.smart-grow.app/",
     "category": "Other"
   },
   {
@@ -8386,6 +9262,12 @@
     "description": "Free for public repositories, 1 build at the time",
     "url": "https://snap-ci.com/",
     "category": "Development"
+  },
+  {
+    "name": "SnapAPI",
+    "description": "Screenshot, video recording, PDF generation, and web data extraction API. Free plan includes 200 screenshots/month.",
+    "url": "https://snapapi.pics",
+    "category": "API Tools"
   },
   {
     "name": "snappify",
@@ -8760,18 +9642,6 @@
     "category": "Productivity"
   },
   {
-    "name": "Twilio STUN",
-    "description": "Twilio STUN server for WebRTC - Free STUN server at global.stun.twilio.com:3478",
-    "url": "https://www.twilio.com/docs/stun-turn",
-    "category": "Web Development"
-  },
-  {
-    "name": "Google STUN",
-    "description": "Google public STUN server for WebRTC - Free STUN server at stun.l.google.com:19302",
-    "url": "https://webrtc.org/getting-started/overview",
-    "category": "Web Development"
-  },
-  {
     "name": "styleci.io",
     "description": "Public GitHub repositories only",
     "url": "https://styleci.io/",
@@ -8826,6 +9696,12 @@
     "category": "Backend"
   },
   {
+    "name": "supaguard.app",
+    "description": "Synthetic monitoring from 20+ global regions. The free tier includes 1,000 browser checks/mo with AI-driven self-healing and automated test generation.",
+    "url": "https://supaguard.app/",
+    "category": "Monitoring"
+  },
+  {
     "name": "Superblocks",
     "description": "Open enterprise application platform designed for developers and semi-technical teams. Use AI to generate, edit visually and extend with code. Govern centrally with integrations, authentication, permissions & audit logs.",
     "url": "https://superblocks.com/",
@@ -8842,6 +9718,12 @@
     "description": "Real-time PubSubHubbub compliant feeds, export, analytics. Free with less customization",
     "url": "https://superfeedr.com/",
     "category": "Productivity"
+  },
+  {
+    "name": "superlog.sh",
+    "description": "Open-source OpenTelemetry observability (traces, logs, and metrics) with AI-agent incident investigation. The free tier includes 1M spans, 5M logs, and 10M metric points per month with 30-day retention, no credit card required. Fully open-source and self-hostable.",
+    "url": "https://superlog.sh/",
+    "category": "Monitoring"
   },
   {
     "name": "Supermaven",
@@ -8944,6 +9826,12 @@
     "description": "End-to-End cloud storage service. 5 GB of free storage",
     "url": "https://www.sync.com/",
     "category": "Storage"
+  },
+  {
+    "name": "SYNCDATE",
+    "description": "Two-way Google Calendar sync. Free tier: 2 accounts, unlimited events.",
+    "url": "https://syncdate.app",
+    "category": "Other"
   },
   {
     "name": "Table Format Converter",
@@ -9150,6 +10038,12 @@
     "category": "Communication"
   },
   {
+    "name": "TemplateFox",
+    "description": "PDF generation API with a visual template editor, dynamic data merging, and SDKs for 7 languages. Free plan includes 60 PDFs/month and 3 templates.",
+    "url": "https://pdftemplateapi.com",
+    "category": "Other"
+  },
+  {
     "name": "TempMailDetector.com",
     "description": "Verify up to 200 emails a month for free and see if an email is temporary or not.",
     "url": "https://tempmaildetector.com/",
@@ -9282,6 +10176,12 @@
     "category": "Security"
   },
   {
+    "name": "thumbnail.ws",
+    "description": "API for generating thumbnails of websites. Free 1,000 requests/month.",
+    "url": "https://thumbnail.ws",
+    "category": "API Tools"
+  },
+  {
     "name": "tickgit.com",
     "description": "Surfaces `TODO` comments (and other markers) to identify areas of code worth returning to for improvement.",
     "url": "https://www.tickgit.com/",
@@ -9408,6 +10308,12 @@
     "category": "Web Development"
   },
   {
+    "name": "TraceLog",
+    "description": "AI Analytics for E-commerce. Ask questions in natural language about your analytics, get actionable recommendations and grow your revenue with AI-powered insights. Free for up to 10k events per month.",
+    "url": "https://tracelog.io/",
+    "category": "Other"
+  },
+  {
     "name": "Trackingplan",
     "description": "Automatically detect digital analytics, marketing data and pixels issues, maintain up-to-date tracking plans, and foster seamless collaboration. Deploy it to your production environment with real traffic or add analytics coverage to your regression tests without writing code.",
     "url": "https://www.trackingplan.com/",
@@ -9424,6 +10330,12 @@
     "description": "Publish locally, running services over a tunnel to a public custom URL and secure them with access control. Free for 5 services in one cluster.",
     "url": "https://traefik.io/traefik-hub/",
     "category": "Infrastructure"
+  },
+  {
+    "name": "Transcript LOL",
+    "description": "Converts audio or video to text using AI. Generates summaries and other insights using LLMs. The free tier includes 2 transcriptions per day. You can upload files, record voice notes, or use links from YouTube, Instagram etc. The free version also supports WhatsApp, Telegram and importing files directly from cloud storages - Google Drive, Dropbox, Box and OneDrive. No API key needed. Sign up and ready to use. Also has apps for mobiles, desktops and chromebooks.",
+    "url": "https://transcript.lol/",
+    "category": "AI & Machine Learning"
   },
   {
     "name": "transfernow",
@@ -9480,6 +10392,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Trophy",
+    "description": "API infrastructure for building gamification features like achievements, streaks, points and leaderboards in web and mobile apps. Free for 100 monthly active users.",
+    "url": "https://trophy.so",
+    "category": "Other"
+  },
+  {
     "name": "trystack.org",
     "description": "Free Openstack hosting. The environment is resets every 24 hours, suitable for testing only",
     "url": "http://trystack.org/",
@@ -9532,6 +10450,12 @@
     "description": "Responsive images as a service. It provides an image CDN, a media processing API, and a frontend library to automate image optimization. The service is free for up to 3GB of traffic/per month.",
     "url": "https://www.twicpics.com/",
     "category": "Storage"
+  },
+  {
+    "name": "Twilio STUN",
+    "description": "Twilio STUN server for WebRTC - Free STUN server at global.stun.twilio.com:3478",
+    "url": "https://www.twilio.com/docs/stun-turn",
+    "category": "Web Development"
   },
   {
     "name": "twist.com",
@@ -9610,6 +10534,12 @@
     "description": "Effortless landing page builder with hosting. One website for free.",
     "url": "https://unicornplatform.com/",
     "category": "Design"
+  },
+  {
+    "name": "UniRateAPI",
+    "description": "Real-time exchange rates for 590+ currencies and crypto. Unlimited API calls on the free plan, perfect for developers and finance apps.",
+    "url": "https://unirateapi.com",
+    "category": "Other"
   },
   {
     "name": "UNPKG",
@@ -9768,6 +10698,18 @@
     "category": "Development"
   },
   {
+    "name": "VaocherApp QR Code Generator",
+    "description": "Easily create custom QR codes for gift cards, gift vouchers, and promotions. Support custom styling, color, logo...",
+    "url": "https://www.vaocherapp.com/qr-code-generator",
+    "category": "Other"
+  },
+  {
+    "name": "vask",
+    "description": "Realtime messaging service, Pusher-compatible. Dev tier is limited to local development only and free with 100 concurrent connections, 1,000,000 broadcasts/month, unlimited client events, 32kb message size.",
+    "url": "https://vask.dev",
+    "category": "Communication"
+  },
+  {
     "name": "vatcheckapi.com",
     "description": "Simple and free VAT number validation API. 150 free validations per month.",
     "url": "https://vatcheckapi.com/",
@@ -9778,6 +10720,12 @@
     "description": "Instant VAT number validation and EU VAT rates API, free 100 API requests/month",
     "url": "https://vatlayer.com/",
     "category": "Business"
+  },
+  {
+    "name": "vatnode",
+    "description": "EU VAT number validation REST API with VIES and national tax-registry fallback, returning the official VIES consultation number for audit records. Free tier of 100 validations/month, no credit card.",
+    "url": "https://vatnode.dev",
+    "category": "Other"
   },
   {
     "name": "vector.express",
@@ -9876,6 +10824,12 @@
     "category": "Productivity"
   },
   {
+    "name": "Visual Studio Code",
+    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications. Developed by Microsoft.",
+    "url": "https://code.visualstudio.com/",
+    "category": "Developer Tools"
+  },
+  {
     "name": "Visual Studio Community",
     "description": "Fully-featured IDE with thousands of extensions, cross-platform app development (Microsoft extensions available for download for iOS and Android), desktop, web and cloud development, multi-language support (C#, C++, JavaScript, Python, PHP and more).",
     "url": "https://visualstudio.microsoft.com/vs/community/",
@@ -9940,6 +10894,12 @@
     "description": "Board based project management solution from your existing GitHub Issues, free for Open Source",
     "url": "https://waffle.io/",
     "category": "Productivity"
+  },
+  {
+    "name": "Waitlio",
+    "description": "Waitlist management software for product launches. Create branded waitlist pages, collect and verify email subscribers, manage signups with tags and analytics. Free plan includes 100 subscribers/month, 1 waitlist, and API access.",
+    "url": "https://waitlio.com/",
+    "category": "Email Services"
   },
   {
     "name": "WaiverStevie.com",
@@ -10140,6 +11100,12 @@
     "category": "CDN"
   },
   {
+    "name": "What Is My IP",
+    "description": "A free service to check your public IPv4 and IPv6 address and related request data through an API with different output formats for automation, scripts, and network troubleshooting.",
+    "url": "https://whatismyip.help",
+    "category": "Other"
+  },
+  {
     "name": "What The Diff",
     "description": "AI-powered code review assistant. The free plan has a limit of 25,000 monthly tokens (~10 PRs).",
     "url": "https://whatthediff.ai/",
@@ -10156,6 +11122,12 @@
     "description": "Collaborative flowcharts, wireframes, sticky notes and mind maps. Create up to 4 free boards.",
     "url": "https://whimsical.com/",
     "category": "Design"
+  },
+  {
+    "name": "Whitespace",
+    "description": "One-click bug reports straight in your browser. Free plan with unlimited recordings for personal use.",
+    "url": "https://whitespace.dev",
+    "category": "Monitoring"
   },
   {
     "name": "Wikifactory",
@@ -10252,6 +11224,12 @@
     "description": "Download High Quality Free and Premium Admin dashboard template created with Angular, React, VueJs, NextJS, and NuxtJS!",
     "url": "https://www.wrappixel.com/",
     "category": "Other"
+  },
+  {
+    "name": "Wraps",
+    "description": "email automation workflows, 5k tracked events and unlimited contacts free.",
+    "url": "https://wraps.dev",
+    "category": "Email Services"
   },
   {
     "name": "Wufoo",
@@ -10362,6 +11340,12 @@
     "category": "Web Development"
   },
   {
+    "name": "Zeitio",
+    "description": "Time tracking and invoicing for freelancers and small teams. Free plan includes 1 user, 3 active projects and 3 invoices per month.",
+    "url": "https://zeitio.com/",
+    "category": "Collaboration"
+  },
+  {
     "name": "Zenable",
     "description": "Instantly auto-fix outputs from tools like Cursor, Windsurf, and Copilot to meet your company's quality and compliance standards using guardrails built with Policy as Code. The free tier includes 100 tools calls per day to the MCP server and 25 free automated pull request reviews per day via the GitHub App.",
     "url": "https://zenable.io/",
@@ -10432,6 +11416,12 @@
     "description": "Free DNS hosting for 5 domains.",
     "url": "https://zilore.com/en/dns/",
     "category": "Infrastructure"
+  },
+  {
+    "name": "Zip-Codes",
+    "description": "REST API for US and Canadian postal codes with address validation, radius search, and Census demographics. 2,500 free requests/day.",
+    "url": "https://www.zip-codes.com/api/",
+    "category": "Other"
   },
   {
     "name": "Zipcodebase",
@@ -10509,990 +11499,6 @@
     "name": "Zuplo",
     "description": "Free API Management platform to design, build, and deploy APIs to the Edge. Add API Key authentication, rate limiting, developer documentation and Monetization to any API in minutes. OpenAPI-native and fully-programmable with web standard apis & Typescript. The free plan offers up to 10 projects, unlimited production edge environments, 1M monthly requests, and 10GB egress.",
     "url": "https://zuplo.com/",
-    "category": "Other"
-  },
-  {
-    "name": "360username",
-    "description": "A free tool to search a username across 90+ social platforms to find matching profiles.",
-    "url": "https://360username.com/",
-    "category": "Other"
-  },
-  {
-    "name": "Adapty.io",
-    "description": "One-stop solution with open-source SDK for mobile in-app subscription integration to iOS, Android, React Native, Flutter, Unity, or web app. Free up to $10k monthly revenue.",
-    "url": "https://adapty.io/",
-    "category": "Payments"
-  },
-  {
-    "name": "AllRatesToday",
-    "description": "Real-time mid-market exchange rates for 150+ currencies with official JavaScript, Python, and PHP SDKs. Free tier includes 300 requests/month over HTTPS.",
-    "url": "https://allratestoday.com",
-    "category": "Payments"
-  },
-  {
-    "name": "AlphaAI",
-    "description": "Financial news API and MCP server. Every article gets per-ticker impact analysis, a category, and a 1-10 relevance score, and SEC Form 4 insider filings are turned into scored events. The free tier includes 20 requests per minute and 100 requests per day on both REST and MCP, no card required.",
-    "url": "https://alphai.io/developers",
-    "category": "Other"
-  },
-  {
-    "name": "anon.li Alias",
-    "description": "Open source, anonymous email alias/forwarding solution with PGP encryption, reply capability, 10 random & 1 custom alias on the free plan with developer API & CLI.",
-    "url": "https://anon.li/alias",
-    "category": "Email Services"
-  },
-  {
-    "name": "anon.li Drop",
-    "description": "Zero-knowledge E2EE file sharing with client-side AES-256-GCM encryption and zero server-side data access. Free uploads for files up to 5GB with max expiry up to 3 days through the website, CLI or API.",
-    "url": "https://anon.li/drop",
-    "category": "Other"
-  },
-  {
-    "name": "Appish",
-    "description": "Host Docker containers for demos with just a docker push. Free tier includes 1 slot with 2-hour sessions.",
-    "url": "https://appi.sh/",
-    "category": "Infrastructure"
-  },
-  {
-    "name": "Apply.build",
-    "description": "Build and deploy your GitHub app for free with 0.5 vCPUs / 512 MiB RAM, European servers, automatic firewall, real-time performance metrics. Run Node.js, Python, Go, Java, static sites, microservices, and more.",
-    "url": "https://apply.build/",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "boomurl",
-    "description": "Publish static sites (HTML/Markdown/images/PDF or a whole folder) to an instant HTTPS URL with no account; free tier shows a small banner. Custom domains supported.",
-    "url": "https://boomurl.com",
-    "category": "Hosting"
-  },
-  {
-    "name": "Brave Search API",
-    "description": "Independent web, news, image, video search and AI/LLM context API, suitable for RAG pipelines and AI agents. Free tier includes $5 in monthly credits (credit card required for verification).",
-    "url": "https://brave.com/search/api/",
-    "category": "Other"
-  },
-  {
-    "name": "Buildkite",
-    "description": "CI Pipelines free for 3 users and 5k job minutes/month. Test Analytics free",
-    "url": "https://buildkite.com",
-    "category": "CI/CD"
-  },
-  {
-    "name": "Bunny",
-    "description": "Privacy oriented Google Fonts",
-    "url": "https://fonts.bunny.net",
-    "category": "Design"
-  },
-  {
-    "name": "Burnermail",
-    "description": "Free 5 Burner Email Addresses, 1 Mailbox, 7-day Mailbox History",
-    "url": "https://burnermail.io/",
-    "category": "Email Services"
-  },
-  {
-    "name": "CatchDoms",
-    "description": "Aggregator of expired and dropping domain listings from 16 marketplaces, with SEO enrichment (backlinks, Trust Flow, Wayback history) and a quality score. Free plan: 10 unlocked listings, 5 favorites, 3 saved searches. 7-day Pro trial on signup includes full REST API and MCP server access.",
-    "url": "https://catchdoms.com",
-    "category": "Other"
-  },
-  {
-    "name": "cDox",
-    "description": "Private document editor hosted in Canada. Write, format, collaborate, and publish documents with clean public links. Data is never used for AI training. Free plan includes 50 MB storage, up to 3 public links, and export to PDF, Word, and Markdown.",
-    "url": "https://cdox.ca",
-    "category": "Collaboration"
-  },
-  {
-    "name": "CertKit",
-    "description": "Manage SSL Certificate issuance, renewal, and monitoring. Search the Certificate Transparency Logs. Free for 3 certificates and 1 user after the beta.",
-    "url": "https://www.certkit.io/certificate-management",
-    "category": "Other"
-  },
-  {
-    "name": "CertObserver CT Search",
-    "description": "Find public SSL/TLS certificates recorded in Certificate Transparency logs. CT search is free but CT monitoring is not.",
-    "url": "https://certobserver.com/ct-search",
-    "category": "Other"
-  },
-  {
-    "name": "Churnkey",
-    "description": "Cancel flows (open-sourced), churn metrics, and revenue analytics for subscription businesses. Free forever.",
-    "url": "https://churnkey.co",
-    "category": "Payments"
-  },
-  {
-    "name": "Clever Cloud",
-    "description": "European PaaS with automated deployments, autoscaling, managed databases, and Git-based workflows. Includes €20 free credits at signup, a limited DEV plan with free MySQL and PostgreSQL databases, and free allowances for services like Heptapod and FS Buckets.",
-    "url": "https://clever.cloud",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "CloudCertPrep",
-    "description": "Free, open-source AWS certification practice exams with 1,050+ questions for CLF-C02. Features timed mock exams, domain practice, spaced repetition, and progress tracking.",
-    "url": "https://cloudcertprep.io",
-    "category": "Education"
-  },
-  {
-    "name": "CodedThemes",
-    "description": "Offers a well-crafted admin dashboard & and UI kits designed to simplify and speed up modern web development.",
-    "url": "https://codedthemes.com/",
-    "category": "Design"
-  },
-  {
-    "name": "CodeTrain",
-    "description": "AI coding tutor that teaches you on your own codebase and never writes the code for you. Free tier: 10 in-browser lessons/month, Python/JS run client-side, no card required.",
-    "url": "https://codetrain.ai",
-    "category": "Education"
-  },
-  {
-    "name": "Compare JSON",
-    "description": "An online tool for comparing differences between two JSON data structures, helping you quickly locate the differences in JSON data.",
-    "url": "https://comparejson.com",
-    "category": "Other"
-  },
-  {
-    "name": "Conduit",
-    "description": "Turn incoming emails into webhooks to trigger your API from emails. The service is completely free.",
-    "url": "https://conduit.email/",
-    "category": "Email Services"
-  },
-  {
-    "name": "Corgea",
-    "description": "Free autonomous security platform that finds, validates and fixes insecure code and packages across +20 languages and frameworks. Free plan includes 1 user and 2 repos.",
-    "url": "https://corgea.com/",
-    "category": "Other"
-  },
-  {
-    "name": "Daestro",
-    "description": "Run compute jobs across Cloud Providers & On-Prem. The free tier includes up to 10 concurrent job runs, 2 compute spawns, self-hosted compute, 1 cloud provider, 1 container registry and 1 cron job.",
-    "url": "https://daestro.com",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "degoo.com",
-    "description": "AI based cloud storage with free up to 20 GB, three devices, 5 GB referral bonus (90 days account inactivity).",
-    "url": "https://degoo.com/",
-    "category": "Other"
-  },
-  {
-    "name": "Dependabot",
-    "description": "Automated dependency updates for Ruby, JavaScript, Python, PHP, Elixir,",
-    "url": "https://dependabot.com/",
-    "category": "Other"
-  },
-  {
-    "name": "DevNet Academy",
-    "description": "Free, self-paced training for the Cisco DevNet Expert / CCIE Automation certification. Covers Python Click and Flask-RESTx.",
-    "url": "https://devnet-academy.com/",
-    "category": "Education"
-  },
-  {
-    "name": "DigitalPlat",
-    "description": "Free subdomains.",
-    "url": "https://domain.digitalplat.org",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "DNSHE",
-    "description": "Free subdomain registration across multiple domain suffixes, with custom nameserver support.",
-    "url": "https://www.dnshe.com/",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "DocBeacon",
-    "description": "Secure document sharing with document tracking and engagement Analytics. Free plan supports up to 20 PDF documents (10 MB max), 10 contacts, and 2 shares per document with basic analytics for views downloads, time and engagement.",
-    "url": "https://docbeacon.io",
-    "category": "Other"
-  },
-  {
-    "name": "DocPenny",
-    "description": "HTML to PDF document generation with templates, webhook delivery, and credit-based pricing. Free plan with 50 monthly credits, no credit card required.",
-    "url": "https://docpenny.com",
-    "category": "Other"
-  },
-  {
-    "name": "domcloud.co",
-    "description": "Linux hosting service that provides CI/CD with GitHub, SSH, and MariaDB/Postgres database. The free version has 1 GB storage and 1 GB network/month limit and is limited to a free domain.",
-    "url": "https://domcloud.co",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "Doqlo",
-    "description": "Bulk fill and mail merge PDF forms from CSV using the web app or Public API. The free plan includes 100 output PDFs/month.",
-    "url": "https://doqlo.com/",
-    "category": "Other"
-  },
-  {
-    "name": "drumbeats.io",
-    "description": "Cron, heartbeat, and uptime monitoring with incident management and status pages. Free for up to 50 monitors with 1-min interval and unlimited team seats.",
-    "url": "https://drumbeats.io/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "Earnings Feed",
-    "description": "Real-time SEC filings, insider trades, and institutional holdings API. Free tier includes 15 requests per minute.",
-    "url": "https://earningsfeed.com/api",
-    "category": "Other"
-  },
-  {
-    "name": "EmailGuard",
-    "description": "Block disposable emails, catch typos, and validate MX records via a simple API. 100 free requests/month.",
-    "url": "https://emailguard.lazrek.net/",
-    "category": "Email Services"
-  },
-  {
-    "name": "EmailJS",
-    "description": "This is not an entire email server; this is just an email client that you can use to send emails right from the client without exposing your credentials, the free tier has 200 monthly requests, 2 email templates, Requests up to 50Kb, Limited contacts history.",
-    "url": "https://www.emailjs.com/",
-    "category": "Email Services"
-  },
-  {
-    "name": "EmailQo Email Infrastructure Grader",
-    "description": "Free email infrastructure grader that checks SPF, DKIM, DMARC and mail server configuration. Scores any domain out of 100. No signup required.",
-    "url": "https://emailqo.com/email-grader",
-    "category": "Email Services"
-  },
-  {
-    "name": "Emitlo",
-    "description": "free 12,000 emails/month, Email API and SMTP, SPF/DKIM/DMARC support, No Credit Cards are required.",
-    "url": "https://emitlo.com",
-    "category": "Email Services"
-  },
-  {
-    "name": "ETLR",
-    "description": "Define, version, and deploy automation scripts using YAML. A developer-first alternative to drag-and-drop tools. Can be used for scheduled tasks, AI agents, and infrastructure monitoring. Free tier includes 100 credits/month.",
-    "url": "https://etlr.io",
-    "category": "Backend Services"
-  },
-  {
-    "name": "Exchange Rate API",
-    "description": "Real-time currency rates for 160+ currencies with 60-second updates and official SDKs. Free tier includes 300 requests/month.",
-    "url": "https://exchange-rateapi.com",
-    "category": "Payments"
-  },
-  {
-    "name": "Exercism",
-    "description": "Free, open-source programming education in over 75 programming languages, with human mentoring. A nonprofit organisation.",
-    "url": "https://exercism.org",
-    "category": "Education"
-  },
-  {
-    "name": "Expensify",
-    "description": "Expense reporting, free personal reporting approval workflow",
-    "url": "https://www.expensify.com/",
-    "category": "Other"
-  },
-  {
-    "name": "FileShot.io",
-    "description": "Zero-knowledge encrypted file sharing. AES-256-GCM browser-side encryption ensures files are encrypted in-browser before upload. No account required for sender or recipient. Self-hostable (MIT open-source). Free tier includes unlimited uploads with no file size restrictions.",
-    "url": "https://fileshot.io",
-    "category": "Other"
-  },
-  {
-    "name": "Firecrawl",
-    "description": "API that crawls websites and converts them into clean, LLM-ready markdown or structured data, handling JavaScript rendering, proxies, and rate limits. The free plan includes 1,000 credits per month with no credit card required.",
-    "url": "https://www.firecrawl.dev/",
-    "category": "Other"
-  },
-  {
-    "name": "Fizzy",
-    "description": "Kanban-based platform for project management and issue tracking. Create public boards, set up webhooks, use card stamping, and track unlimited users - free for up to 1000 items.",
-    "url": "https://www.fizzy.do/",
-    "category": "Collaboration"
-  },
-  {
-    "name": "FlareWarden",
-    "description": "Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.",
-    "url": "https://flarewarden.com",
-    "category": "Monitoring"
-  },
-  {
-    "name": "FluidForms",
-    "description": "Form builder and backend with AI-driven logic. Free plan includes 100 responses per month, unlimited forms (including AI-created forms), webhooks, and embedding.",
-    "url": "https://fluidforms.ai/",
-    "category": "Forms"
-  },
-  {
-    "name": "fonts.xz.style",
-    "description": "free and open source service for delivering font families to websites using CSS.",
-    "url": "https://fonts.xz.style/",
-    "category": "Design"
-  },
-  {
-    "name": "Fontsensei",
-    "description": "Opensourced Google fonts tagged by users. With CJK (Chinese,Japanese, Korean) font tags.",
-    "url": "https://fontsensei.com/",
-    "category": "Design"
-  },
-  {
-    "name": "Form Plume",
-    "description": "Form Plume is a form backend for HTML and JavaScript forms. One endpoint gets you spam filtering, email notifications, file uploads, webhooks, and a clean inbox. Free for 500 submissions/mo.",
-    "url": "https://formplume.com",
-    "category": "Forms"
-  },
-  {
-    "name": "Forminit",
-    "description": "Headless form backend for developers. The free plan allows 100 form submissions per month including file uploads, server-side field validation, email notifications, spam protection and Zapier.",
-    "url": "https://forminit.com/",
-    "category": "Forms"
-  },
-  {
-    "name": "FormNX",
-    "description": "Create unlimited forms get unlimited submissions free of cost. Use professionally created 1000+ form templates or create forms from scratch. Get features like email notifications, form logic, collect payments, file upload, custom thank you page, and many more.",
-    "url": "https://FormNX.com/",
-    "category": "Forms"
-  },
-  {
-    "name": "Formware.io",
-    "description": "Create fully-responsive and captivating forms in seconds, without knowing how to code, and collect unlimited responses for free!",
-    "url": "https://formware.io/",
-    "category": "Forms"
-  },
-  {
-    "name": "Full Stack Open",
-    "description": "Free university-level course on modern web development with React, Node.js, GraphQL, TypeScript, and more. Fully online and self-paced.",
-    "url": "https://fullstackopen.com/en/",
-    "category": "Education"
-  },
-  {
-    "name": "Future AGI",
-    "description": "Open-source platform to evaluate, observe, and improve LLM and AI agent apps, with tracing, evals, simulations, and guardrails. Free tier includes 50GB storage, 2K eval credits, 100K AI-gateway requests/month, 1M tokens of text agent simulation and 60 min of voice simulation, plus unlimited projects/seats and BYOK LLM-as-judge at $0 platform cost. #opensource",
-    "url": "https://futureagi.com",
-    "category": "AI & Machine Learning"
-  },
-  {
-    "name": "Gcore",
-    "description": "Global content delivery network, 1 TB and 1 million requests per month free and",
-    "url": "https://gcorelabs.com/",
-    "category": "CDN"
-  },
-  {
-    "name": "Geekflare API",
-    "description": "Geekflare API lets you scrape websites into Markdown, take screenshots, perform TLS scans and DNS lookups, test load times, and more. The free plan offers 500 API credits per month (e.g., 500 DNS lookups, 250 web scrapes, or 100 screenshots). See credit mapping.",
-    "url": "https://geekflare.com/api/",
-    "category": "Other"
-  },
-  {
-    "name": "Gizmo Analytics",
-    "description": "Simple analytics for people managing lots of sites. Install manually or let Claude/Cursor do it for you. Free for up to 10k events/month.",
-    "url": "https://gizmoanalytics.io/",
-    "category": "Other"
-  },
-  {
-    "name": "Glauca",
-    "description": "Free DNS hosting for up to 3 domains and DNSSEC support",
-    "url": "https://docs.glauca.digital/hexdns/",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "graphhopper.com",
-    "description": "A free developer package is offered for Routing, Route Optimization, Distance Matrix, Geocoding, and Map Matching.",
-    "url": "https://www.graphhopper.com/",
-    "category": "Analytics"
-  },
-  {
-    "name": "Helploom",
-    "description": "Customer support software that offers a live chat on the free forever plan. Simple, lightweight and beautiful. Setup is a simple copy-paste script. Built by a developer.",
-    "url": "https://helploom.com",
-    "category": "Productivity"
-  },
-  {
-    "name": "Hetzner",
-    "description": "Free DNS hosting from Hetzner with API support.",
-    "url": "https://www.hetzner.com/dns-console",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "HeyRetro",
-    "description": "Real-time sprint retrospective platform with voting, timers, surveys, guest collaboration, and ice-breaker games. The forever-free plan includes one board per month, anonymous surveys, and guest link sharing.",
-    "url": "https://heyretro.io/",
-    "category": "Productivity"
-  },
-  {
-    "name": "HimitsuShell",
-    "description": "A shell script DRM compiler that converts shell scripts into obfuscated binaries using an embedded shell interpreter and anti-debugging (alternative to shc). Free unlimited web edition.",
-    "url": "https://himitsushell.com",
-    "category": "Other"
-  },
-  {
-    "name": "HitKeep",
-    "description": "Privacy-focused, open-source web and product analytics platform with a free cloud plan for 3 websites, 3 team members, 60-day data retention, AI analytics, goals, funnels, events, and hits.",
-    "url": "https://hitkeep.com/",
-    "category": "Other"
-  },
-  {
-    "name": "HS Ping",
-    "description": "A multi-country HS (Harmonized System) and HTS (Harmonized Tariff System) code lookup API, with a free plan offering 100 lookups/day.",
-    "url": "https://hsping.com",
-    "category": "Other"
-  },
-  {
-    "name": "huaweicloud.com",
-    "description": "Free DNS hosting by Huawei",
-    "url": "https://www.huaweicloud.com/intl/en-us/product/dns.html",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "ImageEngine",
-    "description": "ImageEngine is an easy to use global image CDN. Sub 60 sec setup. AVIF and JPEGXL support, WordPress-, Magento-, React-, Vue- plugins and more. Claim your free developer account here.",
-    "url": "https://imageengine.io/",
-    "category": "Other"
-  },
-  {
-    "name": "imagekit.io",
-    "description": "Image CDN with automatic optimization, real-time transformation, and storage that you can integrate with existing setup in minutes. The free plan includes up to 20GB of bandwidth per month.",
-    "url": "https://imagekit.io",
-    "category": "Other"
-  },
-  {
-    "name": "ImprovMX",
-    "description": "Free email forwarding.",
-    "url": "https://improvmx.com",
-    "category": "Email Services"
-  },
-  {
-    "name": "Interactive CV",
-    "description": "AI-powered resume builder with real-time editing and ATS optimization. Free tier includes automatic CV conversion to premium templates (Harvard, Europass), PDF export, job tracker with unlimited job posting insights and CV sharing with chat/voice features.",
-    "url": "https://interactive-cv.com",
-    "category": "Education"
-  },
-  {
-    "name": "internxt.com",
-    "description": "Internxt Drive is a zero-knowledge file storage service based on absolute privacy and uncompromising security. Sign up and get 10 GB for free, forever!",
-    "url": "https://internxt.com",
-    "category": "Other"
-  },
-  {
-    "name": "IntoDNS.ai",
-    "description": "DNS and email security analyzer that checks SPF, DKIM, DMARC, DNSSEC, BIMI, MTA-STS, and 40+ blacklists with AI-powered explanations and fix suggestions. 100% free, no signup required.",
-    "url": "https://intodns.ai",
-    "category": "Other"
-  },
-  {
-    "name": "IP Geolocation API by ipwho.org",
-    "description": "2,000 free requests per day. Fast, enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government and education clients. Servers in 12+ regions.",
-    "url": "https://ipwho.org/",
-    "category": "Other"
-  },
-  {
-    "name": "ip2geo.dev",
-    "description": "IP geolocation API to convert IP addresses into location data including city, country, timezone, ASN, and currency. The free plan includes 1,000 requests per month.",
-    "url": "https://ip2geo.dev",
-    "category": "Other"
-  },
-  {
-    "name": "isitdownstatus.com",
-    "description": "Free public JSON API returning real-time status for 500+ popular services (GitHub, Stripe, AWS, etc.). No auth required, CORS enabled.",
-    "url": "https://isitdownstatus.com",
-    "category": "Monitoring"
-  },
-  {
-    "name": "isroot.in",
-    "description": "Free isroot.in subdomains.",
-    "url": "https://isroot.in",
-    "category": "Domains & DNS"
-  },
-  {
-    "name": "Jotform.com",
-    "description": "Create online forms for free, collect submissions, accept payments, automate workflows, and get documents signed with built-in e-signatures. Free plan includes 5 forms, 100 monthly submissions, 10 e-sign documents, 10 payment submissions, and more.",
-    "url": "https://jotform.com/",
-    "category": "Forms"
-  },
-  {
-    "name": "JSONPlaceholder",
-    "description": "Some REST API endpoints that return some fake data in JSON format. The source code is also available if you would like to run the server locally.",
-    "url": "https://jsonplaceholder.typicode.com/",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "JustBlogged",
-    "description": "Free blogging platform with custom domain support, and fast global performance.",
-    "url": "https://justblogged.com",
-    "category": "Content"
-  },
-  {
-    "name": "KaiMail",
-    "description": "Email forwarding for custom domains with ARC/DKIM signing. Free plan includes 1 domain, 1 mailbox, 300 emails/month, and up to 1MB message size. Email receiving webhook also available. Special plans for open-source projects.",
-    "url": "https://kaimail.net",
-    "category": "Email Services"
-  },
-  {
-    "name": "Karbon Sites",
-    "description": "An AI-powered site builder and editor that generates production-ready frontend code from text prompts, sketches, or resumes. Features include native Android (APK) export and a free tier with 5 generations per month (unlimited via custom Gemini API key).",
-    "url": "https://www.karbonsites.space",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "KillBait API",
-    "description": "KillBait API allows users to submit URLs for content evaluation, detecting potential clickbait and categorizing articles. The API is designed for moderate publishing frequency, with limits of 1 submission per hour and 10 per day. Media partners can request higher limits.",
-    "url": "https://killbait.com/api/doc",
-    "category": "Other"
-  },
-  {
-    "name": "knock.app",
-    "description": "Notifications infrastructure for developers. Send to multiple channels like in-app, email, SMS, Slack, and push with a single API call. The free plan includes 10,000 messages/mo.",
-    "url": "https://knock.app",
-    "category": "Communication"
-  },
-  {
-    "name": "Knocket",
-    "description": "Free-forever contact layer for indie developers and small teams: live chat widget for websites and mobile apps (iOS/Android/Flutter/React Native via WebView), a shareable contact page (Linktree-style with socials, booking links, and blog), and a unified Telegram/email inbox. Reply from Telegram directly (no dashboard needed). Meeting scheduler, multi-language, light/dark themes. Companion open-source AI auto-reply agent. No ads, no seat limits.",
-    "url": "https://trtc.io/solutions/knocket",
-    "category": "Collaboration"
-  },
-  {
-    "name": "kogiQA",
-    "description": "A web UI automation tool that functions without the need for selectors. Every developer gets 500 actions per month for free.",
-    "url": "https://kogiqa.com",
-    "category": "Testing"
-  },
-  {
-    "name": "Lastest",
-    "description": "Ship fast. Don't break things. AI-supported visual verification and tests you can actually trust. Free forever plan: 1 project, 500 runner-minutes/mo, 1 concurrent run, no credit card.",
-    "url": "https://lastest.cloud",
-    "category": "Testing"
-  },
-  {
-    "name": "Latitude",
-    "description": "Open-source (MIT) LLM observability and evaluation platform to trace, monitor, and evaluate AI agents in production. Free Starter plan includes 20K credits/month, 30-day data retention, and unlimited seats. #opensource",
-    "url": "https://latitude.so",
-    "category": "AI & Machine Learning"
-  },
-  {
-    "name": "LatLng",
-    "description": "Geocoding, reverse geocoding, places, static maps, and vector map tiles APIs. Free tier includes 3,000 geocoding requests/day, 300 reverse geocoding requests/day, and 100 static map images/day.",
-    "url": "https://www.latlng.work",
-    "category": "Analytics"
-  },
-  {
-    "name": "Lingo.dev",
-    "description": "Open-source AI-powered CLI for web & mobile localization. Bring your own LLM, or use 10,000 free words every month via Lingo.dev-managed localization engine.",
-    "url": "https://lingo.dev",
-    "category": "Productivity"
-  },
-  {
-    "name": "Localhero.ai",
-    "description": "Automatic on-brand translations on every pull request, with glossary and translation memory. Free for 1 project, 250 translation credits/month (~4,000 words).",
-    "url": "https://localhero.ai",
-    "category": "Productivity"
-  },
-  {
-    "name": "Localit",
-    "description": "Fast, developer-friendly localization platform with seamless and free GitHub/GitLab integration, AI-assisted and manual translations, and a generous free plan (includes 2 users, 500 keys, and unlimited projects).",
-    "url": "https://localit.io",
-    "category": "Productivity"
-  },
-  {
-    "name": "localtonet",
-    "description": "Multi-protocol tunneling for HTTP, TLS, TCP, UDP, File Server (Default, SFTP, WebDAV), and Proxy Tunnel (HTTP, SOCKS5, Shadowsocks, VLESS). Free plan: 1 tunnel, 1GB/month bandwidth, 30 min timeout (excl. HTTP Tunnels).",
-    "url": "https://localtonet.com/",
-    "category": "Infrastructure"
-  },
-  {
-    "name": "Lumenfall.ai",
-    "description": "AI media gateway providing unified access to leading image generation models via an OpenAI-compatible API. The platform itself is free to use with zero markup and no subscription fee. Inference costs for most models are billed at provider price, but FLUX.1 [schnell] FP8 is offered free forever with unlimited usage for registered users. Built-in failover and provider resilience included.",
-    "url": "https://lumenfall.ai/",
-    "category": "AI & Machine Learning"
-  },
-  {
-    "name": "MantleDB",
-    "description": "Anonymous JSON storage for scripts and tiny apps. No signup required; uses Master AID for updates and Read-Only RID for public fetching. Free tier includes 1 bucket (1MB limit) with a 72h inactivity scavenger policy.",
-    "url": "https://mantledb.sh",
-    "category": "Other"
-  },
-  {
-    "name": "MarionetteOps.com",
-    "description": "Server monitoring, public status pages, and service uptime monitoring.",
-    "url": "https://www.marionetteops.com/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "Maxim",
-    "description": "An LLM evaluation and observability platform with agent simulation and prompt playground. Free tier offers 10k monthly logs, access to prompt playground, simulations and evaluations via BYOK.",
-    "url": "https://www.getmaxim.ai",
-    "category": "AI & Machine Learning"
-  },
-  {
-    "name": "MConverter",
-    "description": "Convert files in bulk. Supports many formats, including AVIF and JXL. Extract image frames from videos. Compress PDFs. Free for 15 files per 24h, up to 100 MB each, processed in batches of eight.",
-    "url": "https://mconverter.eu/",
-    "category": "Other"
-  },
-  {
-    "name": "MeetBackdrops",
-    "description": "Free HD virtual backgrounds for video calls on Zoom, Microsoft Teams, and Google Meet. 1,000+ studio-designed environments with no signup required.",
-    "url": "https://meetbackdrops.com",
-    "category": "Collaboration"
-  },
-  {
-    "name": "Metashot",
-    "description": "Open Graph (OG) social preview image generation API. Generate dynamic 1200×630 images for Twitter, LinkedIn and Facebook via URL params, edge-cached on Cloudflare Workers. Free tier: 1,000 renders/month. Paid plans from $12/month.",
-    "url": "https://metashot.io",
-    "category": "Other"
-  },
-  {
-    "name": "microlink.io",
-    "description": "It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities, or screenshots as a service. 50 requests per day, every day free.",
-    "url": "https://microlink.io/",
-    "category": "Other"
-  },
-  {
-    "name": "Mirin",
-    "description": "Website platform for developer-built React, Vue, or Svelte component sites with visual editing, forms, analytics, and global CDN hosting. Free tier includes 1 site with unlimited pages and submissions.",
-    "url": "https://mirin.com",
-    "category": "Hosting"
-  },
-  {
-    "name": "Mockerito",
-    "description": "Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.",
-    "url": "https://mockerito.com/",
-    "category": "Other"
-  },
-  {
-    "name": "Modal",
-    "description": "AI-driven IaaS with generous compute, storage; offers $30 (might be limited to $5 on certain accounts) of free monthly credits",
-    "url": "https://modal.com",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "Mutant Mail",
-    "description": "Free 10 Email IDs, 1 Domain, 1 Mailbox. Single Mailbox for All Email IDs.",
-    "url": "https://www.mutantmail.com/",
-    "category": "Email Services"
-  },
-  {
-    "name": "OnlineGDB",
-    "description": "A free online ide thats supports 40+ languages and is pre installed with tons of libraries; and also has a debugging option, flags, tutorials, and a QNA page!",
-    "url": "https://onlinegdb.com",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "Orbisearch",
-    "description": "Free bulk email validator, 100 validations per day, no signup required.",
-    "url": "https://orbisearch.com",
-    "category": "Email Services"
-  },
-  {
-    "name": "Otterwatch",
-    "description": "Daily SSL/TLS certificate monitoring: expiry alerts (30/7/1 day), chain and OCSP revocation checks, and certificate transparency issuance history. Free forever for 5 domains, no credit card.",
-    "url": "https://otterwatch.dev/",
-    "category": "Other"
-  },
-  {
-    "name": "Ownkube",
-    "description": "Free single-node k3s in your own AWS account, run apps, databases, workers with a git push. Use your AWS credits at peak efficiency.",
-    "url": "https://ownkube.io",
-    "category": "Cloud Computing"
-  },
-  {
-    "name": "ParityVend",
-    "description": "Automatically adjust pricing based on visitor location to expand your business globally and reach new markets (purchasing power parity). The free plan includes 7,500 API requests/month.",
-    "url": "https://www.ambeteco.com/ParityVend/",
-    "category": "Payments"
-  },
-  {
-    "name": "Pingram.io",
-    "description": "Communication infrastructure in 5 minutes. Free tier includes: 100 SMS and calls, 3000 Emails, Push, Slack, MS Teams, WhatsApp, and more.",
-    "url": "https://www.pingram.io/",
-    "category": "Communication"
-  },
-  {
-    "name": "Posthook",
-    "description": "Schedule webhooks to fire at a future time with automatic retries, delivery tracking, and failure alerting. Free plan includes 1,000 webhooks per month.",
-    "url": "https://posthook.io",
-    "category": "Other"
-  },
-  {
-    "name": "Prismix",
-    "description": "Free REST API (GET /api/v1/statuses) returning real-time operational status for 75+ AI services including OpenAI, Anthropic, Gemini, Mistral, and more. No authentication required. [Free tier available with Pro at $10/month]",
-    "url": "https://prismix.dev",
-    "category": "Monitoring"
-  },
-  {
-    "name": "Proton Drive",
-    "description": "Ultra-secure cloud storage for files and key documents. Free plan offers 5gb of storage space.",
-    "url": "https://proton.me/drive",
-    "category": "Other"
-  },
-  {
-    "name": "Proxmint GeoIP",
-    "description": "Free IP → country/city/ASN JSON API, no key, CORS-open. MaxMind GeoLite2.",
-    "url": "https://proxmint.com/tools/ip-lookup",
-    "category": "Other"
-  },
-  {
-    "name": "pterocos",
-    "description": "a free opensource browser-based coding environment for front-end developers. write html, css and js with a vs code-grade editor (monaco), live preview, scss/typeScript/babel support, and an ai chat assistant for debugging and suggestions. all projects save to local storage. free forever – no account needed.",
-    "url": "https://pterocos.eu.org",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "Qdrant",
-    "description": "Vector Database for embedding data, single node cluster with 0.5 vCPU, 1GB RAM, and 4GB disk.",
-    "url": "https://qdrant.tech/",
-    "category": "Database"
-  },
-  {
-    "name": "QRtracer",
-    "description": "Free QR code generator with built-in scan analytics, bulk generation & brand customisation, focused on reliability without any ads.",
-    "url": "https://qrtracer.io",
-    "category": "Other"
-  },
-  {
-    "name": "Reactive Resume",
-    "description": "Free, open-source resume builder with dozens of templates. Exports to PDF, DOCX and also provides a publicly shareable link to the resume (opt-in).",
-    "url": "https://rxresu.me",
-    "category": "Education"
-  },
-  {
-    "name": "RedirHub",
-    "description": "API-first URL redirect infrastructure with custom nameservers, edge network, HTTPS, and proactive link monitoring. Free plan includes 2 hostnames, 100K requests per month, auto-SSL, path forwarding, and REST API access.",
-    "url": "https://www.redirhub.com/",
-    "category": "Other"
-  },
-  {
-    "name": "redirs.com",
-    "description": "Easy domain redirects with auto-SSL, analytics, and URL path forwarding. Free for basic use (up to 5 domains).",
-    "url": "https://www.redirs.com/",
-    "category": "Other"
-  },
-  {
-    "name": "Repeato",
-    "description": "No-code mobile app test automation tool built on top of computer vision and AI.",
-    "url": "https://repeato.app/",
-    "category": "Testing"
-  },
-  {
-    "name": "Requestly",
-    "description": "Open-source Chrome Extension to Intercept, Redirect and Mock HTTP Requests.",
-    "url": "https://requestly.com/",
-    "category": "Testing"
-  },
-  {
-    "name": "Revdoku",
-    "description": "Publish files, reports, custom microsites right from ChatGPT, Claude, Codex and other AI agents as public or password-protected websites. Free tier: 2GB storage, 2 live sites/apps, 1 database (25 MB), 3 AI connections, 1k files/bucket (100 MB/file), basic analytics.",
-    "url": "https://revdoku.com/",
-    "category": "Hosting"
-  },
-  {
-    "name": "RightFeature",
-    "description": "Easily collect feedback from your customers, turn customer feedback into your product roadmap. Collect, prioritize, and ship features that actually matter to your users.",
-    "url": "https://rightfeature.com/",
-    "category": "Collaboration"
-  },
-  {
-    "name": "Rivestack",
-    "description": "Managed PostgreSQL with pgvector optimized for AI workloads. The free tier includes 2GB storage, daily snapshots, 14-day point-in-time recovery, and a built-in SQL editor that converts search queries to vector embeddings.",
-    "url": "https://rivestack.io",
-    "category": "Database"
-  },
-  {
-    "name": "Rollgate",
-    "description": "EU-hosted feature flag management with scheduled releases, instant rollback, and A/B testing. 12 SDKs included. Free plan up to 500K API requests/month, unlimited flags, 3 team members, no credit card required.",
-    "url": "https://rollgate.io",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "Runframe",
-    "description": "On-call alerting, incident management, and public/private status pages. The free plan includes up to 5 users, 1 team, 1 on-call schedule, basic status pages, incident lifecycle, and Slack-native incident response.",
-    "url": "https://runframe.io/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "RunMat",
-    "description": "GPU-accelerated numerical computing IDE in the browser. Write and run MATLAB-syntax .m files with automatic GPU acceleration via WebAssembly and WebGPU. No install, no account, no license fees. Open source runtime with CLI, NPM package, and Jupyter kernel support.",
-    "url": "https://runmat.com/sandbox",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "RunMyJob",
-    "description": "Run GitHub Actions and GitLab CI pipelines smarter with real-time scaling Spike Instances. Free tier includes 400 vCPU-minutes, 800 GB-minutes, and 10 concurrent jobs with high-performance runners (12 vCPU and 32 GB RAM per job).",
-    "url": "https://runmyjob.io",
-    "category": "CI/CD"
-  },
-  {
-    "name": "Scalekit",
-    "description": "Enterprise SSO (SAML, OIDC), SCIM provisioning, and social logins for B2B SaaS. Free tier includes 1 million MAU, 100 organizations, 1 SSO connection, and 1 SCIM connection.",
-    "url": "https://scalekit.com",
-    "category": "Other"
-  },
-  {
-    "name": "Screenshot Scout",
-    "description": "Screenshot API for developers. Clean, production-ready screenshots from any URL in one request. Free plan includes 200 screenshots per month, forever.",
-    "url": "https://screenshotscout.com/",
-    "category": "API Tools"
-  },
-  {
-    "name": "SendBridge Mail Tester",
-    "description": "Free email deliverability test with no signup. Generates a unique inbox address, then analyzes SPF, DKIM, DMARC, Rspamd spam score, 23+ RBL blacklists, reverse DNS, and content quality. Unlimited tests, results in seconds, shareable report pages.",
-    "url": "https://sendbridge.com/mail-tester",
-    "category": "Email Services"
-  },
-  {
-    "name": "Sender",
-    "description": "Up to 15,000 emails/month, up to 2,500 subscribers",
-    "url": "https://www.sender.net",
-    "category": "Email Services"
-  },
-  {
-    "name": "SendStreak",
-    "description": "Email framework as a service, that adds templates, automations, history, etc to your own SMTP server (E.g. AWS, Maileroo, Gmail). Free up to 100 emails/day, no time limit.",
-    "url": "https://www.sendstreak.com/",
-    "category": "Email Services"
-  },
-  {
-    "name": "SikkerAPI",
-    "description": "Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.",
-    "url": "https://sikkerapi.com",
-    "category": "Other"
-  },
-  {
-    "name": "SikkerKey",
-    "description": "Machine authenticated secrets manager, includes 2 projects, 2 bootstrapped machines, 20 secrets and 7 days audit log retention for free.",
-    "url": "https://sikkerkey.com",
-    "category": "Other"
-  },
-  {
-    "name": "SimpleLogin",
-    "description": "Open source, self-hostable email alias/forwarding solution. Free 10 Aliases, unlimited bandwidth, unlimited reply/send. Free for educational staff (student, researcher, etc.).",
-    "url": "https://simplelogin.io/",
-    "category": "Email Services"
-  },
-  {
-    "name": "SlingSite",
-    "description": "Create all the optimized versions of your images and videos. For Free. In bulk. For each image, you get the following formats: AVIF, WEBP and JPG in the three selected resolutions (desktop, tablet, mobile) For videos, you get: WebM (codec VP9), MP4 (codec HEVC aka H.265) and MP4 (codec AVC aka H.264) plus the cover image with the first frame.",
-    "url": "https://slingsite.github.io",
-    "category": "Other"
-  },
-  {
-    "name": "Smart Grow Logs",
-    "description": "Centralized log management platform with end-to-end encryption, real-time alerts, and multi-platform SDKs. Free tier includes up to 3.000 logs per day.",
-    "url": "https://logs.smart-grow.app/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "Smart Grow Vault",
-    "description": "Secure Enterprise-grade platform for managing environment variables and secrets. Free tier includes up to 3 applications and 150 secrets per project.",
-    "url": "https://vault.smart-grow.app/",
-    "category": "Other"
-  },
-  {
-    "name": "SnapAPI",
-    "description": "Screenshot, video recording, PDF generation, and web data extraction API. Free plan includes 200 screenshots/month.",
-    "url": "https://snapapi.pics",
-    "category": "API Tools"
-  },
-  {
-    "name": "supaguard.app",
-    "description": "Synthetic monitoring from 20+ global regions. The free tier includes 1,000 browser checks/mo with AI-driven self-healing and automated test generation.",
-    "url": "https://supaguard.app/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "superlog.sh",
-    "description": "Open-source OpenTelemetry observability (traces, logs, and metrics) with AI-agent incident investigation. The free tier includes 1M spans, 5M logs, and 10M metric points per month with 30-day retention, no credit card required. Fully open-source and self-hostable.",
-    "url": "https://superlog.sh/",
-    "category": "Monitoring"
-  },
-  {
-    "name": "SYNCDATE",
-    "description": "Two-way Google Calendar sync. Free tier: 2 accounts, unlimited events.",
-    "url": "https://syncdate.app",
-    "category": "Other"
-  },
-  {
-    "name": "TemplateFox",
-    "description": "PDF generation API with a visual template editor, dynamic data merging, and SDKs for 7 languages. Free plan includes 60 PDFs/month and 3 templates.",
-    "url": "https://pdftemplateapi.com",
-    "category": "Other"
-  },
-  {
-    "name": "thumbnail.ws",
-    "description": "API for generating thumbnails of websites. Free 1,000 requests/month.",
-    "url": "https://thumbnail.ws",
-    "category": "API Tools"
-  },
-  {
-    "name": "TraceLog",
-    "description": "AI Analytics for E-commerce. Ask questions in natural language about your analytics, get actionable recommendations and grow your revenue with AI-powered insights. Free for up to 10k events per month.",
-    "url": "https://tracelog.io/",
-    "category": "Other"
-  },
-  {
-    "name": "Transcript LOL",
-    "description": "Converts audio or video to text using AI. Generates summaries and other insights using LLMs. The free tier includes 2 transcriptions per day. You can upload files, record voice notes, or use links from YouTube, Instagram etc. The free version also supports WhatsApp, Telegram and importing files directly from cloud storages - Google Drive, Dropbox, Box and OneDrive. No API key needed. Sign up and ready to use. Also has apps for mobiles, desktops and chromebooks.",
-    "url": "https://transcript.lol/",
-    "category": "AI & Machine Learning"
-  },
-  {
-    "name": "Trophy",
-    "description": "API infrastructure for building gamification features like achievements, streaks, points and leaderboards in web and mobile apps. Free for 100 monthly active users.",
-    "url": "https://trophy.so",
-    "category": "Other"
-  },
-  {
-    "name": "UniRateAPI",
-    "description": "Real-time exchange rates for 590+ currencies and crypto. Unlimited API calls on the free plan, perfect for developers and finance apps.",
-    "url": "https://unirateapi.com",
-    "category": "Other"
-  },
-  {
-    "name": "VaocherApp QR Code Generator",
-    "description": "Easily create custom QR codes for gift cards, gift vouchers, and promotions. Support custom styling, color, logo...",
-    "url": "https://www.vaocherapp.com/qr-code-generator",
-    "category": "Other"
-  },
-  {
-    "name": "vask",
-    "description": "Realtime messaging service, Pusher-compatible. Dev tier is limited to local development only and free with 100 concurrent connections, 1,000,000 broadcasts/month, unlimited client events, 32kb message size.",
-    "url": "https://vask.dev",
-    "category": "Communication"
-  },
-  {
-    "name": "vatnode",
-    "description": "EU VAT number validation REST API with VIES and national tax-registry fallback, returning the official VIES consultation number for audit records. Free tier of 100 validations/month, no credit card.",
-    "url": "https://vatnode.dev",
-    "category": "Other"
-  },
-  {
-    "name": "Visual Studio Code",
-    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications. Developed by Microsoft.",
-    "url": "https://code.visualstudio.com/",
-    "category": "Developer Tools"
-  },
-  {
-    "name": "Waitlio",
-    "description": "Waitlist management software for product launches. Create branded waitlist pages, collect and verify email subscribers, manage signups with tags and analytics. Free plan includes 100 subscribers/month, 1 waitlist, and API access.",
-    "url": "https://waitlio.com/",
-    "category": "Email Services"
-  },
-  {
-    "name": "What Is My IP",
-    "description": "A free service to check your public IPv4 and IPv6 address and related request data through an API with different output formats for automation, scripts, and network troubleshooting.",
-    "url": "https://whatismyip.help",
-    "category": "Other"
-  },
-  {
-    "name": "Whitespace",
-    "description": "One-click bug reports straight in your browser. Free plan with unlimited recordings for personal use.",
-    "url": "https://whitespace.dev",
-    "category": "Monitoring"
-  },
-  {
-    "name": "Wraps",
-    "description": "email automation workflows, 5k tracked events and unlimited contacts free.",
-    "url": "https://wraps.dev",
-    "category": "Email Services"
-  },
-  {
-    "name": "Zeitio",
-    "description": "Time tracking and invoicing for freelancers and small teams. Free plan includes 1 user, 3 active projects and 3 invoices per month.",
-    "url": "https://zeitio.com/",
-    "category": "Collaboration"
-  },
-  {
-    "name": "Zip-Codes",
-    "description": "REST API for US and Canadian postal codes with address validation, radius search, and Census demographics. 2,500 free requests/day.",
-    "url": "https://www.zip-codes.com/api/",
     "category": "Other"
   }
 ]
