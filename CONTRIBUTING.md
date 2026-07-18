@@ -1,6 +1,6 @@
 # Contributing to NoCost
 
-This repository is the public database behind NoCost.dev. If you want to add or fix a tool listing, this is the only repo you need.
+This repository is the database behind NoCost.dev. If you want to add or fix a tool listing, this is the only repo you need.
 
 ## Before you open a PR
 
@@ -120,7 +120,7 @@ If you are removing a tool, mention why in the PR description, for example:
 
 ## How the site updates
 
-After your PR is merged into `Darkmintis/NoCost`, GitHub Actions notifies the private `Darkmintis/NoCost.dev` site repo, which syncs the latest `tools.json` and deploys the update.
+After your PR is merged into `Darkmintis/NoCost`, the site automatically syncs the latest `tools.json` and deploys the update.
 
 ## Help
 

@@ -2,7 +2,7 @@
 
 Open source database of free developer tools used by https://nocost-dev.vercel.app.
 
-This is the public community repo. Contributors only need this repository to add, update, or remove tools. The private site repository `Darkmintis/NoCost.dev` pulls `tools.json` from here automatically after changes are merged.
+Contributors only need this repository to add, update, or remove tools. Changes merged here are automatically synced to the site.
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -13,7 +13,7 @@ This is the public community repo. Contributors only need this repository to add
 - `scripts/validate.js`: validates the dataset
 - `scripts/search.js`: helps contributors find duplicates before opening a PR
 - `scripts/remove.js`: removes tools that are no longer free or should be delisted
-- `.github/workflows`: validates changes and triggers the private site sync after merges
+- `.github/workflows`: validates changes and triggers site sync after merges
 
 ## Quick contribution flow
 
