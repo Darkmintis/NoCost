@@ -1597,7 +1597,7 @@
   },
   {
     "name": "cocalc.com",
-    "description": "(formerly SageMathCloud at cloud.sagemath.com) — Collaborative calculation in the cloud. Browser access to full Ubuntu with built-in collaboration and lots of free software for mathematics, science, data science, preinstalled: Python, LaTeX, Jupyter Notebooks, SageMath, scikitlearn, etc.",
+    "description": "(formerly SageMathCloud at cloud.sagemath.com) - Collaborative calculation in the cloud. Browser access to full Ubuntu with built-in collaboration and lots of free software for mathematics, science, data science, preinstalled: Python, LaTeX, Jupyter Notebooks, SageMath, scikitlearn, etc.",
     "url": "https://cocalc.com/",
     "category": "Developer Tools"
   },
@@ -2659,7 +2659,7 @@
   },
   {
     "name": "Doradrop",
-    "description": "Doradrop is a file-sharing platform with unlimited storage and zero ads. Share files instantly through secure — no login needed.",
+    "description": "Doradrop is a file-sharing platform with unlimited storage and zero ads. Share files instantly through secure - no login needed.",
     "url": "https://doradrop.com/",
     "category": "Storage"
   },
@@ -3205,7 +3205,7 @@
   },
   {
     "name": "fivenines.io",
-    "description": "Linux server monitoring with real‑time dashboards and alerting — free forever for up to 5 monitored servers at 60-seconds interval. No credit card required.",
+    "description": "Linux server monitoring with real‑time dashboards and alerting - free forever for up to 5 monitored servers at 60-seconds interval. No credit card required.",
     "url": "https://fivenines.io/",
     "category": "Monitoring"
   },
@@ -3355,7 +3355,7 @@
   },
   {
     "name": "Formester.com",
-    "description": "Share and embed unique-looking forms on your website—no limits on the number of forms created or features restricted by the plan. Get up to 100 submissions every month for free.",
+    "description": "Share and embed unique-looking forms on your website-no limits on the number of forms created or features restricted by the plan. Get up to 100 submissions every month for free.",
     "url": "https://formester.com/",
     "category": "Productivity"
   },
@@ -3445,7 +3445,7 @@
   },
   {
     "name": "framer.com",
-    "description": "Framer helps you iterate and animate interface ideas for your next app, website, or product—starting with powerful layouts. For anyone validating Framer as a professional prototyping tool: unlimited viewers, up to 2 editors, and up to 3 projects.",
+    "description": "Framer helps you iterate and animate interface ideas for your next app, website, or product-starting with powerful layouts. For anyone validating Framer as a professional prototyping tool: unlimited viewers, up to 2 editors, and up to 3 projects.",
     "url": "https://www.framer.com/",
     "category": "Design"
   },
@@ -3769,7 +3769,7 @@
   },
   {
     "name": "GitBook",
-    "description": "Platform for capturing and documenting technical knowledge — from product docs to internal knowledge bases and APIs. Free plan for individual developers.",
+    "description": "Platform for capturing and documenting technical knowledge - from product docs to internal knowledge bases and APIs. Free plan for individual developers.",
     "url": "https://www.gitbook.com/",
     "category": "Productivity"
   },
@@ -3810,7 +3810,7 @@
     "category": "Education"
   },
   {
-    "name": "github.com — FOSS for Dev",
+    "name": "github.com - FOSS for Dev",
     "description": "A hub of free and Open Source software for developers.",
     "url": "https://github.com/tvvocold/FOSS-for-Dev/",
     "category": "Other"
@@ -4813,7 +4813,7 @@
   },
   {
     "name": "kan.bn",
-    "description": "A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. Free plan up to 1 user for unlimited boards, unlimited lists, unlimited cards.",
+    "description": "A powerful, flexible kanban app that helps you organise work, track progress, and deliver results-all in one place. Free plan up to 1 user for unlimited boards, unlimited lists, unlimited cards.",
     "url": "https://kan.bn/",
     "category": "Productivity"
   },
@@ -5713,7 +5713,7 @@
   },
   {
     "name": "Mergify",
-    "description": "workflow automation and merge queue for GitHub — Free for public GitHub repositories",
+    "description": "workflow automation and merge queue for GitHub - Free for public GitHub repositories",
     "url": "https://mergify.com/",
     "category": "CI/CD"
   },
@@ -5881,7 +5881,7 @@
   },
   {
     "name": "Mock N Roll",
-    "description": "Free Mocks API Service—a powerful tool to simulate real API responses without backend delays. Perfect for frontend devs, QA testers, and DevOps teams..",
+    "description": "Free Mocks API Service-a powerful tool to simulate real API responses without backend delays. Perfect for frontend devs, QA testers, and DevOps teams..",
     "url": "https://mocknroll.me/",
     "category": "Other"
   },
@@ -9643,7 +9643,7 @@
   },
   {
     "name": "UptimeObserver.com",
-    "description": "Get 20 uptime monitors with 5-minute intervals and a customizable status page—even for commercial use. Enjoy unlimited, real-time notifications via email and Telegram. No credit card needed to get started.",
+    "description": "Get 20 uptime monitors with 5-minute intervals and a customizable status page-even for commercial use. Enjoy unlimited, real-time notifications via email and Telegram. No credit card needed to get started.",
     "url": "https://uptimeobserver.com/",
     "category": "Monitoring"
   },
@@ -10207,7 +10207,7 @@
   },
   {
     "name": "Workers",
-    "description": "Deploy serverless code for free on Cloudflare's global network—100k daily requests.",
+    "description": "Deploy serverless code for free on Cloudflare's global network-100k daily requests.",
     "url": "https://developers.cloudflare.com/workers/",
     "category": "Cloud"
   },
@@ -10237,7 +10237,7 @@
   },
   {
     "name": "WPJack",
-    "description": "Set up WordPress on any cloud in less than 5 minutes! The free tier includes 1 server, 2 sites, free SSL certificates, and unlimited cron jobs. No time limits or expirations—your website, your way.",
+    "description": "Set up WordPress on any cloud in less than 5 minutes! The free tier includes 1 server, 2 sites, free SSL certificates, and unlimited cron jobs. No time limits or expirations-your website, your way.",
     "url": "https://wpjack.com/",
     "category": "CMS"
   },
