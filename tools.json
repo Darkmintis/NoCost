@@ -1758,12 +1758,6 @@
     "category": "Developer Tools"
   },
   {
-    "name": "code.visualstudio.com",
-    "description": "Build and debug modern web and cloud applications. Code is free, Open Source and available on your favorite platform, Linux, Mac OSX and Windows",
-    "url": "https://code.visualstudio.com/",
-    "category": "Development"
-  },
-  {
     "name": "Codeac.io",
     "description": "Automated Infrastructure as Code review tool for DevOps integrates with GitHub, Bitbucket, and GitLab (even self-hosted). In addition to standard languages, it also analyzes Ansible, Terraform, CloudFormation, Kubernetes, and more.",
     "url": "https://www.codeac.io/infrastructure-as-code.html?ref=free-for-dev/",
