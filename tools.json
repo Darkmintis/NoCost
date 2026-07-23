@@ -134,7 +134,7 @@
   {
     "name": "acunote.com",
     "description": "Free project management and SCRUM software for up to 5 team members",
-    "url": "http://acunote.com/",
+    "url": "https://acunote.com/",
     "category": "Productivity"
   },
   {
@@ -350,13 +350,13 @@
   {
     "name": "apigee.com",
     "description": "Unlimited trial includes NoSQL data store with 25 GB of storage, user and permission management, geolocation, 10 million push notifications/month, remote configuration, beta and A/B split testing, APM, fully API driven. Accessible and manageable via UI, SDK and API",
-    "url": "http://docs.apigee.com/api-baas",
+    "url": "https://docs.apigee.com/api-baas",
     "category": "Database"
   },
   {
     "name": "apimetrics.io",
     "description": "Automated API Performance Monitoring, Testing and Analytics. Free Plan, manually make API calls and Run from their West Coast servers",
-    "url": "http://apimetrics.io/",
+    "url": "https://apimetrics.io/",
     "category": "Analytics"
   },
   {
@@ -386,7 +386,7 @@
   {
     "name": "appacitive.com",
     "description": "Mobile backend, free for the first 3 months with 100,000 API calls, push notifications",
-    "url": "http://appacitive.com/",
+    "url": "https://appacitive.com/",
     "category": "Database"
   },
   {
@@ -476,7 +476,7 @@
   {
     "name": "appneta.com",
     "description": "Free with 1 hour data retention",
-    "url": "http://www.appneta.com/",
+    "url": "https://www.appneta.com/",
     "category": "Analytics"
   },
   {
@@ -500,7 +500,7 @@
   {
     "name": "appveyor.com",
     "description": "CD service for Windows, free for Open Source",
-    "url": "http://www.appveyor.com/",
+    "url": "https://www.appveyor.com/",
     "category": "Development"
   },
   {
@@ -590,7 +590,7 @@
   {
     "name": "athenalayer.com",
     "description": "Free DDoS protection with unlimited websites",
-    "url": "http://athenalayer.com/",
+    "url": "https://athenalayer.com/",
     "category": "Web Development"
   },
   {
@@ -806,7 +806,7 @@
   {
     "name": "beanstalkapp.com",
     "description": "A complete workflow to write, review and deploy code), free account for 1 user and 1 repository with 100 MB of storage",
-    "url": "http://beanstalkapp.com/",
+    "url": "https://beanstalkapp.com/",
     "category": "Development"
   },
   {
@@ -998,7 +998,7 @@
   {
     "name": "bmc.com",
     "description": "Free 1 second resolution for up to 10 servers",
-    "url": "http://www.bmc.com/truesightpulse/",
+    "url": "https://www.bmc.com/truesightpulse/",
     "category": "Analytics"
   },
   {
@@ -1034,7 +1034,7 @@
   {
     "name": "bootstrapcdn.com",
     "description": "CDN for bootstrap, bootswatch and fontawesome.io",
-    "url": "http://www.bootstrapcdn.com/",
+    "url": "https://www.bootstrapcdn.com/",
     "category": "Web Development"
   },
   {
@@ -1046,7 +1046,7 @@
   {
     "name": "botan.io",
     "description": "Free analytics for your Telegram bot",
-    "url": "http://botan.io/",
+    "url": "https://botan.io/",
     "category": "Analytics"
   },
   {
@@ -1058,7 +1058,7 @@
   {
     "name": "Brackets",
     "description": "Brackets is an open-source text editor specifically designed for web development. It is lightweight, easy to use, and highly customizable.",
-    "url": "http://brackets.io/",
+    "url": "https://brackets.io/",
     "category": "Developer Tools"
   },
   {
@@ -1430,7 +1430,7 @@
   {
     "name": "chiselapp.com",
     "description": "Unlimited public and private Fossil repositories",
-    "url": "http://chiselapp.com/",
+    "url": "https://chiselapp.com/",
     "category": "Development"
   },
   {
@@ -1460,7 +1460,7 @@
   {
     "name": "circonus.com",
     "description": "Free for 20 metrics",
-    "url": "http://www.circonus.com/",
+    "url": "https://www.circonus.com/",
     "category": "Analytics"
   },
   {
@@ -1652,7 +1652,7 @@
   {
     "name": "cloudinary.com",
     "description": "Image upload, powerful manipulations, storage and delivery for sites and apps, with libraries for Ruby, Python, Java, PHP, Objective-C and more. Perpetual free tier includes 7,500 images/month, 2 GB storage, 5 GB bandwidth",
-    "url": "http://cloudinary.com/",
+    "url": "https://cloudinary.com/",
     "category": "Content Creation"
   },
   {
@@ -1718,7 +1718,7 @@
   {
     "name": "cnverg.com",
     "description": "Real-time shared visual workspace, whiteboard, GitHub integration. Free 5 GB, 5 spaces and 5 collaborators, no GitHub repos",
-    "url": "http://cnverg.com/",
+    "url": "https://cnverg.com/",
     "category": "Productivity"
   },
   {
@@ -1760,7 +1760,7 @@
   {
     "name": "code.visualstudio.com",
     "description": "Build and debug modern web and cloud applications. Code is free, Open Source and available on your favorite platform, Linux, Mac OSX and Windows",
-    "url": "http://code.visualstudio.com/",
+    "url": "https://code.visualstudio.com/",
     "category": "Development"
   },
   {
@@ -2072,7 +2072,7 @@
   {
     "name": "configure.it",
     "description": "Mobile app development platform, free for 2 projects, limited features but no resource limits",
-    "url": "http://www.configure.it/",
+    "url": "https://www.configure.it/",
     "category": "Web Development"
   },
   {
@@ -2594,7 +2594,7 @@
   {
     "name": "deployhq.com",
     "description": "1 project with 10 daily deployments",
-    "url": "http://www.deployhq.com/",
+    "url": "https://www.deployhq.com/",
     "category": "Development"
   },
   {
@@ -2654,7 +2654,7 @@
   {
     "name": "devport.co",
     "description": "Turn GitHub projects, apps and websites into a personal developer portfolio",
-    "url": "http://devport.co/",
+    "url": "https://devport.co/",
     "category": "Web Development"
   },
   {
@@ -2852,7 +2852,7 @@
   {
     "name": "doodle.com",
     "description": "The scheduling tool you'll actually use. Find a date for a meeting two times faster",
-    "url": "http://doodle.com/",
+    "url": "https://doodle.com/",
     "category": "Productivity"
   },
   {
@@ -2912,7 +2912,7 @@
   {
     "name": "dreamfactory.com",
     "description": "Open source REST API backend for mobile, web, and IoT applications. Hook up any SQL/NoSQL database, file storage system, or external service and it instantly creates a comprehensive REST API platform with live documentation, user management,...",
-    "url": "http://dreamfactory.com/",
+    "url": "https://dreamfactory.com/",
     "category": "Development"
   },
   {
@@ -3098,7 +3098,7 @@
   {
     "name": "elastx.com",
     "description": "Free tier with up to 4 cloudlets, must be renewed every year",
-    "url": "http://elastx.com/start/easypaas/",
+    "url": "https://elastx.com/start/easypaas/",
     "category": "Web Development"
   },
   {
@@ -3116,7 +3116,7 @@
   {
     "name": "elephantsql.com",
     "description": "PostgreSQL as a service, 20 MB free",
-    "url": "http://www.elephantsql.com/",
+    "url": "https://www.elephantsql.com/",
     "category": "Database"
   },
   {
@@ -3170,7 +3170,7 @@
   {
     "name": "embed.ly",
     "description": "Provides APIs for embedding media in a webpage, responsive image scaling, extracting elements from a webpage. Free for up to 5,000 URLs/month at 15 requests/second",
-    "url": "http://embed.ly/",
+    "url": "https://embed.ly/",
     "category": "Content Creation"
   },
   {
@@ -3584,7 +3584,7 @@
   {
     "name": "fogcreek.com",
     "description": "Bug tracking and project management. Free for 2 users",
-    "url": "http://fogcreek.com/fogbugz/",
+    "url": "https://fogcreek.com/fogbugz/",
     "category": "Productivity"
   },
   {
@@ -3890,7 +3890,7 @@
   {
     "name": "ftploy.com",
     "description": "1 project with unlimited deployments",
-    "url": "http://ftploy.com/",
+    "url": "https://ftploy.com/",
     "category": "Development"
   },
   {
@@ -3998,7 +3998,7 @@
   {
     "name": "geocod.io",
     "description": "Geocoding via API or CSV Upload. 2,500 free queries/day",
-    "url": "http://geocod.io/",
+    "url": "https://geocod.io/",
     "category": "Analytics"
   },
   {
@@ -4130,7 +4130,7 @@
   {
     "name": "giscloud.com",
     "description": "Visualize, analyze and share geo data online",
-    "url": "http://giscloud.com/",
+    "url": "https://giscloud.com/",
     "category": "Analytics"
   },
   {
@@ -4226,7 +4226,7 @@
   {
     "name": "gliffy.com",
     "description": "Online diagrams: flowchart, UML, wireframe,... Also plugins for Jira and Confluence. 5 diagrams and 2 MB free",
-    "url": "http://gliffy.com/",
+    "url": "https://gliffy.com/",
     "category": "Productivity"
   },
   {
@@ -4268,7 +4268,7 @@
   {
     "name": "gocover.io",
     "description": "Code coverage for any [Go](https://golang.org/) package",
-    "url": "http://gocover.io/",
+    "url": "https://gocover.io/",
     "category": "Development"
   },
   {
@@ -4280,7 +4280,7 @@
   {
     "name": "gogeo.io",
     "description": "Maps and geospatial services with an easy to use API and support for big data",
-    "url": "http://gogeo.io/",
+    "url": "https://gogeo.io/",
     "category": "Analytics"
   },
   {
@@ -4310,7 +4310,7 @@
   {
     "name": "goreportcard.com",
     "description": "Code Quality for Go projects, free for Open Source",
-    "url": "http://goreportcard.com/",
+    "url": "https://goreportcard.com/",
     "category": "Development"
   },
   {
@@ -4346,7 +4346,7 @@
   {
     "name": "graphenedb.com",
     "description": "Neo4j as a service, up to 1,000 nodes and 10,000 relations free",
-    "url": "http://www.graphenedb.com/",
+    "url": "https://www.graphenedb.com/",
     "category": "Database"
   },
   {
@@ -4364,7 +4364,7 @@
   {
     "name": "graphstory.com",
     "description": "GraphStory offers Neo4j (a Graph Database) as a service",
-    "url": "http://graphstory.com/",
+    "url": "https://graphstory.com/",
     "category": "Database"
   },
   {
@@ -4796,7 +4796,7 @@
   {
     "name": "imagebin.ca",
     "description": "Pastebin for images",
-    "url": "http://imagebin.ca/",
+    "url": "https://imagebin.ca/",
     "category": "Design"
   },
   {
@@ -4808,7 +4808,7 @@
   {
     "name": "imagefly.io",
     "description": "Responsive images on-demand. CDN fronted image resizing, transcoding and optimizing. 100 MB/month for free",
-    "url": "http://imagefly.io/",
+    "url": "https://imagefly.io/",
     "category": "Content Creation"
   },
   {
@@ -4856,7 +4856,7 @@
   {
     "name": "imprace.com",
     "description": "Landing page analysis with suggestions to improve bounce rates. Free 5 landing pages/domain",
-    "url": "http://imprace.com/",
+    "url": "https://imprace.com/",
     "category": "Analytics"
   },
   {
@@ -4886,7 +4886,7 @@
   {
     "name": "inch-ci.org",
     "description": "Documentation badges for Ruby, JS and Elixir",
-    "url": "http://inch-ci.org/",
+    "url": "https://inch-ci.org/",
     "category": "Development"
   },
   {
@@ -4928,7 +4928,7 @@
   {
     "name": "inspectlet.com",
     "description": "100 sessions/month free for 1 website",
-    "url": "http://inspectlet.com/",
+    "url": "https://inspectlet.com/",
     "category": "Analytics"
   },
   {
@@ -4946,7 +4946,7 @@
   {
     "name": "instadiff.com",
     "description": "Compare website versions with highlighted changes before you deploy, free for 100 pages/month",
-    "url": "http://www.instadiff.com/",
+    "url": "https://www.instadiff.com/",
     "category": "Productivity"
   },
   {
@@ -5018,7 +5018,7 @@
   {
     "name": "inumbo.com",
     "description": "SMTP based spam filter, free for 10 users",
-    "url": "http://inumbo.com/",
+    "url": "https://inumbo.com/",
     "category": "Business"
   },
   {
@@ -5138,19 +5138,19 @@
   {
     "name": "iriscouch.com",
     "description": "CouchDB as a service. Free for developing, prototyping, etc",
-    "url": "http://www.iriscouch.com/",
+    "url": "https://www.iriscouch.com/",
     "category": "Database"
   },
   {
     "name": "iron.io",
     "description": "Async task processing (like AWS Lambda) with free tier and 1 month free trial",
-    "url": "http://www.iron.io/",
+    "url": "https://www.iron.io/",
     "category": "Database"
   },
   {
     "name": "ironSource atom",
     "description": "Atom Data Flow Management is a data pipeline solution, 10 million monthly events free",
-    "url": "http://www.ironsrc.com/data-flow-management/",
+    "url": "https://www.ironsrc.com/data-flow-management/",
     "category": "Analytics"
   },
   {
@@ -5198,13 +5198,13 @@
   {
     "name": "jare.io",
     "description": "You should login using your GitHub account and register your domain. Uses AWS CloudFront",
-    "url": "http://www.jare.io",
+    "url": "https://www.jare.io",
     "category": "Web Development"
   },
   {
     "name": "java-monitor.com",
     "description": "Free monitoring of JVM's and uptime",
-    "url": "http://java-monitor.com/forum/welcome.php/",
+    "url": "https://java-monitor.com/forum/welcome.php/",
     "category": "Analytics"
   },
   {
@@ -5252,7 +5252,7 @@
   {
     "name": "jsdelivr.com",
     "description": "CDN of OSS (JS, CSS, fonts) for developers and webmasters, accepts PRs to add more",
-    "url": "http://www.jsdelivr.com/",
+    "url": "https://www.jsdelivr.com/",
     "category": "Web Development"
   },
   {
@@ -5348,7 +5348,7 @@
   {
     "name": "kanbantool.com",
     "description": "Kanban board based project management. Free, paid plans with more options",
-    "url": "http://kanbantool.com/",
+    "url": "https://kanbantool.com/",
     "category": "Productivity"
   },
   {
@@ -5432,7 +5432,7 @@
   {
     "name": "kickbox.io",
     "description": "Verify 100 emails free, real-time API available",
-    "url": "http://kickbox.io/",
+    "url": "https://kickbox.io/",
     "category": "Business"
   },
   {
@@ -5462,7 +5462,7 @@
   {
     "name": "kinvey.com",
     "description": "Mobile backend, starter plan has unlimited requests/second, with 2 GB of data storage, as well as push notifications for up 5 million unique recipients. Enterprise application support",
-    "url": "http://www.kinvey.com/",
+    "url": "https://www.kinvey.com/",
     "category": "Database"
   },
   {
@@ -5498,7 +5498,7 @@
   {
     "name": "koding.com",
     "description": "Cloud-based development environment. You have a Ubuntu OS machine",
-    "url": "http://www.koding.com/",
+    "url": "https://www.koding.com/",
     "category": "Development"
   },
   {
@@ -5516,7 +5516,7 @@
   {
     "name": "konacloud.io",
     "description": "Web and Mobile Backend as a Service, with 5 GB free account",
-    "url": "http://konacloud.io/",
+    "url": "https://konacloud.io/",
     "category": "Database"
   },
   {
@@ -5672,7 +5672,7 @@
   {
     "name": "leankit.com",
     "description": "Kanban board, that visualizes your workflow. Free up to 10 users",
-    "url": "http://leankit.com/",
+    "url": "https://leankit.com/",
     "category": "Productivity"
   },
   {
@@ -5966,7 +5966,7 @@
   {
     "name": "logz.io",
     "description": "Free up to 1 GB/day, 3 days retention",
-    "url": "http://logz.io/",
+    "url": "https://logz.io/",
     "category": "Analytics"
   },
   {
@@ -6008,7 +6008,7 @@
   {
     "name": "luadns.com",
     "description": "Free DNS hosting, 3 domains, all features with reasonable limits",
-    "url": "http://www.luadns.com/",
+    "url": "https://www.luadns.com/",
     "category": "Web Development"
   },
   {
@@ -6068,7 +6068,7 @@
   {
     "name": "mailcatcher.me",
     "description": "Catches mail and serves it through a web interface",
-    "url": "http://mailcatcher.me/",
+    "url": "https://mailcatcher.me/",
     "category": "Business"
   },
   {
@@ -6086,13 +6086,13 @@
   {
     "name": "mailchimp.com",
     "description": "2,000 subscribers and 12,000 emails/month free",
-    "url": "http://mailchimp.com/",
+    "url": "https://mailchimp.com/",
     "category": "Business"
   },
   {
     "name": "maildocker.com",
     "description": "First 10,000 emails/month free",
-    "url": "http://maildocker.com",
+    "url": "https://maildocker.com",
     "category": "Business"
   },
   {
@@ -6188,7 +6188,7 @@
   {
     "name": "maps.stamen.com",
     "description": "Free map tiles and tile hosting.",
-    "url": "http://maps.stamen.com/",
+    "url": "https://maps.stamen.com/",
     "category": "Analytics"
   },
   {
@@ -6662,13 +6662,13 @@
   {
     "name": "monkeylearn.com",
     "description": "Text analysis with machine learning, free 100,000 queries/month",
-    "url": "http://monkeylearn.com/",
+    "url": "https://monkeylearn.com/",
     "category": "Development"
   },
   {
     "name": "moosend.com",
     "description": "Mailing list management service. Free account for 6 months for startups",
-    "url": "http://moosend.com/",
+    "url": "https://moosend.com/",
     "category": "Business"
   },
   {
@@ -7028,7 +7028,7 @@
   {
     "name": "oneskyapp.com",
     "description": "Limited free edition for up to 5 users, free for Open Source",
-    "url": "http://www.oneskyapp.com/",
+    "url": "https://www.oneskyapp.com/",
     "category": "Productivity"
   },
   {
@@ -7196,7 +7196,7 @@
   {
     "name": "otixo.com",
     "description": "Encrypt, share, copy and move all your cloud storage files from one place. Basic plan provides unlimited files transfer with 250 MB max. file size and allows 5 encrypted files",
-    "url": "http://otixo.com/",
+    "url": "https://otixo.com/",
     "category": "Content Creation"
   },
   {
@@ -7214,7 +7214,7 @@
   {
     "name": "outsystems.com",
     "description": "Enterprise web development PaaS for on-premise or cloud, free \"personal environment\" offering allows for unlimited code and up to 1 GB database",
-    "url": "http://www.outsystems.com/",
+    "url": "https://www.outsystems.com/",
     "category": "Web Development"
   },
   {
@@ -7310,7 +7310,7 @@
   {
     "name": "pagodabox.io",
     "description": "Small worker, web server, cache and database for free",
-    "url": "http://pagodabox.io/",
+    "url": "https://pagodabox.io/",
     "category": "Web Development"
   },
   {
@@ -7406,7 +7406,7 @@
   {
     "name": "pawnmail.com",
     "description": "2 GB free email hosting across unlimited users for custom domain. Roundcube webmail, POP3, IMAP and SMTP access. No paid plans or upgrades",
-    "url": "http://pawnmail.com",
+    "url": "https://pawnmail.com",
     "category": "Business"
   },
   {
@@ -7466,7 +7466,7 @@
   {
     "name": "pepipost.com",
     "description": "Unlimited emails free for first three months, then first 25,000 emails/month free",
-    "url": "http://www.pepipost.com",
+    "url": "https://www.pepipost.com",
     "category": "Business"
   },
   {
@@ -7592,7 +7592,7 @@
   {
     "name": "pivotaltracker.com",
     "description": "Pivotal Tracker, free for public projects",
-    "url": "http://www.pivotaltracker.com/",
+    "url": "https://www.pivotaltracker.com/",
     "category": "Productivity"
   },
   {
@@ -7616,7 +7616,7 @@
   {
     "name": "pixlr.com",
     "description": "Free online browser editor on the level of commercial ones",
-    "url": "http://pixlr.com/",
+    "url": "https://pixlr.com/",
     "category": "Design"
   },
   {
@@ -7634,7 +7634,7 @@
   {
     "name": "placepenguin.com",
     "description": "A quick and simple service for placeholder images of penguins",
-    "url": "http://placepenguin.com/",
+    "url": "https://placepenguin.com/",
     "category": "Content Creation"
   },
   {
@@ -7652,7 +7652,7 @@
   {
     "name": "planitpoker.com",
     "description": "Free online planning poker (estimation tool)",
-    "url": "http://planitpoker.com/",
+    "url": "https://planitpoker.com/",
     "category": "Productivity"
   },
   {
@@ -8036,7 +8036,7 @@
   {
     "name": "Qonversion",
     "description": "All-in-one cross-platform subscription management platform offering analytics, A/B testing, Apple Search Ads, remote configs, and growth tools for optimizing in-app purchases and monetization. Compatible with iOS, Android, React Native, Flutter, Unity, Cordova, Stripe, and web. Free up to $10k in monthly tracked revenue.",
-    "url": "http://qonversion.io/",
+    "url": "https://qonversion.io/",
     "category": "API Tools"
   },
   {
@@ -8102,7 +8102,7 @@
   {
     "name": "quickblox.com",
     "description": "A communication backend for instant messaging, video and voice calling and push notifications",
-    "url": "http://quickblox.com/",
+    "url": "https://quickblox.com/",
     "category": "Database"
   },
   {
@@ -8426,7 +8426,7 @@
   {
     "name": "restlet.com",
     "description": "APISpark enables any API, application or data owner to become an API provider in minutes via an intuitive browser interface",
-    "url": "http://restlet.com/products/apispark/",
+    "url": "https://restlet.com/products/apispark/",
     "category": "Development"
   },
   {
@@ -8708,7 +8708,7 @@
   {
     "name": "scinote.net",
     "description": "Scientific data management and team collaboration. One Team with unlimited number of users, backup and 1 GB storage space",
-    "url": "http://scinote.net",
+    "url": "https://scinote.net",
     "category": "Productivity"
   },
   {
@@ -8732,7 +8732,7 @@
   {
     "name": "scrapinghub.com",
     "description": "Data scraping with visual interface and plugins. Free plan includes unlimited scraping on a shared server",
-    "url": "http://scrapinghub.com",
+    "url": "https://scrapinghub.com",
     "category": "Development"
   },
   {
@@ -8828,7 +8828,7 @@
   {
     "name": "searchly.com",
     "description": "Free 2 indices and 5 MB storage",
-    "url": "http://www.searchly.com/",
+    "url": "https://www.searchly.com/",
     "category": "Development"
   },
   {
@@ -9362,7 +9362,7 @@
   {
     "name": "sourcetalk.net",
     "description": "Code discussion tool, free for open code talks",
-    "url": "http://sourcetalk.net/",
+    "url": "https://sourcetalk.net/",
     "category": "Productivity"
   },
   {
@@ -9386,7 +9386,7 @@
   {
     "name": "speedchecker.xyz",
     "description": "Performance Monitoring API, checks Ping, DNS, etc",
-    "url": "http://probeapi.speedchecker.xyz/",
+    "url": "https://probeapi.speedchecker.xyz/",
     "category": "Analytics"
   },
   {
@@ -9488,19 +9488,19 @@
   {
     "name": "stackdriver.com",
     "description": "Free monitoring up to 10 servers/hosted services",
-    "url": "http://www.stackdriver.com/",
+    "url": "https://www.stackdriver.com/",
     "category": "Analytics"
   },
   {
     "name": "stackhive.com",
     "description": "Cloud based IDE in browser that supports HTML5/CSS3/jQuery/Bootstrap",
-    "url": "http://stackhive.com/",
+    "url": "https://stackhive.com/",
     "category": "Development"
   },
   {
     "name": "stackhut.com",
     "description": "Async task processing (like AWS Lambda). 10 free private services and unlimited free public services",
-    "url": "http://stackhut.com/",
+    "url": "https://stackhut.com/",
     "category": "Database"
   },
   {
@@ -9860,13 +9860,13 @@
   {
     "name": "tachikoma.io",
     "description": "Dependency Update for Ruby, Node.js, Perl projects, free for Open Source",
-    "url": "http://tachikoma.io/",
+    "url": "https://tachikoma.io/",
     "category": "Development"
   },
   {
     "name": "tadpoledb.com",
     "description": "IDE in browser Database tool. Support Amazon RDS, Apache Hive, Apache Tajo, CUBRID, MariaDB, MySQL, Oracle, SQLite, MSSQL, PostgreSQL and MongoDB databases",
-    "url": "http://tadpoledb.com/",
+    "url": "https://tadpoledb.com/",
     "category": "Development"
   },
   {
@@ -9932,7 +9932,7 @@
   {
     "name": "targetprocess.com",
     "description": "Visual project management, from Kanban and Scrum to almost any operational process. Free for unlimited users, up to 1,000 data entities {[more details](http://www.targetprocess.com/pricing/)}",
-    "url": "http://targetprocess.com/",
+    "url": "https://targetprocess.com/",
     "category": "Productivity"
   },
   {
@@ -9956,7 +9956,7 @@
   {
     "name": "taxratesapi.avalara.com",
     "description": "Get the right sales tax rates to charge for the close to 10,000 sales tax jurisdictions in the USA. Free REST API. Registration required",
-    "url": "http://taxratesapi.avalara.com/",
+    "url": "https://taxratesapi.avalara.com/",
     "category": "Business"
   },
   {
@@ -10400,7 +10400,7 @@
   {
     "name": "trystack.org",
     "description": "Free Openstack hosting. The environment is resets every 24 hours, suitable for testing only",
-    "url": "http://trystack.org/",
+    "url": "https://trystack.org/",
     "category": "Web Development"
   },
   {
@@ -10484,7 +10484,7 @@
   {
     "name": "typetalk.in",
     "description": "Share and discuss ideas with your team through instant messaging on the web or on your mobile",
-    "url": "http://www.typetalk.in/",
+    "url": "https://www.typetalk.in/",
     "category": "Productivity"
   },
   {
@@ -10676,7 +10676,7 @@
   {
     "name": "vaddy.net",
     "description": "Continuous web security testing with continuous integration (CI) tools. 3 domains, 10 scans history for free",
-    "url": "http://vaddy.net/",
+    "url": "https://vaddy.net/",
     "category": "Security"
   },
   {
@@ -10694,7 +10694,7 @@
   {
     "name": "vagrantbox.es",
     "description": "An alternative public box index",
-    "url": "http://vagrantbox.es/",
+    "url": "https://vagrantbox.es/",
     "category": "Development"
   },
   {
@@ -10814,7 +10814,7 @@
   {
     "name": "virtzone.net",
     "description": "Free VPS. You must meet certain minor qualifications",
-    "url": "http://www.virtzone.net/",
+    "url": "https://www.virtzone.net/",
     "category": "Web Development"
   },
   {
@@ -10838,7 +10838,7 @@
   {
     "name": "visualops.io",
     "description": "3,600 instance hours/month free",
-    "url": "http://visualops.io/",
+    "url": "https://visualops.io/",
     "category": "Development"
   },
   {
@@ -10916,7 +10916,7 @@
   {
     "name": "walkme.com",
     "description": "Enterprise Class Guidance and Engagement Platform, free plan 3 walk-thrus up to 5 steps/walk",
-    "url": "http://walkme.com/",
+    "url": "https://walkme.com/",
     "category": "Design"
   },
   {
@@ -10928,7 +10928,7 @@
   {
     "name": "watchsumo.com",
     "description": "Free website monitoring, 50 http(s), Ping or keywords, every 5+ minutes",
-    "url": "http://www.watchsumo.com/",
+    "url": "https://www.watchsumo.com/",
     "category": "Analytics"
   },
   {
@@ -11054,7 +11054,7 @@
   {
     "name": "websitetest.com",
     "description": "Yotta's tool to optimize web sites, free limited version online",
-    "url": "http://websitetest.com/",
+    "url": "https://websitetest.com/",
     "category": "Development"
   },
   {
@@ -11072,7 +11072,7 @@
   {
     "name": "webtranslateit.com",
     "description": "Free up to 500 strings",
-    "url": "http://webtranslateit.com/",
+    "url": "https://webtranslateit.com/",
     "category": "Productivity"
   },
   {
@@ -11090,7 +11090,7 @@
   {
     "name": "wercker.com",
     "description": "Free for public and private repositories",
-    "url": "http://wercker.com/",
+    "url": "https://wercker.com/",
     "category": "Development"
   },
   {
@@ -11156,7 +11156,7 @@
   {
     "name": "wistia.com",
     "description": "Video hosting with viewer analytics, HD video delivery and marketing tools to help understand your visitors, 25 videos and Wistia branded player",
-    "url": "http://wistia.com/",
+    "url": "https://wistia.com/",
     "category": "Productivity"
   },
   {
@@ -11300,7 +11300,7 @@
   {
     "name": "yopmail.fr",
     "description": "Disposable email addresses",
-    "url": "http://www.yopmail.fr/en/",
+    "url": "https://www.yopmail.fr/en/",
     "category": "Business"
   },
   {
@@ -11360,7 +11360,7 @@
   {
     "name": "zenginehq.com",
     "description": "Build business workflow apps in minutes, free for single users",
-    "url": "http://www.zenginehq.com/",
+    "url": "https://www.zenginehq.com/",
     "category": "Database"
   },
   {
