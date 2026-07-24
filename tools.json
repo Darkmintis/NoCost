@@ -1362,6 +1362,12 @@
     "category": "Monitoring"
   },
   {
+    "name": "CD Calculator",
+    "description": "Free calculator for comparing certificate of deposit terms, APY, and maturity value across multiple CD lengths, no signup required",
+    "url": "https://nutilz.com/cd-calculator",
+    "category": "Other"
+  },
+  {
     "name": "cdnjs.com",
     "description": "CDN for JavaScript libraries, CSS libraries, SWF, images, etc",
     "url": "https://cdnjs.com/",
