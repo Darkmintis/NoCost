@@ -9078,6 +9078,12 @@
     "category": "Other"
   },
   {
+    "name": "Simfinity.js",
+    "description": "Apache-2.0 Node.js library that generates GraphQL queries, CRUD mutations, relationships, filters and pagination from object type definitions. Supports PostgreSQL and MongoDB/Mongoose, with optional MCP tools. Free to use in your own application; hosting and database costs are separate.",
+    "url": "https://simtlix.github.io/simfinity.js/",
+    "category": "Developer Tools"
+  },
+  {
     "name": "Similar Web",
     "description": "Analytics for Web & Mobile Apps. Free Plan offers five results per metric, one month of mobile app data & 3 months of website data.",
     "url": "https://similarweb.com/",
