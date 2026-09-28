@@ -6828,6 +6828,12 @@
     "category": "Infrastructure"
   },
   {
+    "name": "NextReset",
+    "description": "Free source-linked Codex reset history and official AI service incident updates, with a personal browser-local reset timer.",
+    "url": "https://nextreset.ai/",
+    "category": "Monitoring"
+  },
+  {
     "name": "NextUI",
     "description": "- Free. Beautiful, fast, and modern React & Next.js UI library.",
     "url": "https://nextui.org/",
