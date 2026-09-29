@@ -15,6 +15,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -37,7 +40,8 @@ jobs:
           echo "categories=$CATEGORY_COUNT" >> "$GITHUB_OUTPUT"
 
       - name: Comment on pull request
-        if: github.event_name == 'pull_request'
+        # Fork PRs get a read-only token, so commenting would 403.
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
         uses: actions/github-script@v7
         with:
           script: |
