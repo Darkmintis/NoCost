@@ -156,6 +156,12 @@
     "category": "Content Creation"
   },
   {
+    "name": "Agent QA",
+    "description": "Runs natural-language web, Android and iOS tests with a local CLI, dashboard and MCP server. Source-available under FSL-1.1-ALv2 with no software fee for permitted use. Bring your own local or hosted model; model, hosting and device-provider costs are separate.",
+    "url": "https://vostride.com/docs/agent-qa",
+    "category": "Testing"
+  },
+  {
     "name": "AhaSend",
     "description": "Transactional email service, free for 1000 emails per month, with unlimited domains, team members, webhooks and message routes in the free plan.",
     "url": "https://ahasend.com/",
