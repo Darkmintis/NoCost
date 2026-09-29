@@ -11494,5 +11494,11 @@
     "description": "Free API Management platform to design, build, and deploy APIs to the Edge. Add API Key authentication, rate limiting, developer documentation and Monetization to any API in minutes. OpenAPI-native and fully-programmable with web standard apis & Typescript. The free plan offers up to 10 projects, unlimited production edge environments, 1M monthly requests, and 10GB egress.",
     "url": "https://zuplo.com/",
     "category": "Other"
+  },
+  {
+    "name": "Image to ASCII",
+    "description": "Convert images into ASCII character art locally in the browser, with width, character-style and dithering controls and TXT, PNG and SVG exports. Free to use without an account.",
+    "url": "https://imagetoascii.art/",
+    "category": "Design"
   }
 ]
