@@ -9930,6 +9930,12 @@
     "category": "Communication"
   },
   {
+    "name": "Tale",
+    "description": "Open-source project workspace for teams and AI agents with task boards, shared files, agent workspaces, and deliverable review. MIT-licensed software is free to self-host; hosting and model-provider costs are separate.",
+    "url": "https://tale.dev",
+    "category": "Collaboration"
+  },
+  {
     "name": "talky.io",
     "description": "Free group video chat. Anonymous. Peer‑to‑peer. No plugins, signup, or payment required",
     "url": "https://talky.io/",
