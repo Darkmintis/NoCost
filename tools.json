@@ -9066,6 +9066,12 @@
     "category": "Development"
   },
   {
+    "name": "Shipvela",
+    "description": "Hosting for React, Vite and static websites from GitHub or a CLI. The ongoing free Hobby plan includes 3 projects and 20 publishes per month, with custom domains and managed HTTPS; no credit card is required.",
+    "url": "https://shipvela.com/",
+    "category": "Hosting"
+  },
+  {
     "name": "Shortcut",
     "description": "Project management platform. Free for up to 10 users forever.",
     "url": "https://shortcut.com/",
