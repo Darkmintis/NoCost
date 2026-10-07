@@ -11542,5 +11542,11 @@
     "description": "Self-hosted application deployment panel for Docker images, Docker Compose apps and databases on your own Linux server. The permanent free plan supports up to 3 projects, unlimited services and deployments, and basic monitoring. Server hosting costs are separate; the software is proprietary.",
     "url": "https://easypanel.io/",
     "category": "Infrastructure"
+  },
+  {
+    "name": "Arcmira",
+    "description": "Search indexed YouTube transcripts for timestamped passages through an API, MCP or SDKs. The permanent Free plan includes 1,000 credits per month without a card; newest 30 days, pagination and Premium transcripts require paid plans.",
+    "url": "https://arcmira.com",
+    "category": "API Tools"
   }
 ]
