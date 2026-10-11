@@ -11566,5 +11566,11 @@
     "description": "Free browser tools for viewing, formatting, validating and comparing JSON, plus JSON string escaping and unescaping. No account required.",
     "url": "https://jsonviewertool.com/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "WorkToolMap",
+    "description": "Free directory for finding software and online tools by everyday work tasks, with concise profiles and source notes distinguishing public-information reviews from hands-on testing. Listed third-party tools have their own pricing.",
+    "url": "https://worktoolmap.com/",
+    "category": "Productivity"
   }
 ]
