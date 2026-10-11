@@ -11566,5 +11566,11 @@
     "description": "Free browser tools for viewing, formatting, validating and comparing JSON, plus JSON string escaping and unescaping. No account required.",
     "url": "https://jsonviewertool.com/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "StudyArena",
+    "description": "Compare three anonymous AI answers to a study question, vote, then reveal the models. The three-model comparison is free with an account; model choice and six-model comparisons require Supporter.",
+    "url": "https://studyarena.com",
+    "category": "Education"
   }
 ]
