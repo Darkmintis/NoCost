@@ -11554,5 +11554,11 @@
     "description": "Compare two lists in your browser to find shared and unique items, preserving leading zeros.",
     "url": "https://comparetwolists.net/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "Orkas",
+    "description": "Open-source desktop workspace where a Commander coordinates specialist agents and local coding CLIs to turn project requests into reviewable code changes. The core app is free; connect your own model provider, whose usage may incur charges.",
+    "url": "https://orkas.ai/",
+    "category": "Developer Tools"
   }
 ]
