@@ -11548,5 +11548,11 @@
     "description": "Search indexed YouTube transcripts for timestamped passages through an API, MCP or SDKs. The permanent Free plan includes 1,000 credits per month without a card; newest 30 days, pagination and Premium transcripts require paid plans.",
     "url": "https://arcmira.com",
     "category": "API Tools"
+  },
+  {
+    "name": "Compare Two Lists",
+    "description": "Compare two lists in your browser to find shared and unique items, preserving leading zeros.",
+    "url": "https://comparetwolists.net/",
+    "category": "Developer Tools"
   }
 ]
