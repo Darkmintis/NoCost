@@ -11560,5 +11560,11 @@
     "description": "Open-source desktop workspace where a Commander coordinates specialist agents and local coding CLIs to turn project requests into reviewable code changes. The core app is free; connect your own model provider, whose usage may incur charges.",
     "url": "https://orkas.ai/",
     "category": "Developer Tools"
+  },
+  {
+    "name": "JSONViewerTool",
+    "description": "Free browser tools for viewing, formatting, validating and comparing JSON, plus JSON string escaping and unescaping. No account required.",
+    "url": "https://jsonviewertool.com/",
+    "category": "Developer Tools"
   }
 ]
