@@ -1554,6 +1554,12 @@
     "category": "Analytics"
   },
   {
+    "name": "Cloady",
+    "description": "Deploy applications and databases from GitHub, Docker images or templates. Ongoing free workspace allowance: 0.5 vCPU, 1 GB RAM, 5 GB SSD and 200 GB traffic; no credit card required. Exceeding any free CPU, RAM or SSD allowance makes the full configured capacity billable.",
+    "url": "https://cloady.com",
+    "category": "Hosting"
+  },
+  {
     "name": "Clockify",
     "description": "Time tracker and timesheet app that lets you track work hours across projects. Unlimited users, free forever.",
     "url": "https://clockify.me/",
