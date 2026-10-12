@@ -1,0 +1,76 @@
+name: Comment Validation Result
+
+# Runs on pull_request_target so PRs from forks get the same stats comment.
+# Fork PRs have a read-only token on the pull_request event, which is why
+# this cannot live in validate.yml.
+#
+# SAFETY: this job never checks out PR code and never runs contributor
+# code. It only reads tools.json as text via the API. Keep it that way.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'tools.json'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post validation stats comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo
+            const pr = context.payload.pull_request
+            const headOwner = pr.head.repo.owner.login
+            const headRepo = pr.head.repo.name
+            const headRef = pr.head.ref
+
+            let body
+            try {
+              const { data } = await github.request('GET /repos/{owner}/{repo}/contents/tools.json', {
+                owner: headOwner,
+                repo: headRepo,
+                ref: headRef
+              })
+              const tools = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'))
+              const categories = new Set(tools.map(t => t.category)).size
+              body = [
+                '## Validation',
+                '',
+                `- Total tools: ${tools.length}`,
+                `- Categories: ${categories}`,
+                '- Checks: JSON syntax, duplicates, required fields, URL format, category validation',
+                '',
+                'Logs: see the `validate` check on this PR.'
+              ].join('\n')
+            } catch (err) {
+              body = [
+                '## Validation',
+                '',
+                '**tools.json could not be read or is not valid JSON.**',
+                `Error: ${err.message}`,
+                '',
+                'Fix `tools.json` and push again. Details are in the `validate` check logs.'
+              ].join('\n')
+            }
+
+            const marker = '<!-- validate-stats -->'
+            const { data: comments } = await github.rest.issues.listComments({
+              owner, repo, issue_number: pr.number
+            })
+            const existing = comments.find(c => c.body.includes(marker))
+            const finalBody = `${marker}\n${body}`
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body: finalBody
+              })
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: pr.number, body: finalBody
+              })
+            }
