@@ -6,14 +6,14 @@
   <p>
     <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
-    <img src="https://img.shields.io/badge/tools-thousands-blue" alt="Thousands of tools">
-    <img src="https://img.shields.io/badge/categories-20%2B-purple" alt="20+ categories">
+    <img src="https://img.shields.io/badge/tools-1931-blue" alt="1931 tools">
+    <img src="https://img.shields.io/badge/categories-34-purple" alt="34 categories">
   </p>
 </div>
 
-A community-maintained database of **thousands of free developer tools** across **20+ categories**. Every tool listed has a genuine free tier - no trials, no credit card required. Used by thousands of developers worldwide.
+A community-maintained database of **1,931 free developer tools** across **34 categories**. Every tool listed has a genuine free tier - no trials, no credit card required.
 
-**Why contribute?** Your PR helps thousands of developers discover tools that save them time and money.
+**Why contribute?** Your PR helps developers discover tools that save them time and money.
 
 ## Quick start
 
@@ -56,14 +56,6 @@ node scripts/validate.js                  # Validate tools.json
 node scripts/remove.js --dry-run "name"   # Preview removal
 node scripts/remove.js "name"             # Remove a tool
 ```
-
-## Stats
-
-| Metric | Value |
-|--------|-------|
-| Total tools | Thousands |
-| Categories | 20+ |
-| License | MIT |
 
 ## License
 
