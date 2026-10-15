@@ -2334,6 +2334,12 @@
     "category": "Other"
   },
   {
+    "name": "CurlShot",
+    "description": "Screenshot API that renders a URL, HTML, or Markdown to PNG, JPEG, WebP, PDF, or scrolling video with one GET request. Supports full-page and element capture, device presets, dark mode, and ad/cookie-banner blocking; also offers a hosted MCP server. Free plan: 100 screenshots/month, 10 requests/minute, no credit card.",
+    "url": "https://curlshot.com",
+    "category": "API Tools"
+  },
+  {
     "name": "Currencyapi",
     "description": "Free currency conversion and exchange rate data API. Free 300 requests per month, 10 requests per minute for private use.",
     "url": "https://currencyapi.com/",
