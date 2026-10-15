@@ -8586,6 +8586,12 @@
     "category": "Analytics"
   },
   {
+    "name": "RowSafe",
+    "description": "Database protection with backups, point-in-time recovery and restore tests. The $0 forever plan protects 1 server and 3 databases with 10 GB of RowSafe Storage; a RowSafe account is required. The agent, CLI and MCP server are Apache-2.0; the hosted platform is separate, and managed database cloud hosting is paid.",
+    "url": "https://rowsafe.sh",
+    "category": "Database"
+  },
+  {
     "name": "runcloud.io",
     "description": "Server management focusing mainly on PHP projects. Free for up to 1 server.",
     "url": "https://runcloud.io/",
