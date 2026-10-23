@@ -2538,6 +2538,12 @@
     "category": "Cloud"
   },
   {
+    "name": "deed.page",
+    "description": "Static site hosting built for AI agents and scripts: one HTTP PUT or the MCP server publishes HTML files or a folder to a permanent https://<slug>.deed.page URL. The free plan needs no signup and includes 25 sites, 25 MB per site and 4 MB per request.",
+    "url": "https://deed.page",
+    "category": "Hosting"
+  },
+  {
     "name": "DeepAR",
     "description": "Augmented reality face filters for any platform with one SDK. The free plan provides up to 10 monthly active users (MAU) and tracks up to 4 faces",
     "url": "https://developer.deepar.ai/",
