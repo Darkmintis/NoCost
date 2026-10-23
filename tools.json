@@ -10836,6 +10836,12 @@
     "category": "Design"
   },
   {
+    "name": "vhr-bench",
+    "description": "MIT-licensed Bash script that benchmarks a Linux server in about a minute: sysbench CPU and memory, plus fio 4k random read and write IOPS. Asks before installing sysbench or fio, sends nothing anywhere unless an upload token is passed, and --cleanup removes the packages it installed.",
+    "url": "https://github.com/vpshostreview/vhr-vps-benchmark",
+    "category": "Developer Tools"
+  },
+  {
     "name": "videoinu",
     "description": "Create and edit screen recordings and other videos online.",
     "url": "https://videoinu.com/",
