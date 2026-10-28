@@ -6479,6 +6479,12 @@
     "url": "https://middleware.io/",
     "category": "Monitoring"
   },
+    {
+            "name": "Mind Elixir",
+      "description": "Mind mapping web app for organizing ideas into interactive maps, with outline mode, tags, local storage and MCP support. Free plan available, with paid Annual and Lifetime upgrades.",
+      "url": "https://app.mind-elixir.com/",
+      "category": "Productivity"
+    },
   {
     "name": "Mindmup.com",
     "description": "Unlimited mind maps for free and store them in the cloud. Your mind maps are available everywhere, instantly, from any device.",
