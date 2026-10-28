@@ -468,6 +468,12 @@
     "category": "Development"
   },
   {
+    "name": "APPLORE App Icon Generator",
+    "description": "Exports every iOS, Android adaptive and web icon size from one image. Quick export is free, runs in the browser and needs no account",
+    "url": "https://applore.app/app-icon-generator",
+    "category": "Design"
+  },
+  {
     "name": "Apply.build",
     "description": "Build and deploy your GitHub app for free with 0.5 vCPUs / 512 MiB RAM, European servers, automatic firewall, real-time performance metrics. Run Node.js, Python, Go, Java, static sites, microservices, and more.",
     "url": "https://apply.build/",
