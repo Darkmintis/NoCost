@@ -5682,6 +5682,12 @@
     "category": "CI/CD"
   },
   {
+    "name": "LayoutKeeper",
+    "description": "Free open-source macOS menu bar utility that restores windows to their assigned monitor and Space when displays are reconnected, with per-port display arrangement switching, hardware DDC brightness and volume control, ambient brightness sync, and 4-mode Keep Awake.",
+    "url": "https://github.com/tumingke0/LayoutKeeper",
+    "category": "Productivity"
+  },
+  {
     "name": "Lazarus",
     "description": "Lazarus is a Delphi-compatible cross-platform IDE for Rapid Application Development.",
     "url": "https://www.lazarus-ide.org/",
@@ -11602,8 +11608,8 @@
     "description": "Free directory for finding software and online tools by everyday work tasks, with concise profiles and source notes distinguishing public-information reviews from hands-on testing. Listed third-party tools have their own pricing.",
     "url": "https://worktoolmap.com/",
     "category": "Productivity"
-   },
-   {
+  },
+  {
     "name": "StudyArena",
     "description": "Compare three anonymous AI answers to a study question, vote, then reveal the models. The three-model comparison is free with an account; model choice and six-model comparisons require Supporter.",
     "url": "https://studyarena.com",
