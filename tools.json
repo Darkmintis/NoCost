@@ -1,5 +1,11 @@
 [
   {
+    "name": "Kilobat CLI",
+    "description": "Free GPL-3.0-only macOS CLI for network diagnostics, Wi-Fi and traffic monitoring, with JSON output and a local MCP server. The desktop app is separate and proprietary.",
+    "url": "https://github.com/seifip/kilobat-cli",
+    "category": "Developer Tools"
+  },
+  {
     "name": "/meet for Slack",
     "description": "Start Google Meetings directly from Slack by using /meet in any channel, group, or DM. Free without any limitations.",
     "url": "https://meetslack.com/",
