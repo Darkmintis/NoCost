@@ -11636,7 +11636,7 @@
   {
     "name": "Datacircle",
     "description": "Free API with no key to find the best GTM APIs: list every API, see who is best for each and search every plan",
-    "url": "https://api.datacircle.dev/v1",
+    "url": "https://datacircle.dev",
     "category": "Developer Tools"
   }
 ]
