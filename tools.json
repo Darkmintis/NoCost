@@ -11638,5 +11638,11 @@
     "description": "Free API with no key to find the best GTM APIs: list every API, see who is best for each and search every plan",
     "url": "https://datacircle.dev",
     "category": "Developer Tools"
+  },
+  {
+    "name": "Pic2Vector",
+    "description": "Browser-based converter that traces PNG, JPG and WebP images into layered SVG using vtracer compiled to WebAssembly. Images are processed locally and never uploaded; SVG export is free with no account or watermark.",
+    "url": "https://pic2vector.com/",
+    "category": "Design"
   }
 ]
