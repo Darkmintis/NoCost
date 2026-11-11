@@ -9138,6 +9138,12 @@
     "category": "Content Creation"
   },
   {
+    "name": "SiftingIO",
+    "description": "Real-time REST/WebSocket and historical market data for US stocks/ETFs, forex, commodities and crypto. Client SDKs are MIT-licensed; API access and data are separately licensed.",
+    "url": "https://sifting.io",
+    "category": "API Tools"
+  },
+  {
     "name": "SikkerAPI",
     "description": "Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.",
     "url": "https://sikkerapi.com",
