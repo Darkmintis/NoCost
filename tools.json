@@ -864,6 +864,12 @@
     "category": "Developer Tools"
   },
   {
+    "name": "BestJSON",
+    "description": "Free browser-based tools to format, validate, repair, compare, query, and convert JSON locally without uploading input.",
+    "url": "https://bestjson.com/",
+    "category": "Developer Tools"
+  },
+  {
     "name": "Better Stack",
     "description": "Uptime monitoring, incident management, on-call scheduling/alerting, and status pages in a single product. The free plan includes ten monitors with 3-minute check frequency and status pages.",
     "url": "https://betterstack.com/better-uptime/",
