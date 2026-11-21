@@ -11662,5 +11662,11 @@
     "description": "Browser-based converter that traces PNG, JPG and WebP images into layered SVG using vtracer compiled to WebAssembly. Images are processed locally and never uploaded; SVG export is free with no account or watermark.",
     "url": "https://pic2vector.com/",
     "category": "Design"
+  },
+  {
+    "name": "icodelab Tools",
+    "description": "Browser-based developer utilities: regex tester with group breakdown and replace mode, cron expression builder, Unix timestamp converter, and a formatter and minifier for JSON, YAML, XML, CSS and HTML. Free, no account required.",
+    "url": "https://icodelab.dev/en/tools",
+    "category": "Developer Tools"
   }
 ]
