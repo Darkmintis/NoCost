@@ -11668,5 +11668,11 @@
     "description": "Browser-based developer utilities: regex tester with group breakdown and replace mode, cron expression builder, Unix timestamp converter, and a formatter and minifier for JSON, YAML, XML, CSS and HTML. Free, no account required.",
     "url": "https://icodelab.dev/en/tools",
     "category": "Developer Tools"
+  },
+  {
+    "name": "NoCert",
+    "description": "TLS certificate inventory and expiry alerts for public services and internal networks through NoCert Sentinel. Ongoing free plan for professional use with up to 50 active certificates and 2 Sentinels; account required.",
+    "url": "https://nocert.io/",
+    "category": "Monitoring"
   }
 ]
