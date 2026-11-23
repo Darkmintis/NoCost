@@ -6503,12 +6503,12 @@
     "url": "https://middleware.io/",
     "category": "Monitoring"
   },
-    {
-            "name": "Mind Elixir",
-      "description": "Mind mapping web app for organizing ideas into interactive maps, with outline mode, tags, local storage and MCP support. Free plan available, with paid Annual and Lifetime upgrades.",
-      "url": "https://app.mind-elixir.com/",
-      "category": "Productivity"
-    },
+  {
+    "name": "Mind Elixir",
+    "description": "Mind mapping web app for organizing ideas into interactive maps, with outline mode, tags, local storage and MCP support. Free plan available, with paid Annual and Lifetime upgrades.",
+    "url": "https://app.mind-elixir.com/",
+    "category": "Productivity"
+  },
   {
     "name": "Mindmup.com",
     "description": "Unlimited mind maps for free and store them in the cloud. Your mind maps are available everywhere, instantly, from any device.",
@@ -11674,5 +11674,11 @@
     "description": "TLS certificate inventory and expiry alerts for public services and internal networks through NoCert Sentinel. Ongoing free plan for professional use with up to 50 active certificates and 2 Sentinels; account required.",
     "url": "https://nocert.io/",
     "category": "Monitoring"
+  },
+  {
+    "name": "BrandShield",
+    "description": "100% free startup domain (78+ TLDs via direct IANA RDAP), live USPTO trademark, handle, and 28-variant typosquatting checker with zero signup.",
+    "url": "https://brand-checker.appwrite.network",
+    "category": "Developer Tools"
   }
 ]
